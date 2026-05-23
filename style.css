@@ -14,3 +14,14 @@ display:none!important;
 .type-posts-listing .content-wrapper > p{
 display:none!important;
 }
+body.type-posts-listing #content {
+  font-size: 0 !important;
+}
+
+body.type-posts-listing #content .subcategories,
+body.type-posts-listing #content h1,
+body.type-posts-listing #content .sectionDescription,
+body.type-posts-listing #content .content-inner,
+body.type-posts-listing #content .content-wrapper {
+  font-size: initial !important;
+}
