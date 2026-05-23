@@ -9,3 +9,8 @@ header nav a,.header nav a,.navigation a,.navigation-in a,.navbar a,.menu a,.men
 #content .posts-listing-empty{
 display:none!important;
 }
+.type-posts-listing #content > p,
+.type-posts-listing .content-inner > p,
+.type-posts-listing .content-wrapper > p{
+display:none!important;
+}
