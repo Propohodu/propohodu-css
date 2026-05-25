@@ -11,9 +11,8 @@ body.type-posts-listing #content .content-inner,
 body.type-posts-listing #content .content-wrapper {
   font-size: initial !important;
 }
-.emptyCategory,
-.message-warning,
-.news-list-empty,
-.no-records {
-    display: none !important;
+body.type-posts-listing #content .subcategories,
+body.type-posts-listing #content h1,
+body.type-posts-listing #content .sectionDescription {
+    font-size: initial !important;
 }
