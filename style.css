@@ -10,4 +10,11 @@ body.type-posts-listing .emptyCategory {
     border-radius: 24px !important;
     margin: 45px auto !important;
     box-sizing: border-box !important;
+    overflow: hidden !important;
+}
+
+.freebie-wrapper iframe,
+.freebie-wrapper div {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
 }
