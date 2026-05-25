@@ -18,6 +18,6 @@ body.type-posts-listing .emptyCategory {
     max-width: 100% !important;
     box-sizing: border-box !important;
 }
-body.type-posts-listing ul.subcategories.with-image + p {
+body.type-posts-listing .content-inner > ul.subcategories.with-image + p {
     display: none !important;
 }
