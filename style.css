@@ -5,8 +5,10 @@ body.type-posts-listing .emptyCategory {
     display: none !important;
 }
 .freebie-wrapper {
-    background: #f5f1eb;
-    padding: 40px 35px;
-    border-radius: 22px;
-    margin: 40px 0;
+    background: #f5f1eb !important;
+    padding: 45px 40px !important;
+    border-radius: 24px !important;
+    margin: 45px auto !important;
+    max-width: 760px !important;
+    box-sizing: border-box !important;
 }
