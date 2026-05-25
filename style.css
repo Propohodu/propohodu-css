@@ -27,6 +27,8 @@ body.type-posts-listing ul.subcategories.with-image li {
 
 body.type-posts-listing ul.subcategories.with-image li a {
     position: absolute;
+    display: inline-block;
+width: fit-content;
     left: 24px;
     bottom: 24px;
     z-index: 3;
