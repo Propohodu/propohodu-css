@@ -30,11 +30,9 @@ body.type-posts-listing ul.subcategories.with-image li a span {
     box-shadow: 0 8px 24px rgba(0,0,0,0.08);
 }
 body.type-posts-listing ul.subcategories.with-image li a {
-    background: rgba(255, 250, 245, 0.78);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    padding: 8px 18px;
-    border-radius: 999px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
-    display: inline-block;
+    background: rgba(255, 255, 255, 0.55);
+    padding: 3px 10px;
+    border-radius: 8px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
 }
