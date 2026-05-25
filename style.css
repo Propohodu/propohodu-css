@@ -45,4 +45,5 @@ body.type-posts-listing ul.subcategories.with-image li a {
     color: #1f1f1f !important;
     font-weight: 700;
     font-size: 1.15em;
+    bottom: 10px;
 }
