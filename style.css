@@ -18,10 +18,10 @@ body.type-posts-listing .emptyCategory {
     max-width: 100% !important;
     box-sizing: border-box !important;
 }
-body.type-posts-listing #content > .content-wrapper {
-    font-size: 0 !important;
+body.type-posts-listing #content {
+    color: transparent !important;
 }
 
-body.type-posts-listing #content > .content-wrapper > * {
-    font-size: initial !important;
+body.type-posts-listing #content * {
+    color: revert !important;
 }
