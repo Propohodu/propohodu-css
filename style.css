@@ -18,10 +18,3 @@ body.type-posts-listing .emptyCategory {
     max-width: 100% !important;
     box-sizing: border-box !important;
 }
-body.type-posts-listing .content-wrapper {
-    visibility: hidden !important;
-}
-
-body.type-posts-listing .content-wrapper > * {
-    visibility: visible !important;
-}
