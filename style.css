@@ -33,7 +33,7 @@ body.type-posts-listing ul.subcategories.with-image li::before {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 55%;
+    height: 70%;
     background: linear-gradient(to top, rgba(255,255,255,0.68), rgba(255,255,255,0));
     z-index: 1;
     pointer-events: none;
