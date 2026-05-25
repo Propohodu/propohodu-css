@@ -18,3 +18,10 @@ body.type-posts-listing .emptyCategory {
     max-width: 100% !important;
     box-sizing: border-box !important;
 }
+body.type-posts-listing .emptyCategory,
+body.type-posts-listing .empty-category,
+body.type-posts-listing .empty-products,
+body.type-posts-listing .no-records,
+body.type-posts-listing .records-not-found {
+    display: none !important;
+}
