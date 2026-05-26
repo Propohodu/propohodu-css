@@ -401,7 +401,8 @@ body.type-posts-listing ul.subcategories.with-image li a {
   left: 50%;
   transform: translateX(-50%);
 }
-.prop-benefit-divider,
-.prop-homepage-new .prop-benefit-divider {
+/* ODSTRANĚNÍ ČAR MEZI BENEFITY */
+
+.prop-homepage-new .prop-benefit-item:not(:last-child)::after {
     display: none !important;
 }
