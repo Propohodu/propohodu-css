@@ -401,21 +401,21 @@ body.type-posts-listing ul.subcategories.with-image li a {
   left: 50%;
   transform: translateX(-50%);
 }
-/* ===== HEADER MENU - vypnutí CAPS ===== */
+/* ===== FINAL MENU FIX ===== */
 
-#navigation a,
-#navigation a b,
-.navigation-in a,
-.navigation-in a b,
-.menu-level-1 a,
-.menu-level-1 a b,
-li[data-testid="menuItem"] a,
-li[data-testid="menuItem"] a b,
-a[data-testid="headerMenuItem"],
-a[data-testid="headerMenuItem"] b {
+.navigation-in ul.menu-level-1 > li {
     text-transform: none !important;
-    font-family: 'Nunito Sans', Arial, sans-serif !important;
+}
+
+.navigation-in ul.menu-level-1 > li > a {
+    text-transform: none !important;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 15px !important;
     font-weight: 500 !important;
-    font-size: 14px !important;
     letter-spacing: 0 !important;
+}
+
+.navigation-in ul.menu-level-1 > li > a b {
+    text-transform: none !important;
+    font-weight: 500 !important;
 }
