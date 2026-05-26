@@ -401,33 +401,12 @@ body.type-posts-listing ul.subcategories.with-image li a {
   left: 50%;
   transform: translateX(-50%);
 }
-/* ===== FINAL MENU FIX ===== */
+/* ===== MENU STYLE ===== */
 
-.navigation-in ul.menu-level-1 > li {
-    text-transform: none !important;
-}
-
-.navigation-in ul.menu-level-1 > li > a {
-    text-transform: none !important;
+.navigation-in a,
+.navigation-in a b {
     font-family: "Poppins", sans-serif !important;
     font-size: 15px !important;
-    font-weight: 500 !important;
-    letter-spacing: 0 !important;
-}
-
-.navigation-in ul.menu-level-1 > li > a b {
-    text-transform: none !important;
-    font-weight: 500 !important;
-}
-/* TEST MENU */
-.header-top *,
-.header-bottom *,
-.navigation-in *,
-.menu-level-1 *,
-#navigation * {
-    color: red !important;
-    font-size: 22px !important;
-}
-a {
-    text-transform: none !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.3px !important;
 }
