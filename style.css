@@ -401,3 +401,12 @@ body.type-posts-listing ul.subcategories.with-image li a {
   left: 50%;
   transform: translateX(-50%);
 }
+/* ===== MENU lowercase override ===== */
+
+.navigation-in ul li a,
+.navigation-in ul li a b {
+
+    text-transform: none !important;
+
+    font-variant: normal !important;
+}
