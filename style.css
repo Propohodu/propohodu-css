@@ -410,3 +410,7 @@ body.type-posts-listing ul.subcategories.with-image li a {
     font-weight: 400 !important;
     letter-spacing: 0.3px !important;
 }
+.navigation-in a,
+.navigation-in a b {
+    opacity: 0.88;
+}
