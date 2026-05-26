@@ -428,3 +428,6 @@ body.type-posts-listing ul.subcategories.with-image li a {
     color: red !important;
     font-size: 22px !important;
 }
+a {
+    text-transform: none !important;
+}
