@@ -405,3 +405,8 @@ body.type-posts-listing ul.subcategories.with-image li a {
     display: none !important;
     content: none !important;
 }
+/* BARVA TEXTU V MENU */
+
+.navigation-in > ul > li > a > b {
+    color: #6f675f !important;
+}
