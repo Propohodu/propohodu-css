@@ -401,12 +401,21 @@ body.type-posts-listing ul.subcategories.with-image li a {
   left: 50%;
   transform: translateX(-50%);
 }
-/* ===== MENU lowercase override ===== */
+/* ===== HEADER MENU - vypnutí CAPS ===== */
 
-.navigation-in ul li a,
-.navigation-in ul li a b {
-
+#navigation a,
+#navigation a b,
+.navigation-in a,
+.navigation-in a b,
+.menu-level-1 a,
+.menu-level-1 a b,
+li[data-testid="menuItem"] a,
+li[data-testid="menuItem"] a b,
+a[data-testid="headerMenuItem"],
+a[data-testid="headerMenuItem"] b {
     text-transform: none !important;
-
-    font-variant: normal !important;
+    font-family: 'Nunito Sans', Arial, sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    letter-spacing: 0 !important;
 }
