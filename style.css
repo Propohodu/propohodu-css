@@ -374,3 +374,30 @@ body.type-posts-listing ul.subcategories.with-image li a {
   }
 
 }
+/* Úprava třetí ikonky v benefitech homepage */
+.prop-homepage-new .prop-benefit-icon-rainbow {
+  position: relative !important;
+  font-size: 0 !important;
+}
+
+.prop-homepage-new .prop-benefit-icon-rainbow::before {
+  content: "∩";
+  font-size: 34px;
+  line-height: 1;
+  color: #7a876f;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.prop-homepage-new .prop-benefit-icon-rainbow::after {
+  content: "∩";
+  font-size: 22px;
+  line-height: 1;
+  color: #7a876f;
+  position: absolute;
+  top: 17px;
+  left: 50%;
+  transform: translateX(-50%);
+}
