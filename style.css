@@ -401,14 +401,7 @@ body.type-posts-listing ul.subcategories.with-image li a {
   left: 50%;
   transform: translateX(-50%);
 }
-/* ODSTRANĚNÍ ČAR MEZI BENEFITY - DESKTOP I MOBIL */
-
-.prop-homepage-new .prop-benefit-item::after,
-.prop-homepage-new .prop-benefit-item:not(:last-child)::after {
-    content: none !important;
+.prop-benefits-no-lines .prop-benefit-item::after {
     display: none !important;
-    width: 0 !important;
-    height: 0 !important;
-    background: transparent !important;
-    border: none !important;
+    content: none !important;
 }
