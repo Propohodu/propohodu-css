@@ -406,11 +406,8 @@ body.type-posts-listing ul.subcategories.with-image li a {
 .navigation-in a,
 .navigation-in a b {
     font-family: "Poppins", sans-serif !important;
-    font-size: 15px !important;
+    font-size: 13px !important;
     font-weight: 400 !important;
-    letter-spacing: 0.3px !important;
-}
-.navigation-in a,
-.navigation-in a b {
-    opacity: 0.88;
+    letter-spacing: 0.8px !important;
+    opacity: 0.72 !important;
 }
