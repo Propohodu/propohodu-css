@@ -401,13 +401,41 @@ body.type-posts-listing ul.subcategories.with-image li a {
   left: 50%;
   transform: translateX(-50%);
 }
-/* ===== MENU STYLE ===== */
+/* ===== MENU STYLE - přesný text jako reference ===== */
 
-.navigation-in a,
+.navigation-in a {
+    font-size: 0 !important;
+}
+
 .navigation-in a b {
+    display: none !important;
+}
+
+.navigation-in a::after {
     font-family: "Poppins", sans-serif !important;
-    font-size: 13px !important;
-    font-weight: 400 !important;
-    letter-spacing: 0.8px !important;
-    opacity: 0.72 !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0 !important;
+    color: #3f3b36 !important;
+    text-transform: none !important;
+}
+
+.navigation-in a[href*="ebook"]::after {
+    content: "Digitální produkty";
+}
+
+.navigation-in a[href*="pro-lepsi-dny"]::after {
+    content: "Pro lepší dny";
+}
+
+.navigation-in a[href*="clanky"]::after {
+    content: "Články";
+}
+
+.navigation-in a[href*="o-mne"]::after {
+    content: "O mně";
+}
+
+.navigation-in a[href*="kontakt"]::after {
+    content: "Kontakt";
 }
