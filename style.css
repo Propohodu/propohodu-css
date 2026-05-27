@@ -452,11 +452,13 @@ body.type-posts-listing ul.subcategories.with-image li a {
   overflow: hidden;
   background: #f7f2ea;
   line-height: 0;
+  padding: 0 18px;
+  box-sizing: border-box;
 }
 
 .prop-homepage-new .pp-product-image-wrap img {
   width: 100% !important;
-  height: 100% !important;
+ height: auto !important;
   display: block !important;
   object-fit: cover !important;
   object-position: center center !important;
