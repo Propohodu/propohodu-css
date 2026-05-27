@@ -752,8 +752,8 @@ body.type-posts-listing ul.subcategories.with-image li a {
 }
 
 .prop-homepage-new .pp-freebie-arrow {
-    width: 190px;
-    height: 190px;
+    width: 320px;
+    height: 320px;
     background-image: url("https://www.propohodu.com/user/documents/upload/sipka.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -762,6 +762,7 @@ body.type-posts-listing ul.subcategories.with-image li a {
     font-size: 0 !important;
     line-height: 0 !important;
     color: transparent !important;
+    margin-bottom: -40px;
 }
 
 .prop-homepage-new .pp-freebie-right .pp-product-button {
