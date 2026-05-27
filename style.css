@@ -458,9 +458,9 @@ body.type-posts-listing ul.subcategories.with-image li a {
   width: 100% !important;
   height: 100% !important;
   display: block !important;
-  object-fit: cover !important;
+  object-fit: contain !important;
+  background: #f7f2ea !important;
 }
-
 .prop-homepage-new .pp-product-icon {
   display: none !important;
 }
@@ -478,7 +478,7 @@ body.type-posts-listing ul.subcategories.with-image li a {
   font-size: 23px !important;
   line-height: 1.22 !important;
   font-family: Georgia, "Times New Roman", serif !important;
-  font-weight: 600 !important;
+  font-weight: 500 !important;
 }
 
 .prop-homepage-new .pp-product-content ul {
