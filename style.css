@@ -690,7 +690,8 @@ body.type-posts-listing ul.subcategories.with-image li a {
     border: 1px solid rgba(110,95,78,.10);
     border-radius: 24px;
     padding: 22px 26px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 260px 1fr 360px;
     align-items: center;
     gap: 28px;
 }
@@ -750,7 +751,7 @@ body.type-posts-listing ul.subcategories.with-image li a {
     align-items: center;
     justify-content: center;
     gap: 0;
-    min-width: 360px;
+    width: 360px;
     position: relative;
 }
 
