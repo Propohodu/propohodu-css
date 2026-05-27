@@ -691,9 +691,9 @@ body.type-posts-listing ul.subcategories.with-image li a {
     border-radius: 24px;
     padding: 22px 26px;
     display: grid;
-    grid-template-columns: 260px 1fr 260px;
+    grid-template-columns: 260px 420px 320px;
     align-items: center;
-    gap: 28px;
+    gap: 26px;
 }
 
 .prop-homepage-new .pp-freebie-image img {
@@ -703,9 +703,9 @@ body.type-posts-listing ul.subcategories.with-image li a {
 }
 
 .prop-homepage-new .pp-freebie-heading {
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     margin-bottom: 14px;
 }
 
@@ -736,22 +736,22 @@ body.type-posts-listing ul.subcategories.with-image li a {
 }
 
 .prop-homepage-new .pp-freebie-right {
-    width: 300px;
+    width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
-   transform: translateY(-22px);
+    transform: translateY(-22px);
 }
 
 .prop-homepage-new .pp-freebie-arrow {
-    width: 260px;
-    height: 260px;
+    width: 220px;
+    height: 220px;
     background-image: url("https://www.propohodu.com/user/documents/upload/sipka.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     opacity: .75;
-    margin-bottom: -70px;
+    margin-bottom: -58px;
     pointer-events: none;
 }
 
@@ -761,8 +761,7 @@ body.type-posts-listing ul.subcategories.with-image li a {
     z-index: 2;
 }
 
-
-/* ===== MOBIL ===== */
+/* ===== MOBIL FREEBIE ===== */
 
 @media (max-width: 768px) {
 
@@ -770,19 +769,6 @@ body.type-posts-listing ul.subcategories.with-image li a {
         grid-template-columns: 1fr !important;
         padding: 18px;
         gap: 22px;
-    }
-
-    .prop-homepage-new .pp-freebie-image {
-        width: 100%;
-    }
-
-    .prop-homepage-new .pp-freebie-image img {
-        width: 100%;
-        border-radius: 18px;
-    }
-
-    .prop-homepage-new .pp-freebie-content {
-        width: 100%;
     }
 
     .prop-homepage-new .pp-freebie-heading {
@@ -794,9 +780,9 @@ body.type-posts-listing ul.subcategories.with-image li a {
     }
 
     .prop-homepage-new .pp-freebie-heading h3 {
-        font-size: 24px;
-        line-height: 1.15;
-        font-weight: 700;
+        font-size: 24px !important;
+        line-height: 1.15 !important;
+        font-weight: 700 !important;
         margin: 0;
     }
 
@@ -807,30 +793,26 @@ body.type-posts-listing ul.subcategories.with-image li a {
     }
 
     .prop-homepage-new .pp-freebie-right {
-        width: 100%;
-        display: flex;
-        justify-content: center;
+        width: 100% !important;
+        transform: none !important;
+        margin-top: 12px;
         align-items: center;
     }
 
     .prop-homepage-new .pp-freebie-arrow {
-        display: none;
+        display: none !important;
     }
 
-    .prop-homepage-new .pp-freebie-right {
-    margin-top: 10px;
+    .prop-homepage-new .pp-freebie-right .pp-product-button {
+        width: 100% !important;
+        max-width: 100% !important;
+        justify-content: center !important;
+        text-align: center !important;
+        white-space: normal !important;
+        padding: 12px 16px !important;
+        min-height: 0 !important;
+        font-size: 14px !important;
+        line-height: 1.35 !important;
+        box-sizing: border-box !important;
+    }
 }
-
-.prop-homepage-new .pp-freebie-right .pp-product-button {
-    width: 100%;
-    max-width: 100%;
-    justify-content: center;
-    text-align: center;
-    white-space: normal;
-    padding: 12px 16px !important;
-    min-height: 0 !important;
-    font-size: 14px !important;
-    line-height: 1.35 !important;
-}
-}
-
