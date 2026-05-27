@@ -676,3 +676,126 @@ body.type-posts-listing ul.subcategories.with-image li a {
 .prop-homepage-new .pp-product-price {
     font-weight: 600 !important;
 }
+/* ===== FREEBIE SEKCE - MAPA PRVNÍ POMOCI ===== */
+
+.prop-homepage-new .pp-freebie-section {
+    padding: 18px 16px 56px;
+    background: #fffaf3;
+}
+
+.prop-homepage-new .pp-freebie-card {
+    max-width: 1080px;
+    margin: 0 auto;
+    background: #f8f4ed;
+    border: 1px solid rgba(110, 95, 78, 0.12);
+    border-radius: 22px;
+    padding: 22px;
+    display: grid;
+    grid-template-columns: 240px 1fr auto;
+    gap: 32px;
+    align-items: center;
+    box-shadow: 0 10px 26px rgba(50, 40, 30, 0.04);
+}
+
+.prop-homepage-new .pp-freebie-image img {
+    width: 100%;
+    display: block;
+    border-radius: 16px;
+}
+
+.prop-homepage-new .pp-freebie-heading {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 14px;
+}
+
+.prop-homepage-new .pp-freebie-heading h3 {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #1f1f1f;
+}
+
+.prop-homepage-new .pp-freebie-badge {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .4px;
+    color: #5f6258;
+    background: #e7e4d9;
+    padding: 7px 13px;
+    border-radius: 999px;
+    white-space: nowrap;
+}
+
+.prop-homepage-new .pp-freebie-content p {
+    margin: 0;
+    max-width: 520px;
+    font-size: 16px;
+    line-height: 1.65;
+    color: #3f352d;
+}
+
+.prop-homepage-new .pp-freebie-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.prop-homepage-new .pp-freebie-arrow {
+    font-size: 46px;
+    line-height: 1;
+    color: #d6cbbb;
+    transform: rotate(10deg);
+}
+
+.prop-homepage-new .pp-freebie-right .pp-product-button {
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .prop-homepage-new .pp-freebie-section {
+        padding: 8px 16px 42px;
+    }
+
+    .prop-homepage-new .pp-freebie-card {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        padding: 18px;
+        text-align: left;
+    }
+
+    .prop-homepage-new .pp-freebie-image img {
+        max-height: 220px;
+        object-fit: cover;
+    }
+
+    .prop-homepage-new .pp-freebie-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .prop-homepage-new .pp-freebie-heading h3 {
+        font-size: 24px;
+    }
+
+    .prop-homepage-new .pp-freebie-content p {
+        font-size: 15px;
+    }
+
+    .prop-homepage-new .pp-freebie-right {
+        align-items: flex-start;
+    }
+
+    .prop-homepage-new .pp-freebie-arrow {
+        display: none;
+    }
+
+    .prop-homepage-new .pp-freebie-right .pp-product-button {
+        width: 100%;
+        justify-content: center;
+    }
+}
