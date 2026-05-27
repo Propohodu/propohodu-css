@@ -457,11 +457,23 @@ body.type-posts-listing ul.subcategories.with-image li a {
 }
 
 .prop-homepage-new .pp-product-image-wrap img {
-  width: 100% !important;
-  height: auto !important;
-  display: block !important;
-  object-fit: contain !important;
-  border-radius: 14px !important;
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    border-radius: 18px !important;
+    object-fit: contain !important;
+    position: relative;
+    z-index: 2;
+    background: transparent !important;
+    filter: none !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.prop-homepage-new .pp-product-image-wrap::before,
+.prop-homepage-new .pp-product-image-wrap::after {
+    display: none !important;
+    content: none !important;
 }
 /* IKONKY */
 
