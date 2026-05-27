@@ -815,4 +815,33 @@ body.type-posts-listing ul.subcategories.with-image li a {
         line-height: 1.35 !important;
         box-sizing: border-box !important;
     }
+    }
+/* ===== FREEBIE SEKCE - DOLADĚNÍ DESKTOP ===== */
+
+.prop-homepage-new .pp-freebie-card {
+    align-items: center !important;
+}
+
+.prop-homepage-new .pp-freebie-content {
+    transform: translateY(-4px) !important;
+}
+
+.prop-homepage-new .pp-freebie-right {
+    transform: translateY(-10px) !important;
+}
+
+.prop-homepage-new .pp-freebie-arrow {
+    opacity: .38 !important;
+    width: 170px !important;
+    height: 170px !important;
+    margin-bottom: -38px !important;
+}
+
+.prop-homepage-new .pp-freebie-right .pp-product-button {
+    background: #8b977f !important;
+    min-height: 52px !important;
+    padding: 16px 28px !important;
+    border-radius: 14px !important;
+    font-size: 15px !important;
+    box-shadow: 0 8px 18px rgba(80,90,70,.10) !important;
 }
