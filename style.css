@@ -450,37 +450,23 @@ body.type-posts-listing ul.subcategories.with-image li a {
 .prop-homepage-new .pp-product-image-wrap {
   position: relative;
   width: 100%;
-  aspect-ratio: 1 / 0.82;
   overflow: hidden;
   background: #f7f2ea;
   line-height: 0;
-  padding: 0;
+  padding: 16px;
 }
 
 .prop-homepage-new .pp-product-image-wrap img {
   width: 100% !important;
-  height: 100% !important;
+  height: auto !important;
   display: block !important;
-  object-fit: cover !important;
-  object-position: center center !important;
-  border-radius: 0 !important;
+  object-fit: contain !important;
+  border-radius: 14px !important;
 }
 /* IKONKY */
 
 .prop-homepage-new .pp-product-icon {
-  position: absolute;
-  top: 18px;
-  right: 18px;
-  width: 66px;
-  height: 66px;
-  border-radius: 50%;
-  background: rgba(255,255,255,.96);
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  z-index: 5;
-  font-size: 30px;
-  box-shadow: 0 4px 14px rgba(0,0,0,.06);
+  display: none !important;
 }
 
 /* CONTENT */
