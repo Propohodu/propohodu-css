@@ -816,32 +816,62 @@ body.type-posts-listing ul.subcategories.with-image li a {
         box-sizing: border-box !important;
     }
     }
-/* ===== FREEBIE SEKCE - DOLADĚNÍ DESKTOP ===== */
+/* ===== FREEBIE SEKCE - DOLADĚNÍ PODLE PŘEDLOHY ===== */
 
 .prop-homepage-new .pp-freebie-card {
+    grid-template-columns: 260px 500px 280px !important;
+    gap: 22px !important;
+    padding: 22px 26px !important;
     align-items: center !important;
 }
 
-.prop-homepage-new .pp-freebie-content {
-    transform: translateY(-4px) !important;
+.prop-homepage-new .pp-freebie-heading {
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 14px !important;
+    margin-bottom: 16px !important;
+}
+
+.prop-homepage-new .pp-freebie-heading h3 {
+    width: 310px !important;
+    max-width: 310px !important;
+    font-size: 24px !important;
+    line-height: 1.16 !important;
+    font-weight: 700 !important;
+    margin: 0 !important;
+}
+
+.prop-homepage-new .pp-freebie-badge {
+    margin-top: 4px !important;
+    padding: 7px 15px !important;
+    font-size: 12px !important;
+}
+
+.prop-homepage-new .pp-freebie-content p {
+    max-width: 455px !important;
+    font-size: 16px !important;
+    line-height: 1.55 !important;
 }
 
 .prop-homepage-new .pp-freebie-right {
-    transform: translateY(-10px) !important;
+    width: 280px !important;
+    transform: translateY(-4px) !important;
+    align-items: center !important;
 }
 
 .prop-homepage-new .pp-freebie-arrow {
-    opacity: .38 !important;
-    width: 170px !important;
-    height: 170px !important;
-    margin-bottom: -38px !important;
+    opacity: .42 !important;
+    width: 150px !important;
+    height: 150px !important;
+    margin-bottom: -34px !important;
 }
 
 .prop-homepage-new .pp-freebie-right .pp-product-button {
+    min-width: 260px !important;
+    min-height: 50px !important;
+    padding: 14px 24px !important;
+    border-radius: 10px !important;
+    font-size: 14px !important;
     background: #8b977f !important;
-    min-height: 52px !important;
-    padding: 16px 28px !important;
-    border-radius: 14px !important;
-    font-size: 15px !important;
-    box-shadow: 0 8px 18px rgba(80,90,70,.10) !important;
+    box-shadow: none !important;
 }
