@@ -714,7 +714,9 @@ body.type-posts-listing ul.subcategories.with-image li a {
     color: #1f1f1f;
     font-size: 26px;
     line-height: 1.2;
-    font-weight: 700;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    
 }
 
 .prop-homepage-new .pp-freebie-badge {
