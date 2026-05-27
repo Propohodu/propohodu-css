@@ -458,8 +458,8 @@ body.type-posts-listing ul.subcategories.with-image li a {
   width: 100% !important;
   height: 100% !important;
   display: block !important;
-  object-fit: contain !important;
-  background: #f7f2ea !important;
+  object-fit: cover !important;
+  object-position: center center !important;
 }
 .prop-homepage-new .pp-product-icon {
   display: none !important;
