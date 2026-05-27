@@ -278,7 +278,7 @@ body.type-posts-listing ul.subcategories.with-image li a {
   .prop-benefit-item p {
     font-size: 14px;
   }
-}
+    }
 /* FORCE homepage redesign */
 
 .prop-homepage-new h1,
@@ -799,7 +799,13 @@ body.type-posts-listing ul.subcategories.with-image li a {
         width: 100%;
         flex: unset;
     }
-
+.prop-homepage-new .pp-freebie-right .pp-product-button {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    white-space: normal !important;
+    text-align: center !important;
+}
     .prop-homepage-new .pp-freebie-image img {
         width: 100%;
         border-radius: 16px;
