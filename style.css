@@ -813,3 +813,18 @@ body.type-posts-listing ul.subcategories.with-image li a {
         justify-content: center;
     }
 }
+/* FIX ŠIPKY U FREEBIE SEKCE */
+.prop-homepage-new .pp-freebie-arrow {
+    display: block !important;
+    flex: 0 0 70px !important;
+    width: 70px !important;
+    height: 70px !important;
+    min-width: 70px !important;
+    background-image: url("https://www.propohodu.com/user/documents/upload/sipka.png?v=2") !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    opacity: 1 !important;
+    font-size: 0 !important;
+    color: transparent !important;
+}
