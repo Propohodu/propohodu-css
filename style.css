@@ -750,9 +750,10 @@ body.type-posts-listing ul.subcategories.with-image li a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0;
+    gap: 10px;
     width: 360px;
     position: relative;
+    transform: translateY(-35px);
 }
 
 .prop-homepage-new .pp-freebie-arrow {
