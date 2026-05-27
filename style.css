@@ -761,45 +761,7 @@ body.type-posts-listing ul.subcategories.with-image li a {
     z-index: 2;
 }
 
-@media (max-width: 768px) {
-    .prop-homepage-new .pp-freebie-card {
-        grid-template-columns: 1fr !important;
-        padding: 18px;
-        gap: 18px;
-    }
 
-    .prop-homepage-new .pp-freebie-heading {
-        flex-wrap: wrap;
-        align-items: flex-start;
-    }
-
-    .prop-homepage-new .pp-freebie-heading h3 {
-        font-size: 24px;
-    }
-
-    .prop-homepage-new .pp-freebie-content p {
-        font-size: 15px;
-    }
-
-    .prop-homepage-new .pp-freebie-right {
-        width: 100% !important;
-        transform: none !important;
-        align-items: stretch;
-    }
-
-    .prop-homepage-new .pp-freebie-arrow {
-        display: none !important;
-    }
-
-    .prop-homepage-new .pp-freebie-right .pp-product-button {
-        width: 100% !important;
-        max-width: 100% !important;
-        min-width: 0 !important;
-        white-space: normal !important;
-        text-align: center !important;
-        box-sizing: border-box !important;
-    }
-}
 /* ===== MOBIL ===== */
 
 @media (max-width: 768px) {
