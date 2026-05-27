@@ -621,3 +621,46 @@ body.type-posts-listing ul.subcategories.with-image li a {
     font-size: 13px !important;
   }
 }
+/* ===== FINAL FIX PRODUKTOVÝCH KARET ===== */
+
+.prop-homepage-new .pp-products-grid {
+    align-items: stretch !important;
+}
+
+.prop-homepage-new .pp-product-card {
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden !important;
+}
+
+.prop-homepage-new .pp-product-image-wrap {
+    background: #f7f2ea !important;
+    padding: 14px !important;
+    border-radius: 28px 28px 0 0 !important;
+    overflow: hidden !important;
+    line-height: 0 !important;
+}
+
+.prop-homepage-new .pp-product-image-wrap img {
+    width: 100% !important;
+    display: block !important;
+    border-radius: 20px !important;
+}
+
+.prop-homepage-new .pp-product-content {
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.prop-homepage-new .pp-product-bottom {
+    margin-top: auto !important;
+}
+
+.prop-homepage-new .pp-product-content h3 {
+    font-weight: 700 !important;
+}
+
+.prop-homepage-new .pp-product-price {
+    font-weight: 600 !important;
+}
