@@ -875,3 +875,69 @@ body.type-posts-listing ul.subcategories.with-image li a {
     background: #8b977f !important;
     box-shadow: none !important;
 }
+
+/* ===== FREEBIE SEKCE - MOBIL ===== */
+
+@media (max-width: 768px) {
+    .prop-homepage-new .pp-freebie-section {
+        padding: 28px 16px 48px !important;
+    }
+
+    .prop-homepage-new .pp-freebie-card {
+        grid-template-columns: 1fr !important;
+        gap: 18px !important;
+        padding: 18px !important;
+        border-radius: 22px !important;
+    }
+
+    .prop-homepage-new .pp-freebie-image img {
+        border-radius: 16px !important;
+    }
+
+    .prop-homepage-new .pp-freebie-heading {
+        flex-direction: row !important;
+        align-items: flex-start !important;
+        gap: 10px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .prop-homepage-new .pp-freebie-heading h3 {
+        width: auto !important;
+        max-width: 230px !important;
+        font-size: 23px !important;
+        line-height: 1.13 !important;
+    }
+
+    .prop-homepage-new .pp-freebie-badge {
+        margin-top: 2px !important;
+        padding: 6px 12px !important;
+        font-size: 11px !important;
+        flex-shrink: 0 !important;
+    }
+
+    .prop-homepage-new .pp-freebie-content p {
+        max-width: 100% !important;
+        font-size: 15px !important;
+        line-height: 1.55 !important;
+    }
+
+    .prop-homepage-new .pp-freebie-right {
+        width: 100% !important;
+        transform: none !important;
+        margin-top: 4px !important;
+    }
+
+    .prop-homepage-new .pp-freebie-arrow {
+        display: none !important;
+    }
+
+    .prop-homepage-new .pp-freebie-right .pp-product-button {
+        width: 100% !important;
+        min-width: 0 !important;
+        min-height: 50px !important;
+        padding: 14px 18px !important;
+        font-size: 14px !important;
+        border-radius: 12px !important;
+        white-space: normal !important;
+    }
+}
