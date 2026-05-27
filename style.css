@@ -779,12 +779,21 @@ body.type-posts-listing ul.subcategories.with-image li a {
 
 @media (max-width: 768px) {
 
-    .prop-homepage-new .pp-freebie-card {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 18px;
-        gap: 18px;
-    }
+   .prop-homepage-new .pp-freebie-card {
+    grid-template-columns: 1fr !important;
+    padding: 18px;
+    gap: 18px;
+}
+    .prop-homepage-new .pp-freebie-right {
+    width: 100%;
+    transform: none !important;
+    align-items: center;
+}
+
+.prop-homepage-new .pp-freebie-heading {
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
 
     .prop-homepage-new .pp-freebie-image {
         width: 100%;
