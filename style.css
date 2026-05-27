@@ -448,7 +448,7 @@ body.type-posts-listing ul.subcategories.with-image li a {
 .prop-homepage-new .pp-product-image-wrap {
   position: relative;
   width: 100%;
-  aspect-ratio: 1 / 0.66;
+  aspect-ratio: 1 / 0.72;
   overflow: hidden;
   background: #f7f2ea;
   line-height: 0;
