@@ -449,19 +449,22 @@ body.type-posts-listing ul.subcategories.with-image li a {
 
 .prop-homepage-new .pp-product-image-wrap {
   position: relative;
-  background: #f7f2ea;
-  padding: 18px 18px 0;
+  width: 100%;
+  aspect-ratio: 1 / 0.82;
   overflow: hidden;
+  background: #f7f2ea;
+  line-height: 0;
+  padding: 0;
 }
 
 .prop-homepage-new .pp-product-image-wrap img {
   width: 100% !important;
-  height: auto !important;
+  height: 100% !important;
   display: block !important;
-  border-radius: 16px 16px 0 0;
-  object-fit: contain !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  border-radius: 0 !important;
 }
-
 /* IKONKY */
 
 .prop-homepage-new .pp-product-icon {
@@ -496,7 +499,7 @@ body.type-posts-listing ul.subcategories.with-image li a {
   font-size: 22px !important;
   line-height: 1.24 !important;
   font-family: Georgia, "Times New Roman", serif !important;
-  font-weight: 500 !important;
+  font-weight: 700 !important;
   letter-spacing: -.2px;
 }
 
@@ -551,7 +554,7 @@ body.type-posts-listing ul.subcategories.with-image li a {
   color: #1f1f1f;
   font-size: 21px !important;
   line-height: 1;
-  font-weight: 700 !important;
+ font-weight: 500 !important;
 }
 
 .prop-homepage-new .pp-product-button {
