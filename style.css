@@ -602,8 +602,10 @@ body.type-posts-listing ul.subcategories.with-image li a {
   }
 
   .pp-product-image-wrap {
-    aspect-ratio: 1 / 0.72;
-  }
+    aspect-ratio: 1 / 0.78;
+    overflow: hidden;
+    background: #f7f2ea;
+}
 
   .pp-product-icon {
     width: 42px;
@@ -613,20 +615,22 @@ body.type-posts-listing ul.subcategories.with-image li a {
     font-size: 21px;
   }
 
-  .pp-product-content {
-    padding: 20px 20px 22px;
-  }
+ .pp-product-content {
+    padding: 26px 26px 24px;
+}
 
-  .pp-product-content h3 {
-    font-size: 21px;
+ .pp-product-content h3 {
+    font-size: 22px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+.pp-product-content li {
+    font-size: 15px;
+    line-height: 1.55;
     margin-bottom: 14px;
-  }
-
-  .pp-product-content li {
-    font-size: 14px;
-    margin-bottom: 9px;
-    padding-left: 25px;
-  }
+    padding-left: 28px;
+}
 
   .pp-product-bottom {
     margin-top: 24px;
