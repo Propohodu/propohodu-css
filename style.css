@@ -1010,14 +1010,14 @@ body.type-posts-listing ul.subcategories.with-image li a {
         mask-repeat: no-repeat !important;
         mask-position: center !important;
 
-        margin-bottom: -58px !important;
-        transform: translateY(28px) scale(1.55) !important;
+      margin-bottom: -18px !important;
+     transform: translateY(8px) scale(1.55) !important;
         transform-origin: center bottom !important;
     }
 }
 
 @media (max-width: 768px) {
     .prop-homepage-new .pp-freebie-heading h3 {
-        font-weight: 500 !important;
+        font-weight: 400 !important;
     }
 }
