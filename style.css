@@ -1664,7 +1664,7 @@ transform: translateY(28px) scale(1.55) !important;
 
    .prop-homepage-new .pp-blog-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0,1fr));
+    grid-template-columns: 1fr !important;
     gap: 28px;
     align-items: stretch;
 }
@@ -1685,7 +1685,7 @@ transform: translateY(28px) scale(1.55) !important;
 .prop-homepage-new .pp-blog-heading h2 {
     color: #3f352c !important;
     font-family: "Cormorant Garamond", Georgia, serif !important;
-    font-size: 30px !important;
+    font-size: 24px !important;
     line-height: 1.08 !important;
     font-weight: 400 !important;
     letter-spacing: -0.3px !important;
@@ -1694,7 +1694,7 @@ transform: translateY(28px) scale(1.55) !important;
 @media (max-width: 768px) {
     .prop-homepage-new .pp-reviews-heading h2,
     .prop-homepage-new .pp-blog-heading h2 {
-        font-size: 26px !important;
+        font-size: 20px !important;
         line-height: 1.15 !important;
         font-weight: 400 !important;
     }
