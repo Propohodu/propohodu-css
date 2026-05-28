@@ -1877,11 +1877,11 @@ transform: translateY(28px) scale(1.55) !important;
 .p-to-cart-block::after {
     content:
     "✓ PDF ke stažení ihned po zaplacení.\A\
-✓ Praktický průvodce pro rodiče dětí od narození do 2 let.\A\
+✓ Vhodné pro rodiče dětí od narození do 2 let.\A\
 ✓ Čteš pohodlně v mobilu, tabletu i počítači.";
     display: block;
     white-space: pre-line;
-    margin-top: 20px;
+    margin-top: 34px;
     color: #4b443d;
     font-size: 16px;
     line-height: 1.85;
