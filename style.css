@@ -1872,3 +1872,26 @@ transform: translateY(28px) scale(1.55) !important;
         line-height: 1.75;
     }
 }
+/* ===== BENEFITY POD TLAČÍTKEM KOUPIT ===== */
+
+.p-to-cart-block::after {
+    content:
+    "✓ PDF ke stažení ihned po zaplacení.\A\
+✓ Vhodné pro rodiče dětí od narození do 2 let.\A\
+✓ Čteš v mobilu, tabletu i počítači.";
+    display: block;
+    white-space: pre-line;
+    margin-top: 22px;
+    color: #5b564f;
+    font-size: 15px;
+    line-height: 1.9;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .p-to-cart-block::after {
+        font-size: 14px;
+        line-height: 1.8;
+        margin-top: 18px;
+    }
+}
