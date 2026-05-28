@@ -1144,9 +1144,10 @@ transform: translateY(28px) scale(1.55) !important;
 
 .prop-homepage-new .pp-about-content p {
     margin: 0 0 14px !important;
-    color: #3d342d;
+    color: #4a433d;
     font-size: 15px !important;
-    line-height: 1.6 !important;
+    line-height: 1.65 !important;
+    font-weight: 400 !important;
 }
 
 .prop-homepage-new .pp-about-handwriting {
