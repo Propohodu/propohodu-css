@@ -1067,3 +1067,97 @@ body.type-posts-listing ul.subcategories.with-image li a {
         white-space: normal !important;
     }
 }
+/* ===== FREEBIE FINAL FIX ===== */
+
+@media (min-width: 769px) {
+
+    .prop-homepage-new .pp-freebie-card {
+        grid-template-columns: 260px 500px 280px !important;
+        gap: 20px !important;
+        align-items: center !important;
+    }
+
+    .prop-homepage-new .pp-freebie-heading {
+        flex-direction: row !important;
+        align-items: flex-start !important;
+        gap: 12px !important;
+        margin-bottom: 14px !important;
+    }
+
+    .prop-homepage-new .pp-freebie-heading h3 {
+        max-width: 300px !important;
+        font-size: 24px !important;
+        line-height: 1.12 !important;
+        margin: 0 !important;
+    }
+
+    .prop-homepage-new .pp-freebie-badge {
+        margin-top: 3px !important;
+    }
+
+    .prop-homepage-new .pp-freebie-content p {
+        max-width: 470px !important;
+        line-height: 1.55 !important;
+    }
+
+    .prop-homepage-new .pp-freebie-right {
+        width: 260px !important;
+        transform: translateY(-2px) !important;
+    }
+
+    .prop-homepage-new .pp-freebie-arrow {
+        width: 145px !important;
+        height: 145px !important;
+        opacity: .35 !important;
+        margin-bottom: -30px !important;
+    }
+
+    .prop-homepage-new .pp-freebie-right .pp-product-button {
+        min-width: 250px !important;
+        min-height: 48px !important;
+        padding: 14px 22px !important;
+        font-size: 14px !important;
+        border-radius: 10px !important;
+        white-space: nowrap !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .prop-homepage-new .pp-freebie-card {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 18px !important;
+        padding: 18px !important;
+    }
+
+    .prop-homepage-new .pp-freebie-image,
+    .prop-homepage-new .pp-freebie-content,
+    .prop-homepage-new .pp-freebie-right {
+        width: 100% !important;
+        max-width: 100% !important;
+        transform: none !important;
+    }
+
+    .prop-homepage-new .pp-freebie-heading {
+        flex-direction: row !important;
+        align-items: flex-start !important;
+        gap: 10px !important;
+    }
+
+    .prop-homepage-new .pp-freebie-heading h3 {
+        max-width: 220px !important;
+        font-size: 22px !important;
+        line-height: 1.12 !important;
+    }
+
+    .prop-homepage-new .pp-freebie-arrow {
+        display: none !important;
+    }
+
+    .prop-homepage-new .pp-freebie-right .pp-product-button {
+        width: 100% !important;
+        max-width: 100% !important;
+        white-space: normal !important;
+    }
+}
