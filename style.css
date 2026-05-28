@@ -1497,3 +1497,23 @@ transform: translateY(28px) scale(1.55) !important;
         line-height: 1.6 !important;
     }
 }
+/* ===== RECENZE - FINÁLNÍ DOLADĚNÍ ===== */
+
+.prop-homepage-new .pp-review-avatar {
+    font-size: 0 !important;
+}
+
+.prop-homepage-new .pp-review-avatar::before {
+    content: "☘" !important;
+    font-size: 28px !important;
+    line-height: 1 !important;
+    color: #7a876f !important;
+}
+
+@media (max-width: 768px) {
+    .prop-homepage-new .pp-reviews-heading h2 {
+        max-width: 330px !important;
+        font-size: 24px !important;
+        line-height: 1.18 !important;
+    }
+}
