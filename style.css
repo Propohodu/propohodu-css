@@ -977,15 +977,19 @@ body.type-posts-listing ul.subcategories.with-image li a {
         display: none !important;
     }
 }
-/* ===== FREEBIE ŠIPKA - JEMNĚ VĚTŠÍ ===== */
+/* ===== FREEBIE ŠIPKA - BEZ POSUNU LAYOUTU ===== */
 
 @media (min-width: 769px) {
-
-    .prop-homepage-new .pp-freebie-arrow {
-        transform: scale(1.9) !important;
-        transform-origin: center center !important;
-        margin-bottom: 8px !important;
-        opacity: .26 !important;
+    .prop-homepage-new .pp-freebie-right {
+        transform: translateY(-4px) !important;
     }
 
+    .prop-homepage-new .pp-freebie-arrow {
+        width: 145px !important;
+        height: 145px !important;
+        transform: scale(1.55) !important;
+        transform-origin: center bottom !important;
+        margin-bottom: -30px !important;
+        opacity: .28 !important;
+    }
 }
