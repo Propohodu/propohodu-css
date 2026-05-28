@@ -1736,3 +1736,6 @@ body[class*="type-product"] .p-detail-info h1,
         margin-bottom: 20px !important;
     }
 }
+.p-detail-inner h1 {
+    color: red !important;
+}
