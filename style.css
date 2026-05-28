@@ -1397,7 +1397,7 @@ transform: translateY(28px) scale(1.55) !important;
 
 .prop-homepage-new .pp-review-card {
     background: #fbf8f3;
-    border: 1px solid rgba(110,95,78,.10);
+    border: 1px solid rgba(110,95,78,.14);
     border-radius: 22px;
     padding: 26px 28px;
     display: grid;
