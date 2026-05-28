@@ -1832,3 +1832,12 @@ transform: translateY(28px) scale(1.55) !important;
         border-radius: 14px !important;
     }
 }
+/* ===== PRODUKT DETAIL – SKRYTÍ TISK A ZEPTAT SE ===== */
+
+.p-detail .link-icon.print,
+.p-detail .link-icon.chat,
+.p-detail-inner .link-icon.print,
+.p-detail-inner .link-icon.chat,
+.social-buttons-wrapper {
+    display: none !important;
+}
