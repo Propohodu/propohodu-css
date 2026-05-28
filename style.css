@@ -1135,10 +1135,11 @@ transform: translateY(28px) scale(1.55) !important;
 
 .prop-homepage-new .pp-about-content h2 {
     margin: 0 0 18px !important;
-    color: #1f1f1f;
+    color: #2d2a26;
     font-size: 24px !important;
     line-height: 1.2 !important;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
+    letter-spacing: -0.2px;
 }
 
 .prop-homepage-new .pp-about-content p {
