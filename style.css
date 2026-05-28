@@ -816,268 +816,17 @@ body.type-posts-listing ul.subcategories.with-image li a {
         box-sizing: border-box !important;
     }
     }
-/* ===== FREEBIE SEKCE - DOLADĚNÍ PODLE PŘEDLOHY ===== */
-
-.prop-homepage-new .pp-freebie-card {
-    grid-template-columns: 260px 500px 280px !important;
-    gap: 22px !important;
-    padding: 22px 26px !important;
-    align-items: center !important;
-}
-
-.prop-homepage-new .pp-freebie-heading {
-    display: flex !important;
-    align-items: flex-start !important;
-    gap: 14px !important;
-    margin-bottom: 16px !important;
-}
-
-.prop-homepage-new .pp-freebie-heading h3 {
-    width: 310px !important;
-    max-width: 310px !important;
-    font-size: 24px !important;
-    line-height: 1.16 !important;
-    font-weight: 700 !important;
-    margin: 0 !important;
-}
-
-.prop-homepage-new .pp-freebie-badge {
-    margin-top: 4px !important;
-    padding: 7px 15px !important;
-    font-size: 12px !important;
-}
-
-.prop-homepage-new .pp-freebie-content p {
-    max-width: 455px !important;
-    font-size: 16px !important;
-    line-height: 1.55 !important;
-}
-
-.prop-homepage-new .pp-freebie-right {
-    width: 280px !important;
-    transform: translateY(-4px) !important;
-    align-items: center !important;
-}
-
-.prop-homepage-new .pp-freebie-arrow {
-    opacity: .42 !important;
-    width: 150px !important;
-    height: 150px !important;
-    margin-bottom: -34px !important;
-}
-
-.prop-homepage-new .pp-freebie-right .pp-product-button {
-    min-width: 260px !important;
-    min-height: 50px !important;
-    padding: 14px 24px !important;
-    border-radius: 10px !important;
-    font-size: 14px !important;
-    background: #8b977f !important;
-    box-shadow: none !important;
-}
-
-/* ===== FREEBIE SEKCE - MOBIL ===== */
-
-@media (max-width: 768px) {
-    .prop-homepage-new .pp-freebie-section {
-        padding: 28px 16px 48px !important;
-    }
-
-    .prop-homepage-new .pp-freebie-card {
-        grid-template-columns: 1fr !important;
-        gap: 18px !important;
-        padding: 18px !important;
-        border-radius: 22px !important;
-    }
-
-    .prop-homepage-new .pp-freebie-image img {
-        border-radius: 16px !important;
-    }
-
-    .prop-homepage-new .pp-freebie-heading {
-        flex-direction: row !important;
-        align-items: flex-start !important;
-        gap: 10px !important;
-        margin-bottom: 12px !important;
-    }
-
-    .prop-homepage-new .pp-freebie-heading h3 {
-        width: auto !important;
-        max-width: 230px !important;
-        font-size: 23px !important;
-        line-height: 1.13 !important;
-    }
-
-    .prop-homepage-new .pp-freebie-badge {
-        margin-top: 2px !important;
-        padding: 6px 12px !important;
-        font-size: 11px !important;
-        flex-shrink: 0 !important;
-    }
-
-    .prop-homepage-new .pp-freebie-content p {
-        max-width: 100% !important;
-        font-size: 15px !important;
-        line-height: 1.55 !important;
-    }
-
-    .prop-homepage-new .pp-freebie-right {
-        width: 100% !important;
-        transform: none !important;
-        margin-top: 4px !important;
-    }
-
-    .prop-homepage-new .pp-freebie-arrow {
-        display: none !important;
-    }
-
-    .prop-homepage-new .pp-freebie-right .pp-product-button {
-        width: 100% !important;
-        min-width: 0 !important;
-        min-height: 50px !important;
-        padding: 14px 18px !important;
-        font-size: 14px !important;
-        border-radius: 12px !important;
-        white-space: normal !important;
-    }
-}
-/* ===== FREEBIE SEKCE - FINÁLNÍ OPRAVA DESKTOP + MOBIL ===== */
+/* ===== FREEBIE FINAL CLEAN ===== */
 
 @media (min-width: 769px) {
     .prop-homepage-new .pp-freebie-card {
-        grid-template-columns: 260px 500px 280px !important;
-        gap: 22px !important;
-        padding: 22px 26px !important;
+        grid-template-columns: 260px 440px 300px !important;
+        gap: 26px !important;
         align-items: center !important;
     }
 
     .prop-homepage-new .pp-freebie-heading {
         display: flex !important;
-        flex-direction: row !important;
-        align-items: flex-start !important;
-        gap: 14px !important;
-        margin-bottom: 16px !important;
-    }
-
-    .prop-homepage-new .pp-freebie-heading h3 {
-        width: 310px !important;
-        max-width: 310px !important;
-        font-size: 24px !important;
-        line-height: 1.16 !important;
-        font-weight: 700 !important;
-        margin: 0 !important;
-    }
-
-    .prop-homepage-new .pp-freebie-badge {
-        margin-top: 4px !important;
-        padding: 7px 15px !important;
-        font-size: 12px !important;
-    }
-
-    .prop-homepage-new .pp-freebie-content p {
-        max-width: 455px !important;
-        font-size: 16px !important;
-        line-height: 1.55 !important;
-    }
-
-    .prop-homepage-new .pp-freebie-right {
-        width: 280px !important;
-        transform: translateY(-4px) !important;
-        align-items: center !important;
-    }
-
-    .prop-homepage-new .pp-freebie-arrow {
-        opacity: .42 !important;
-        width: 150px !important;
-        height: 150px !important;
-        margin-bottom: -34px !important;
-    }
-
-    .prop-homepage-new .pp-freebie-right .pp-product-button {
-        min-width: 260px !important;
-        min-height: 50px !important;
-        padding: 14px 24px !important;
-        border-radius: 10px !important;
-        font-size: 14px !important;
-        background: #8b977f !important;
-        box-shadow: none !important;
-        white-space: nowrap !important;
-    }
-}
-
-@media (max-width: 768px) {
-    .prop-homepage-new .pp-freebie-card {
-        display: flex !important;
-        flex-direction: column !important;
-        padding: 18px !important;
-        gap: 18px !important;
-        border-radius: 22px !important;
-        overflow: hidden !important;
-    }
-
-    .prop-homepage-new .pp-freebie-image,
-    .prop-homepage-new .pp-freebie-content,
-    .prop-homepage-new .pp-freebie-right {
-        width: 100% !important;
-        max-width: 100% !important;
-        transform: none !important;
-    }
-
-    .prop-homepage-new .pp-freebie-heading {
-        display: flex !important;
-        flex-direction: row !important;
-        align-items: flex-start !important;
-        gap: 10px !important;
-        margin-bottom: 12px !important;
-    }
-
-    .prop-homepage-new .pp-freebie-heading h3 {
-        width: auto !important;
-        max-width: 230px !important;
-        font-size: 23px !important;
-        line-height: 1.13 !important;
-        margin: 0 !important;
-    }
-
-    .prop-homepage-new .pp-freebie-badge {
-        flex-shrink: 0 !important;
-        margin-top: 2px !important;
-        padding: 6px 12px !important;
-        font-size: 11px !important;
-    }
-
-    .prop-homepage-new .pp-freebie-content p {
-        max-width: 100% !important;
-        font-size: 15px !important;
-        line-height: 1.55 !important;
-    }
-
-    .prop-homepage-new .pp-freebie-arrow {
-        display: none !important;
-    }
-
-    .prop-homepage-new .pp-freebie-right .pp-product-button {
-        width: 100% !important;
-        max-width: 100% !important;
-        min-width: 0 !important;
-        min-height: 50px !important;
-        padding: 14px 18px !important;
-        font-size: 14px !important;
-        border-radius: 12px !important;
-        white-space: normal !important;
-    }
-}
-/* ===== FREEBIE FINAL FIX ===== */
-
-@media (min-width: 769px) {
-
-    .prop-homepage-new .pp-freebie-card {
-        grid-template-columns: 260px 500px 280px !important;
-        gap: 20px !important;
-        align-items: center !important;
-    }
-
-    .prop-homepage-new .pp-freebie-heading {
         flex-direction: row !important;
         align-items: flex-start !important;
         gap: 12px !important;
@@ -1085,7 +834,7 @@ body.type-posts-listing ul.subcategories.with-image li a {
     }
 
     .prop-homepage-new .pp-freebie-heading h3 {
-        max-width: 300px !important;
+        max-width: 310px !important;
         font-size: 24px !important;
         line-height: 1.12 !important;
         margin: 0 !important;
@@ -1096,13 +845,14 @@ body.type-posts-listing ul.subcategories.with-image li a {
     }
 
     .prop-homepage-new .pp-freebie-content p {
-        max-width: 470px !important;
+        max-width: 430px !important;
+        font-size: 16px !important;
         line-height: 1.55 !important;
     }
 
     .prop-homepage-new .pp-freebie-right {
-        width: 260px !important;
-        transform: translateY(-2px) !important;
+        width: 300px !important;
+        transform: translateY(-4px) !important;
     }
 
     .prop-homepage-new .pp-freebie-arrow {
@@ -1113,7 +863,7 @@ body.type-posts-listing ul.subcategories.with-image li a {
     }
 
     .prop-homepage-new .pp-freebie-right .pp-product-button {
-        min-width: 250px !important;
+        min-width: 280px !important;
         min-height: 48px !important;
         padding: 14px 22px !important;
         font-size: 14px !important;
@@ -1123,7 +873,6 @@ body.type-posts-listing ul.subcategories.with-image li a {
 }
 
 @media (max-width: 768px) {
-
     .prop-homepage-new .pp-freebie-card {
         display: flex !important;
         flex-direction: column !important;
@@ -1140,15 +889,23 @@ body.type-posts-listing ul.subcategories.with-image li a {
     }
 
     .prop-homepage-new .pp-freebie-heading {
+        display: flex !important;
         flex-direction: row !important;
         align-items: flex-start !important;
         gap: 10px !important;
     }
 
     .prop-homepage-new .pp-freebie-heading h3 {
-        max-width: 220px !important;
+        max-width: 215px !important;
         font-size: 22px !important;
         line-height: 1.12 !important;
+        margin: 0 !important;
+    }
+
+    .prop-homepage-new .pp-freebie-badge {
+        flex-shrink: 0 !important;
+        margin-top: 2px !important;
+        font-size: 11px !important;
     }
 
     .prop-homepage-new .pp-freebie-arrow {
@@ -1158,6 +915,7 @@ body.type-posts-listing ul.subcategories.with-image li a {
     .prop-homepage-new .pp-freebie-right .pp-product-button {
         width: 100% !important;
         max-width: 100% !important;
+        min-width: 0 !important;
         white-space: normal !important;
     }
 }
