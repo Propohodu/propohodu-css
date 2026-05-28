@@ -1724,3 +1724,60 @@ transform: translateY(28px) scale(1.55) !important;
         margin: 0 0 12px !important;
     }
 }
+/* ===== PRODUKT DETAIL – CENA A TLAČÍTKO DO KOŠÍKU ===== */
+
+.p-detail-inner .price-final,
+.p-detail-inner .price-final strong,
+.p-detail .price-final,
+.p-detail .price-final strong {
+    color: #6f7f66 !important;
+    font-weight: 700 !important;
+}
+
+.p-detail-inner .add-to-cart-button,
+.p-detail-inner button[type="submit"].add-to-cart-button,
+.p-detail-inner .btn.btn-conversion,
+.p-detail .add-to-cart-button,
+.p-detail button[type="submit"].add-to-cart-button,
+.p-detail .btn.btn-conversion {
+    background: #7a876f !important;
+    border-color: #7a876f !important;
+    color: #ffffff !important;
+    border-radius: 14px !important;
+    min-height: 54px !important;
+    font-weight: 600 !important;
+    box-shadow: 0 12px 28px rgba(73, 86, 63, 0.16) !important;
+    transition: background .2s ease, transform .2s ease, box-shadow .2s ease !important;
+}
+
+.p-detail-inner .add-to-cart-button:hover,
+.p-detail-inner button[type="submit"].add-to-cart-button:hover,
+.p-detail-inner .btn.btn-conversion:hover,
+.p-detail .add-to-cart-button:hover,
+.p-detail button[type="submit"].add-to-cart-button:hover,
+.p-detail .btn.btn-conversion:hover {
+    background: #68775f !important;
+    border-color: #68775f !important;
+    transform: translateY(-1px);
+    box-shadow: 0 14px 32px rgba(73, 86, 63, 0.20) !important;
+}
+
+@media (max-width: 768px) {
+    .p-detail-inner .price-final,
+    .p-detail-inner .price-final strong,
+    .p-detail .price-final,
+    .p-detail .price-final strong {
+        text-align: center !important;
+    }
+
+    .p-detail-inner .add-to-cart-button,
+    .p-detail-inner button[type="submit"].add-to-cart-button,
+    .p-detail-inner .btn.btn-conversion,
+    .p-detail .add-to-cart-button,
+    .p-detail button[type="submit"].add-to-cart-button,
+    .p-detail .btn.btn-conversion {
+        width: 100% !important;
+        min-height: 52px !important;
+        border-radius: 14px !important;
+    }
+}
