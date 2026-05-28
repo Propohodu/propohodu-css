@@ -993,3 +993,10 @@ body.type-posts-listing ul.subcategories.with-image li a {
         opacity: .28 !important;
     }
 }
+@media (max-width: 768px) {
+
+    .prop-homepage-new .pp-freebie-heading h3 {
+        font-weight: 600 !important;
+    }
+
+}
