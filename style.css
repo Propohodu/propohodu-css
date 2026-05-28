@@ -1841,3 +1841,34 @@ transform: translateY(28px) scale(1.55) !important;
 .social-buttons-wrapper {
     display: none !important;
 }
+/* ===== PRODUKT DETAIL – BENEFITY POD TLAČÍTKEM ===== */
+
+.pp-product-benefits {
+    background: #fbf8f3;
+    border: 1px solid rgba(120,100,78,.08);
+    border-radius: 18px;
+    padding: 18px 22px;
+    margin: 24px 0 40px;
+}
+
+.pp-benefit-item {
+    color: #4b443d;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.pp-benefit-item + .pp-benefit-item {
+    margin-top: 8px;
+}
+
+@media (max-width: 768px) {
+    .pp-product-benefits {
+        padding: 16px 18px;
+        margin: 20px 0 32px;
+    }
+
+    .pp-benefit-item {
+        font-size: 15px;
+        line-height: 1.75;
+    }
+}
