@@ -977,15 +977,15 @@ body.type-posts-listing ul.subcategories.with-image li a {
         display: none !important;
     }
 }
-/* ===== VĚTŠÍ FREEBIE ŠIPKA - DESKTOP ===== */
+/* ===== FREEBIE ŠIPKA - JEMNĚ VĚTŠÍ ===== */
 
 @media (min-width: 769px) {
 
     .prop-homepage-new .pp-freebie-arrow {
-        width: 420px !important;
-        height: 420px !important;
-        margin-bottom: -150px !important;
-        opacity: .28 !important;
+        transform: scale(1.9) !important;
+        transform-origin: center center !important;
+        margin-bottom: 8px !important;
+        opacity: .26 !important;
     }
 
 }
