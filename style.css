@@ -1704,11 +1704,12 @@ transform: translateY(28px) scale(1.55) !important;
 .p-detail-inner-header h1,
 .p-detail-inner h1,
 .p-detail h1 {
+    max-width: 760px !important;
     font-family: Georgia, "Times New Roman", serif !important;
-    font-size: 46px !important;
-    line-height: 1.08 !important;
+    font-size: 40px !important;
+    line-height: 1.12 !important;
     font-weight: 500 !important;
-    letter-spacing: -1px !important;
+    letter-spacing: -0.8px !important;
     color: #26392b !important;
     text-transform: none !important;
     margin: 0 0 24px !important;
@@ -1718,9 +1719,10 @@ transform: translateY(28px) scale(1.55) !important;
     .p-detail-inner-header h1,
     .p-detail-inner h1,
     .p-detail h1 {
-        font-size: 34px !important;
-        line-height: 1.08 !important;
-        letter-spacing: -0.6px !important;
+        max-width: 100% !important;
+        font-size: 32px !important;
+        line-height: 1.12 !important;
+        letter-spacing: -0.5px !important;
         text-align: center !important;
         margin: 0 0 22px !important;
     }
