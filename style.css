@@ -998,7 +998,7 @@ body.type-posts-listing ul.subcategories.with-image li a {
 @media (min-width: 769px) {
     .prop-homepage-new .pp-freebie-arrow {
         background-image: none !important;
-        background-color: rgba(205, 188, 160, .72) !important;
+        background-color: rgba(154, 137, 111, .92) !important;
 
         -webkit-mask-image: url("https://www.propohodu.com/user/documents/upload/sipka.png") !important;
         -webkit-mask-size: contain !important;
