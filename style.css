@@ -993,3 +993,17 @@ body.type-posts-listing ul.subcategories.with-image li a {
         opacity: .28 !important;
     }
 }
+/* ===== JEN BARVA ŠIPKY + MOBIL NADPIS ===== */
+
+@media (min-width: 769px) {
+    .prop-homepage-new .pp-freebie-arrow {
+        opacity: .45 !important;
+        filter: brightness(.78) sepia(.18) saturate(.85) !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .prop-homepage-new .pp-freebie-heading h3 {
+        font-weight: 600 !important;
+    }
+}
