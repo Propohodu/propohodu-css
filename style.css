@@ -993,17 +993,31 @@ body.type-posts-listing ul.subcategories.with-image li a {
         opacity: .28 !important;
     }
 }
-/* ===== JEN BARVA ŠIPKY + MOBIL NADPIS ===== */
+/* ===== FINÁLNÍ ŠIPKA + MOBIL NADPIS ===== */
 
 @media (min-width: 769px) {
     .prop-homepage-new .pp-freebie-arrow {
-        opacity: .45 !important;
-        filter: brightness(.78) sepia(.18) saturate(.85) !important;
+        background-image: none !important;
+        background-color: rgba(205, 188, 160, .72) !important;
+
+        -webkit-mask-image: url("https://www.propohodu.com/user/documents/upload/sipka.png") !important;
+        -webkit-mask-size: contain !important;
+        -webkit-mask-repeat: no-repeat !important;
+        -webkit-mask-position: center !important;
+
+        mask-image: url("https://www.propohodu.com/user/documents/upload/sipka.png") !important;
+        mask-size: contain !important;
+        mask-repeat: no-repeat !important;
+        mask-position: center !important;
+
+        margin-bottom: -58px !important;
+        transform: translateY(28px) scale(1.55) !important;
+        transform-origin: center bottom !important;
     }
 }
 
 @media (max-width: 768px) {
     .prop-homepage-new .pp-freebie-heading h3 {
-        font-weight: 600 !important;
+        font-weight: 500 !important;
     }
 }
