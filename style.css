@@ -1108,52 +1108,51 @@ transform: translateY(28px) scale(1.55) !important;
 .prop-homepage-new .pp-about-card {
     max-width: 1120px;
     margin: 0 auto;
-    background: #f8f4ed;
-    border: 1px solid rgba(110,95,78,.10);
-    border-radius: 24px;
-    padding: 28px 34px;
+    background: #fbf8f3;
+    border: 0;
+    border-radius: 0;
+    padding: 28px 28px 34px;
     display: grid;
-    grid-template-columns: 420px 1fr;
+    grid-template-columns: 360px 1fr;
     align-items: center;
-    gap: 54px;
+    gap: 56px;
 }
+
 .prop-homepage-new .pp-about-image {
-    max-width: 420px;
+    max-width: 360px;
 }
 
 .prop-homepage-new .pp-about-image img {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 18px;
+    border-radius: 14px;
 }
 
-.prop-homepage-new .pp-about-image img {
-    width: 100%;
-    display: block;
-    border-radius: 18px;
+.prop-homepage-new .pp-about-content {
+    max-width: 520px;
 }
 
 .prop-homepage-new .pp-about-content h2 {
     margin: 0 0 18px !important;
     color: #1f1f1f;
-    font-size: 28px !important;
+    font-size: 24px !important;
     line-height: 1.2 !important;
     font-weight: 600 !important;
 }
 
 .prop-homepage-new .pp-about-content p {
-    margin: 0 0 16px !important;
+    margin: 0 0 14px !important;
     color: #3d342d;
-    font-size: 16px !important;
-    line-height: 1.65 !important;
+    font-size: 15px !important;
+    line-height: 1.6 !important;
 }
 
 .prop-homepage-new .pp-about-handwriting {
-    margin-top: 18px;
+    margin-top: 14px;
     color: #6f6a63;
     font-family: "Brush Script MT", "Segoe Script", cursive !important;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 1.35;
     transform: rotate(-2deg);
 }
@@ -1168,11 +1167,15 @@ transform: translateY(28px) scale(1.55) !important;
         flex-direction: column;
         gap: 24px;
         padding: 18px;
+        background: #f8f4ed;
+        border: 1px solid rgba(110,95,78,.10);
+        border-radius: 24px;
     }
 
     .prop-homepage-new .pp-about-image,
     .prop-homepage-new .pp-about-content {
         width: 100%;
+        max-width: 100%;
     }
 
     .prop-homepage-new .pp-about-content h2 {
