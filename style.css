@@ -1781,3 +1781,54 @@ transform: translateY(28px) scale(1.55) !important;
         border-radius: 14px !important;
     }
 }
+/* ===== PRODUKT DETAIL – CENA A TLAČÍTKO DO KOŠÍKU ===== */
+
+.p-detail-inner .p-price-wrapper .price-final,
+.p-detail-inner .p-price-wrapper .price-final-holder,
+.p-detail .p-price-wrapper .price-final,
+.p-detail .p-price-wrapper .price-final-holder {
+    color: #6f7f66 !important;
+    font-weight: 700 !important;
+}
+
+.p-detail-inner .p-to-cart-block .add-to-cart-button,
+.p-detail-inner .p-to-cart-block button.add-to-cart-button,
+.p-detail .p-to-cart-block .add-to-cart-button,
+.p-detail .p-to-cart-block button.add-to-cart-button {
+    background-color: #7a876f !important;
+    border-color: #7a876f !important;
+    color: #ffffff !important;
+    border-radius: 14px !important;
+    min-height: 54px !important;
+    font-weight: 600 !important;
+    box-shadow: 0 12px 28px rgba(73, 86, 63, 0.16) !important;
+    transition: background-color .2s ease, transform .2s ease, box-shadow .2s ease !important;
+}
+
+.p-detail-inner .p-to-cart-block .add-to-cart-button:hover,
+.p-detail-inner .p-to-cart-block button.add-to-cart-button:hover,
+.p-detail .p-to-cart-block .add-to-cart-button:hover,
+.p-detail .p-to-cart-block button.add-to-cart-button:hover {
+    background-color: #68775f !important;
+    border-color: #68775f !important;
+    transform: translateY(-1px);
+    box-shadow: 0 14px 32px rgba(73, 86, 63, 0.20) !important;
+}
+
+@media (max-width: 768px) {
+    .p-detail-inner .p-price-wrapper .price-final,
+    .p-detail-inner .p-price-wrapper .price-final-holder,
+    .p-detail .p-price-wrapper .price-final,
+    .p-detail .p-price-wrapper .price-final-holder {
+        text-align: center !important;
+    }
+
+    .p-detail-inner .p-to-cart-block .add-to-cart-button,
+    .p-detail-inner .p-to-cart-block button.add-to-cart-button,
+    .p-detail .p-to-cart-block .add-to-cart-button,
+    .p-detail .p-to-cart-block button.add-to-cart-button {
+        width: 100% !important;
+        min-height: 52px !important;
+        border-radius: 14px !important;
+    }
+}
