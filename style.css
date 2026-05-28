@@ -1011,7 +1011,7 @@ body.type-posts-listing ul.subcategories.with-image li a {
         mask-position: center !important;
 
    margin-bottom: -8px !important;
-transform: translateY(0px) scale(1.55) !important;
+transform: translateY(28px) scale(1.55) !important;
         transform-origin: center bottom !important;
     }
 }
