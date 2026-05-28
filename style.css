@@ -1685,7 +1685,7 @@ transform: translateY(28px) scale(1.55) !important;
 .prop-homepage-new .pp-blog-heading h2 {
     color: #3f352c !important;
     font-family: "Cormorant Garamond", Georgia, serif !important;
-    font-size: 42px !important;
+    font-size: 30px !important;
     line-height: 1.08 !important;
     font-weight: 400 !important;
     letter-spacing: -0.3px !important;
@@ -1694,7 +1694,7 @@ transform: translateY(28px) scale(1.55) !important;
 @media (max-width: 768px) {
     .prop-homepage-new .pp-reviews-heading h2,
     .prop-homepage-new .pp-blog-heading h2 {
-        font-size: 32px !important;
+        font-size: 26px !important;
         line-height: 1.15 !important;
         font-weight: 400 !important;
     }
