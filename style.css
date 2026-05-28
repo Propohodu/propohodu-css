@@ -1701,41 +1701,27 @@ transform: translateY(28px) scale(1.55) !important;
 }
 /* ===== PRODUKT DETAIL – HLAVNÍ NADPIS PRODUKTU ===== */
 
-body[class*="type-detail"] .p-detail h1,
-body[class*="type-detail"] .p-detail-inner h1,
-body[class*="type-detail"] .p-detail-info h1,
-body[class*="type-product"] .p-detail h1,
-body[class*="type-product"] .p-detail-inner h1,
-body[class*="type-product"] .p-detail-info h1,
-.p-detail h1,
+.p-detail-inner-header h1,
 .p-detail-inner h1,
-.p-detail-info h1 {
+.p-detail h1 {
     font-family: Georgia, "Times New Roman", serif !important;
-    font-size: 52px !important;
-    line-height: 1.05 !important;
+    font-size: 46px !important;
+    line-height: 1.08 !important;
     font-weight: 500 !important;
-    letter-spacing: -1.2px !important;
+    letter-spacing: -1px !important;
     color: #26392b !important;
     text-transform: none !important;
-    margin: 0 0 26px !important;
+    margin: 0 0 24px !important;
 }
 
 @media (max-width: 768px) {
-    body[class*="type-detail"] .p-detail h1,
-    body[class*="type-detail"] .p-detail-inner h1,
-    body[class*="type-detail"] .p-detail-info h1,
-    body[class*="type-product"] .p-detail h1,
-    body[class*="type-product"] .p-detail-inner h1,
-    body[class*="type-product"] .p-detail-info h1,
-    .p-detail h1,
+    .p-detail-inner-header h1,
     .p-detail-inner h1,
-    .p-detail-info h1 {
+    .p-detail h1 {
         font-size: 34px !important;
         line-height: 1.08 !important;
-        letter-spacing: -0.7px !important;
-        margin-bottom: 20px !important;
+        letter-spacing: -0.6px !important;
+        text-align: center !important;
+        margin: 0 0 22px !important;
     }
-}
-.p-detail-inner h1 {
-    color: red !important;
 }
