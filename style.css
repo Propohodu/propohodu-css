@@ -1021,3 +1021,14 @@ body.type-posts-listing ul.subcategories.with-image li a {
         font-weight: 400 !important;
     }
 }
+@media (min-width: 769px) {
+    .pp-mobile-break {
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .pp-mobile-break {
+        display: block !important;
+    }
+}
