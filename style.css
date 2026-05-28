@@ -1592,6 +1592,9 @@ transform: translateY(28px) scale(1.55) !important;
     border-radius: 18px;
     overflow: hidden;
     box-shadow: 0 8px 24px rgba(50,40,30,.035);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .prop-homepage-new .pp-blog-image {
@@ -1605,7 +1608,7 @@ transform: translateY(28px) scale(1.55) !important;
 
 .prop-homepage-new .pp-blog-image img {
     width: 100% !important;
-    height: 100% !important;
+    height: 220px !important;
     display: block !important;
     object-fit: cover !important;
 }
@@ -1657,10 +1660,12 @@ transform: translateY(28px) scale(1.55) !important;
         font-size: 13px !important;
     }
 
-    .prop-homepage-new .pp-blog-grid {
-        grid-template-columns: 1fr;
-        gap: 18px;
-    }
+   .prop-homepage-new .pp-blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 28px;
+    align-items: stretch;
+}
 
     .prop-homepage-new .pp-blog-content {
         padding: 18px 20px 20px;
