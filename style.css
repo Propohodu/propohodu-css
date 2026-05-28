@@ -1134,12 +1134,12 @@ transform: translateY(28px) scale(1.55) !important;
 }
 
 .prop-homepage-new .pp-about-content h2 {
-    margin: 0 0 18px !important;
-    color: #2d2a26;
-    font-size: 24px !important;
-    line-height: 1.2 !important;
+    margin: 0 0 20px !important;
+    color: #4a433d;
+    font-size: 22px !important;
+    line-height: 1.25 !important;
     font-weight: 500 !important;
-    letter-spacing: -0.2px;
+    letter-spacing: -0.15px;
 }
 
 .prop-homepage-new .pp-about-content p {
