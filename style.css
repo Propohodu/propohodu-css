@@ -1699,3 +1699,30 @@ transform: translateY(28px) scale(1.55) !important;
         font-weight: 400 !important;
     }
 }
+/* ===== PRODUKT DETAIL – PREMIUM NADPIS KLIDNÉ DNY ===== */
+
+body.type-product-detail h1,
+body.type-product-detail .p-detail h1,
+body.type-product-detail .p-detail-inner h1,
+body.type-product-detail .p-detail-info h1 {
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: 54px !important;
+    line-height: 1.05 !important;
+    font-weight: 500 !important;
+    letter-spacing: -1.4px !important;
+    color: #26392b !important;
+    text-transform: none !important;
+    margin-bottom: 26px !important;
+}
+
+@media (max-width: 768px) {
+    body.type-product-detail h1,
+    body.type-product-detail .p-detail h1,
+    body.type-product-detail .p-detail-inner h1,
+    body.type-product-detail .p-detail-info h1 {
+        font-size: 36px !important;
+        line-height: 1.08 !important;
+        letter-spacing: -0.8px !important;
+        margin-bottom: 20px !important;
+    }
+}
