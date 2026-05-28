@@ -1193,3 +1193,23 @@ transform: translateY(28px) scale(1.55) !important;
         line-height: 1.35;
     }
 }
+@media (max-width: 768px) {
+    .prop-homepage-new .pp-about-card {
+        padding: 18px !important;
+    }
+
+    .prop-homepage-new .pp-about-content p {
+        max-width: 100% !important;
+        font-size: 14px !important;
+        line-height: 1.55 !important;
+    }
+
+    .prop-homepage-new .pp-about-content p br {
+        display: none !important;
+    }
+
+    .prop-homepage-new .pp-about-handwriting {
+        font-size: 22px !important;
+        line-height: 1.28 !important;
+    }
+}
