@@ -979,7 +979,7 @@ body.type-posts-listing ul.subcategories.with-image li a {
 }
 /* ===== VĚTŠÍ FREEBIE ŠIPKA - DESKTOP ===== */
 
-@media (min-width: 500px) {
+@media (min-width: 769px) {
 
     .prop-homepage-new .pp-freebie-arrow {
         width: 420px !important;
