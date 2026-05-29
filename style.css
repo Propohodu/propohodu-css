@@ -1895,3 +1895,23 @@ transform: translateY(28px) scale(1.55) !important;
         margin-top: 20px;
     }
 }
+.pp-workbook-preview{
+margin-top:32px;
+text-align:center;
+}
+
+.pp-workbook-preview-title{
+font-size:15px;
+color:#6f7568;
+margin-bottom:18px;
+}
+
+.pp-workbook-preview-img{
+width:100%;
+max-width:520px;
+height:auto;
+border-radius:20px;
+box-shadow:0 16px 40px rgba(62,49,37,.08);
+display:block;
+margin:0 auto;
+}
