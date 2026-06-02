@@ -2912,3 +2912,31 @@ body.id-759 article.pageArticleDetail > header {
     stroke-linecap: round !important;
     stroke-linejoin: round !important;
 }
+/* ===== MOŽNÁ TO ZNÁŠ – ČISTŠÍ IKONY BEZ SVG ===== */
+
+.pp-map-known-grid .pp-map-circle {
+    font-size: 0 !important;
+}
+
+.pp-map-known-grid > div:nth-child(1) .pp-map-circle::before {
+    content: "☁" !important;
+}
+
+.pp-map-known-grid > div:nth-child(2) .pp-map-circle::before {
+    content: "☾" !important;
+}
+
+.pp-map-known-grid > div:nth-child(3) .pp-map-circle::before {
+    content: "♡" !important;
+}
+
+.pp-map-known-grid > div:nth-child(4) .pp-map-circle::before {
+    content: "✦" !important;
+}
+
+.pp-map-known-grid .pp-map-circle::before {
+    display: block !important;
+    color: #7f906f !important;
+    font-size: 32px !important;
+    line-height: 1 !important;
+}
