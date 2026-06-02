@@ -2747,8 +2747,8 @@ body.id-759 article.pageArticleDetail > header {
 }
 
 .pp-map-page .pp-map-form-icon {
-    width: 112px !important;
-    height: 112px !important;
+    width: 86px !important;
+    height: 86px !important;
     border-radius: 999px !important;
     background: #7f906f !important;
     display: flex !important;
@@ -2855,10 +2855,13 @@ body.id-759 article.pageArticleDetail > header {
     }
 
     .pp-map-page .pp-map-form-icon svg {
-        width: 48px !important;
-        height: 48px !important;
+    width: 42px !important;
+    height: 42px !important;
     }
-
+    .pp-map-page .pp-map-form-icon svg {
+    display: block !important;
+    overflow: visible !important;
+}
     .pp-map-page .pp-map-form-left h2 {
         font-size: 30px !important;
         line-height: 1.13 !important;
