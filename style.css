@@ -2652,3 +2652,25 @@ body.id-759 article.pageArticleDetail > header {
         line-height: 1.65 !important;
     }
 }
+/* ===== MAPA PRVNÍ POMOCI – FINÁLNÍ HERO FADE ===== */
+
+@media (min-width: 769px) {
+    body.id-759 .pp-map-hero::after {
+        content: "" !important;
+        position: absolute !important;
+        inset: 0 !important;
+        background: linear-gradient(
+            90deg,
+            #fffaf3 0%,
+            #fffaf3 20%,
+            rgba(255,250,243,.92) 35%,
+            rgba(255,250,243,.75) 40%,
+            rgba(255,250,243,.50) 52%,
+            rgba(255,250,243,.25) 65%,
+            rgba(255,250,243,.08) 78%,
+            rgba(255,250,243,0) 92%
+        ) !important;
+        z-index: 1 !important;
+        pointer-events: none !important;
+    }
+}
