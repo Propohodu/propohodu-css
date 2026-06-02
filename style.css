@@ -2575,17 +2575,18 @@ body.id-759 article.pageArticleDetail > header {
         position: relative !important;
         min-height: 660px !important;
         background:
-        linear-gradient(90deg,
-        #fffaf3 0%,
-        #fffaf3 36%,
-        rgba(255,250,243,.98) 46%,
-        rgba(255,250,243,.72) 58%,
-        rgba(255,250,243,.22) 72%,
-        rgba(255,250,243,0) 86%
-    ),
+       linear-gradient(90deg,
+    #fffaf3 0%,
+    #fffaf3 24%,
+    rgba(255,250,243,.96) 34%,
+    rgba(255,250,243,.72) 45%,
+    rgba(255,250,243,.35) 56%,
+    rgba(255,250,243,.08) 68%,
+    rgba(255,250,243,0) 78%
+),
     url("https://www.propohodu.com/user/documents/upload/mapa_v_obalce.png") !important;
-        background-size: auto 760px !important;
-        background-position: right center !important;
+        background-size: auto 820px !important;
+background-position: right 48% !important;
         background-repeat: no-repeat !important;
         overflow: hidden !important;
     }
