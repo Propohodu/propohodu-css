@@ -2822,8 +2822,12 @@ body.id-759 article.pageArticleDetail > header {
 }
 
 .pp-map-page .pp-map-form-left h2 {
-    font-size: 38px !important;
-    line-height: 1.08 !important;
+   font-family: "Cormorant Garamond", Georgia, serif !important;
+    font-size: 36px !important;
+    line-height: 1.12 !important;
+    font-weight: 500 !important;
+    letter-spacing: -0.4px !important;
+    color: #21342e !important;
     max-width: 560px !important;
 }
 
