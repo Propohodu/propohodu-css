@@ -2348,14 +2348,18 @@ body.id-759 #footer {
 }
 
 .pp-svg-icon svg {
-    width: 24px;
-    height: 24px;
-    display: block;
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 1.8;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+    width: 24px !important;
+    height: 24px !important;
+    display: block !important;
+}
+
+.pp-svg-icon svg,
+.pp-svg-icon svg path {
+    fill: none !important;
+    stroke: #718268 !important;
+    stroke-width: 1.8 !important;
+    stroke-linecap: round !important;
+    stroke-linejoin: round !important;
 }
 .pp-map-strip-item p {
     margin: 0 !important;
