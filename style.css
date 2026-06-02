@@ -2594,14 +2594,14 @@ body.id-759 article.pageArticleDetail > header {
                 rgba(255,250,243,0) 55%
             ),
             url("https://www.propohodu.com/user/documents/upload/mapa_v_obalce.png") !important;
-        background-size: auto 690px !important;
-        background-position: calc(50% + 255px) center !important;
+       background-size: auto 780px !important;
+background-position: calc(50% + 190px) center !important;
         background-repeat: no-repeat !important;
         overflow: hidden !important;
     }
 
     body.id-759 .pp-map-hero-inner {
-        max-width: 1540px !important;
+        max-width: 1600px !important;
         min-height: 620px !important;
         margin: 0 auto !important;
         padding: 35px 50px 45px !important;
