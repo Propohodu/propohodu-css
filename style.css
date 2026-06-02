@@ -2863,3 +2863,9 @@ body.id-759 article.pageArticleDetail > header {
     font-size: 16px !important;
     box-shadow: none !important;
 }
+.pp-map-page .pp-map-form-right input[type="email"]::placeholder {
+    color: #7f776e !important;
+    font-size: 17px !important;
+    font-weight: 400 !important;
+    opacity: 1 !important;
+}
