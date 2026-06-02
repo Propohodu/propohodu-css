@@ -2598,23 +2598,24 @@ body.id-759 article.pageArticleDetail > header {
         z-index: 0 !important;
     }
 
-    body.id-759 .pp-map-hero::after {
-        content: "" !important;
-        position: absolute !important;
-        inset: 0 !important;
-        background: linear-gradient(
-            90deg,
-            #fffaf3 0%,
-            rgba(255,250,243,.98) 12%,
-            rgba(255,250,243,.82) 20%,
-            rgba(255,250,243,.55) 30%,
-            rgba(255,250,243,.25) 42%,
-            rgba(255,250,243,.08) 52%,
-            rgba(255,250,243,0) 62%
-        ) !important;
-        z-index: 1 !important;
-        pointer-events: none !important;
-    }
+   body.id-759 .pp-map-hero::after {
+    content: "" !important;
+    position: absolute !important;
+    inset: 0 !important;
+    background: linear-gradient(
+        90deg,
+        #fffaf3 0%,
+        rgba(255,250,243,1) 12%,
+        rgba(255,250,243,.96) 20%,
+        rgba(255,250,243,.78) 29%,
+        rgba(255,250,243,.50) 38%,
+        rgba(255,250,243,.24) 48%,
+        rgba(255,250,243,.08) 58%,
+        rgba(255,250,243,0) 68%
+    ) !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+}
 
     body.id-759 .pp-map-hero-inner {
         position: relative !important;
