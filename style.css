@@ -2577,11 +2577,12 @@ body.id-759 article.pageArticleDetail > header {
         background:
      linear-gradient(90deg,
     #fffaf3 0%,
-    rgba(255,250,243,.98) 20%,
-    rgba(255,250,243,.92) 28%,
-    rgba(255,250,243,.55) 36%,
-    rgba(255,250,243,.15) 44%,
-    rgba(255,250,243,0) 52%
+    rgba(255,250,243,.96) 10%,
+    rgba(255,250,243,.78) 18%,
+    rgba(255,250,243,.46) 28%,
+    rgba(255,250,243,.18) 38%,
+    rgba(255,250,243,.04) 46%,
+    rgba(255,250,243,0) 54%
 ),
     url("https://www.propohodu.com/user/documents/upload/mapa_v_obalce.png") !important;
         background-size: auto 860px !important;
