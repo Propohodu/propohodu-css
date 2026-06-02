@@ -2722,7 +2722,19 @@ body.id-759 article.pageArticleDetail > header {
     min-width: 0 !important;
     box-sizing: border-box !important;
   }
+body.id-759 .pp-map-form-right iframe {
+    min-height: 520px !important;
+}
 
+body.id-759 .pp-map-form-right {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+body.id-759 .pp-map-form-right > div {
+    width: 100% !important;
+}
   body.id-759 .pp-map-form-right * {
     max-width: 100% !important;
     box-sizing: border-box !important;
