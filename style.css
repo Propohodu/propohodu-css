@@ -2879,3 +2879,20 @@ body.id-759 article.pageArticleDetail > header {
     letter-spacing: -0.6px !important;
     color: #25362f !important;
 }
+/* ===== MAPA – SVG IKONY V SEKCI MOŽNÁ TO ZNÁŠ ===== */
+
+.pp-map-page .pp-map-svg-circle {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.pp-map-page .pp-map-svg-circle svg {
+    width: 34px !important;
+    height: 34px !important;
+    fill: none !important;
+    stroke: #7f906f !important;
+    stroke-width: 1.8 !important;
+    stroke-linecap: round !important;
+    stroke-linejoin: round !important;
+}
