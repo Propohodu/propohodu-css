@@ -2584,7 +2584,7 @@ rgba(255,250,243,.05) 64%,
 rgba(255,250,243,0) 76%
 ),
     url("https://www.propohodu.com/user/documents/upload/mapa_v_obalce.png") !important;
-        background-size: auto 820px !important;
+        background-size: auto 700px !important;
 background-position: right center !important;
         background-repeat: no-repeat !important;
         overflow: hidden !important;
@@ -2595,7 +2595,7 @@ background-position: right center !important;
         max-width: 1240px !important;
         padding-top: 70px !important;
         padding-bottom: 70px !important;
-        grid-template-columns: 0.48fr 0.52fr !important;
+    grid-template-columns: 0.40fr 0.60fr !important;
         align-items: center !important;
     }
 
