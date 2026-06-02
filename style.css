@@ -2729,3 +2729,56 @@ body.id-759 article.pageArticleDetail > header {
     box-sizing: border-box !important;
   }
 }
+/* ===== MAPA – MOBILNÍ POJISTKA FORMULÁŘE ===== */
+
+@media (max-width: 768px) {
+  body.id-759 .pp-map-form-section {
+    padding: 28px 16px 34px !important;
+  }
+
+  body.id-759 .pp-map-form-card {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 26px !important;
+    padding: 30px 22px !important;
+    border-radius: 26px !important;
+    overflow: hidden !important;
+  }
+
+  body.id-759 .pp-map-form-left {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 18px !important;
+  }
+
+  body.id-759 .pp-map-form-left h2 {
+    font-size: 28px !important;
+    line-height: 1.15 !important;
+    max-width: 310px !important;
+    margin: 0 auto 14px !important;
+  }
+
+  body.id-759 .pp-map-form-right {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    border-left: 0 !important;
+    overflow: hidden !important;
+  }
+
+  body.id-759 .pp-map-form-right > div,
+  body.id-759 .pp-map-form-right iframe,
+  body.id-759 .pp-map-form-right form {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  body.id-759 .pp-map-form-right * {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+}
