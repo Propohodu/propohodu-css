@@ -2739,31 +2739,4 @@ body.id-759 article.pageArticleDetail > header {
     max-width: 100% !important;
   }
 }
-/* ===== MAPA – ECOMAIL FORCE CLEAN ===== */
 
-@media (min-width: 769px) {
-  body.id-759 .pp-map-form-right,
-  body.id-759 .pp-map-form-right * {
-    background: transparent !important;
-  }
-
-  body.id-759 .pp-map-form-right .ec-v-form,
-  body.id-759 .pp-map-form-right .ec-v-form-step,
-  body.id-759 .pp-map-form-right .ec-v-form-step-visible,
-  body.id-759 .pp-map-form-right .ec-v-form-column {
-    height: auto !important;
-    min-height: 0 !important;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-
-  body.id-759 .pp-map-form-right .ec-v-form-input,
-  body.id-759 .pp-map-form-right .ec-v-form-submit {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
-  body.id-759 .pp-map-form-right .ec-v-form-spacer {
-    height: 16px !important;
-  }
-}
