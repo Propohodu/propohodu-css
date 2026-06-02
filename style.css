@@ -2734,10 +2734,14 @@ body.id-759 article.pageArticleDetail > header {
 
 .pp-map-page .pp-map-form-left {
     grid-column: 1 !important;
-    display: grid !important;
-    grid-template-columns: 112px 1fr !important;
-    gap: 34px !important;
+    display: flex !important;
     align-items: center !important;
+    gap: 34px !important;
+    width: 100% !important;
+}
+.pp-map-page .pp-map-form-left > div:last-child {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
 }
 
 .pp-map-page .pp-map-form-right {
