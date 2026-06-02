@@ -2533,3 +2533,9 @@ body.id-759 #footer {
     fill: none !important;
     stroke: currentColor !important;
 }
+/* Schování H1 pouze na stránce Mapa první pomoci */
+
+body.id-759 .content-inner > h1,
+body.id-759 #content h1:first-child {
+    display: none !important;
+}
