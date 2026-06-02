@@ -2869,3 +2869,13 @@ body.id-759 article.pageArticleDetail > header {
     font-weight: 400 !important;
     opacity: 1 !important;
 }
+/* ===== HERO NADPIS ===== */
+
+.pp-map-hero h1 {
+    font-family: "Cormorant Garamond", Georgia, serif !important;
+    font-size: 48px !important;
+    line-height: 0.95 !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.6px !important;
+    color: #25362f !important;
+}
