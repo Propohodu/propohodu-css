@@ -2702,3 +2702,181 @@ body.id-759 article.pageArticleDetail > header {
     margin: 0 auto !important;
   }
 }
+/* ===== MAPA PRVNÍ POMOCI – FORMULÁŘOVÁ SEKCE PREMIUM FIX ===== */
+
+.pp-map-page .pp-map-form-section {
+    background: #f8f1e8 !important;
+    padding: 56px 20px 72px !important;
+}
+
+.pp-map-page .pp-map-form-card {
+    max-width: 1320px !important;
+    margin: 0 auto !important;
+    background: linear-gradient(135deg, #fffdfa 0%, #fbf6ef 100%) !important;
+    border: 1px solid rgba(118, 99, 77, 0.10) !important;
+    border-radius: 34px !important;
+    box-shadow: 0 28px 70px rgba(74, 55, 35, 0.08) !important;
+    padding: 68px 72px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1px 1fr !important;
+    gap: 58px !important;
+    align-items: center !important;
+}
+
+.pp-map-page .pp-map-form-card::before {
+    content: "" !important;
+    width: 1px !important;
+    height: 100% !important;
+    background: rgba(95, 83, 70, 0.12) !important;
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+}
+
+.pp-map-page .pp-map-form-left {
+    grid-column: 1 !important;
+    display: grid !important;
+    grid-template-columns: 112px 1fr !important;
+    gap: 34px !important;
+    align-items: center !important;
+}
+
+.pp-map-page .pp-map-form-right {
+    grid-column: 3 !important;
+    align-self: center !important;
+    padding-top: 4px !important;
+}
+
+.pp-map-page .pp-map-form-icon {
+    width: 112px !important;
+    height: 112px !important;
+    border-radius: 999px !important;
+    background: #7f906f !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: 0 14px 30px rgba(80, 95, 68, 0.16) !important;
+    flex-shrink: 0 !important;
+    font-size: 0 !important;
+}
+
+.pp-map-page .pp-map-form-icon svg {
+    width: 58px !important;
+    height: 58px !important;
+    fill: none !important;
+    stroke: #fffaf3 !important;
+    stroke-width: 2.8 !important;
+    stroke-linecap: round !important;
+    stroke-linejoin: round !important;
+}
+
+.pp-map-page .pp-map-form-left h2 {
+    margin: 0 0 20px !important;
+    color: #173033 !important;
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: 38px !important;
+    line-height: 1.12 !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.6px !important;
+    max-width: 520px !important;
+}
+
+.pp-map-page .pp-map-form-left h2 span {
+    color: #efb287 !important;
+}
+
+.pp-map-page .pp-map-form-left p {
+    margin: 0 0 34px !important;
+    max-width: 450px !important;
+    color: #302b26 !important;
+    font-size: 18px !important;
+    line-height: 1.75 !important;
+}
+
+.pp-map-page .pp-map-hand {
+    color: #7d746b !important;
+    font-size: 27px !important;
+    line-height: 1.35 !important;
+}
+
+/* Ecomail formulář – větší a prémiovější vzhled */
+.pp-map-page .pp-map-form-right iframe,
+.pp-map-page .pp-map-form-right form,
+.pp-map-page .pp-map-form-right input,
+.pp-map-page .pp-map-form-right button {
+    max-width: 100% !important;
+}
+
+.pp-map-page .pp-map-form-right input[type="email"],
+.pp-map-page .pp-map-form-right input[type="text"] {
+    min-height: 66px !important;
+    border-radius: 8px !important;
+    border: 1px solid rgba(70, 70, 70, 0.18) !important;
+    font-size: 17px !important;
+}
+
+.pp-map-page .pp-map-form-right button,
+.pp-map-page .pp-map-form-right input[type="submit"] {
+    min-height: 66px !important;
+    border-radius: 8px !important;
+    background: #7f906f !important;
+    color: #ffffff !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+
+/* Mobil */
+@media (max-width: 768px) {
+    .pp-map-page .pp-map-form-section {
+        padding: 34px 16px 52px !important;
+    }
+
+    .pp-map-page .pp-map-form-card {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 30px !important;
+        padding: 34px 22px !important;
+        border-radius: 28px !important;
+    }
+
+    .pp-map-page .pp-map-form-card::before {
+        display: none !important;
+    }
+
+    .pp-map-page .pp-map-form-left {
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+        gap: 22px !important;
+    }
+
+    .pp-map-page .pp-map-form-icon {
+        width: 92px !important;
+        height: 92px !important;
+    }
+
+    .pp-map-page .pp-map-form-icon svg {
+        width: 48px !important;
+        height: 48px !important;
+    }
+
+    .pp-map-page .pp-map-form-left h2 {
+        font-size: 30px !important;
+        line-height: 1.13 !important;
+        margin-bottom: 16px !important;
+    }
+
+    .pp-map-page .pp-map-form-left p {
+        font-size: 16px !important;
+        line-height: 1.65 !important;
+        margin-bottom: 24px !important;
+    }
+
+    .pp-map-page .pp-map-hand {
+        font-size: 23px !important;
+    }
+
+    .pp-map-page .pp-map-form-right {
+        width: 100% !important;
+        padding-top: 0 !important;
+    }
+}
