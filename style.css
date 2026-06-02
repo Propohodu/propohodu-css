@@ -2507,3 +2507,25 @@ body.id-759 #footer {
         line-height: 1.55;
     }
 }
+/* ===== FIX SVG IKONEK VE SPODNÍM PÁSU MAPY ===== */
+
+.pp-map-strip .pp-svg-icon {
+    background: #eef1e8 !important;
+    color: #718268 !important;
+}
+
+.pp-map-strip .pp-svg-icon svg {
+    width: 24px !important;
+    height: 24px !important;
+    display: block !important;
+    fill: none !important;
+    stroke: currentColor !important;
+    stroke-width: 1.8 !important;
+    stroke-linecap: round !important;
+    stroke-linejoin: round !important;
+}
+
+.pp-map-strip .pp-svg-icon svg path {
+    fill: none !important;
+    stroke: currentColor !important;
+}
