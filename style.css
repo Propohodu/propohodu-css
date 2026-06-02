@@ -2424,3 +2424,76 @@ transform: translateY(28px) scale(1.55) !important;
         gap: 14px;
     }
 }
+/* ===== FIX MAPA STRÁNKA – SHOPTET NADPIS + VELIKOSTI ===== */
+
+body.type-page .pp-map-page {
+    margin-top: -30px !important;
+}
+
+/* skrytí systémového nadpisu a drobečkové navigace jen na téhle stránce */
+body.type-page:has(.pp-map-page) .breadcrumbs,
+body.type-page:has(.pp-map-page) .content-inner > h1 {
+    display: none !important;
+}
+
+/* aby stránka nebyla roztažená Shoptet obsahem */
+body.type-page:has(.pp-map-page) .content-inner {
+    max-width: none !important;
+    padding: 0 !important;
+}
+
+body.type-page:has(.pp-map-page) #content {
+    padding: 0 !important;
+}
+
+/* zmenšení hero části */
+.pp-map-hero-inner {
+    padding-top: 46px !important;
+    padding-bottom: 46px !important;
+}
+
+.pp-map-hero-text h1 {
+    font-size: clamp(42px, 4.2vw, 62px) !important;
+}
+
+.pp-map-hero-image img {
+    max-width: 620px !important;
+}
+
+/* mobilní verze */
+@media (max-width: 768px) {
+    body.type-page .pp-map-page {
+        margin-top: -10px !important;
+    }
+
+    .pp-map-hero-inner {
+        padding: 34px 18px 30px !important;
+    }
+
+    .pp-map-hero-text h1 {
+        font-size: 38px !important;
+        line-height: 1.06 !important;
+    }
+
+    .pp-map-hero-text p {
+        font-size: 15px !important;
+    }
+
+    .pp-map-hero-image img {
+        max-width: 100% !important;
+    }
+
+    .pp-map-known-grid,
+    .pp-map-content-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .pp-map-form-left {
+        grid-template-columns: 1fr !important;
+        text-align: center !important;
+    }
+
+    .pp-map-form-icon {
+        margin: 0 auto !important;
+    }
+}
