@@ -1987,13 +1987,18 @@ body.id-759 #footer {
 }
 
 .pp-map-hero-inner {
-    max-width: 1240px;
+    max-width: 1480px;
     margin: 0 auto;
-    padding: 48px 48px 50px;
+    padding: 30px 20px 40px;
     display: grid;
-    grid-template-columns: 0.9fr 1.1fr;
-    gap: 44px;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 20px;
     align-items: center;
+}
+.pp-map-hero-image img {
+    width: 100%;
+    max-width: none;
+    display: block;
 }
 
 .pp-map-kicker {
