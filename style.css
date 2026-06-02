@@ -2739,3 +2739,31 @@ body.id-759 article.pageArticleDetail > header {
     max-width: 100% !important;
   }
 }
+/* ===== MAPA – FINÁLNÍ DOLADĚNÍ VÝŠKY ===== */
+
+@media (min-width: 769px) {
+  body.id-759 .pp-map-form-card {
+    padding-top: 34px !important;
+    padding-bottom: 34px !important;
+  }
+
+  body.id-759 .pp-map-form-right {
+    transform: translateY(-10px) !important;
+  }
+
+  body.id-759 .pp-map-form-left {
+    transform: translateY(-6px) !important;
+  }
+
+  body.id-759 .pp-map-form-right button::after {
+    content: "";
+  }
+
+  body.id-759 .pp-map-form-right::after {
+    content: "🔒 Po odeslání ti mapu pošleme e-mailem.";
+    display: block;
+    margin-top: 18px;
+    font-size: 14px;
+    color: #8b8b8b;
+  }
+}
