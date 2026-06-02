@@ -2795,33 +2795,36 @@ body.id-759 article.pageArticleDetail > header {
     box-sizing: border-box !important;
   }
 }
-/* ===== MAPA – FORMULÁŘ NIŽŠÍ KARTA ===== */
+/* ===== MAPA – FORMULÁŘ CLEAN OPRAVA PO ECOMAILU ===== */
 
 @media (min-width: 769px) {
   body.id-759 .pp-map-form-card {
-    padding: 34px 54px !important;
-    min-height: 330px !important;
+    max-width: 1120px !important;
+    padding: 38px 56px !important;
+    min-height: 0 !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 44px !important;
+    align-items: center !important;
   }
 
   body.id-759 .pp-map-form-left {
-    transform: translateY(-6px) !important;
+    display: grid !important;
+    grid-template-columns: 86px minmax(0, 1fr) !important;
+    gap: 28px !important;
+    align-items: center !important;
+    transform: none !important;
   }
 
   body.id-759 .pp-map-form-right {
-    transform: translateY(-4px) !important;
-  }
-
-  body.id-759 .pp-map-form-left h2 {
-    font-size: 29px !important;
-    line-height: 1.08 !important;
-  }
-
-  body.id-759 .pp-map-hand {
-    font-size: 23px !important;
+    padding-left: 44px !important;
+    border-left: 1px solid rgba(120,100,78,.14) !important;
+    transform: none !important;
   }
 
   body.id-759 .pp-map-form-right > div {
-    transform: scale(0.94) !important;
-    transform-origin: center center !important;
+    transform: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
   }
 }
