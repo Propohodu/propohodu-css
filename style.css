@@ -2581,26 +2581,25 @@ body.id-759 article.pageArticleDetail > header {
 
 @media (min-width: 769px) {
     body.id-759 .pp-map-hero {
-        position: relative !important;
-        min-height: 620px !important;
-        background:
-            linear-gradient(
-    90deg,
-    #fffaf3 0%,
-    rgba(255,250,243,.98) 4%,
-    rgba(255,250,243,.88) 10%,
-    rgba(255,250,243,.62) 18%,
-    rgba(255,250,243,.35) 28%,
-    rgba(255,250,243,.14) 40%,
-    rgba(255,250,243,.04) 52%,
-    rgba(255,250,243,0) 64%
-)
-            url("https://www.propohodu.com/user/documents/upload/mapa_v_obalce.png") !important;
-       background-size: auto 780px !important;
-background-position: calc(50% + 190px) center !important;
-        background-repeat: no-repeat !important;
-        overflow: hidden !important;
-    }
+    position: relative !important;
+    min-height: 620px !important;
+    background:
+        linear-gradient(
+            90deg,
+            #fffaf3 0%,
+            rgba(255,250,243,.98) 8%,
+            rgba(255,250,243,.82) 15%,
+            rgba(255,250,243,.55) 23%,
+            rgba(255,250,243,.28) 31%,
+            rgba(255,250,243,.10) 39%,
+            rgba(255,250,243,0) 48%
+        ),
+        url("https://www.propohodu.com/user/documents/upload/mapa_v_obalce.png") !important;
+    background-size: auto 780px !important;
+    background-position: calc(50% + 190px) center !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden !important;
+}
 
     body.id-759 .pp-map-hero-inner {
         max-width: 1600px !important;
