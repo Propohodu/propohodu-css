@@ -2568,47 +2568,66 @@ body.id-759 article.pageArticleDetail > header {
     font-size: 24px !important;
     line-height: 1 !important;
 }
-/* ===== HERO OBRÁZEK – PROFI SPLYNUTÍ S POZADÍM ===== */
+/* ===== HERO MAPA – OBRÁZEK JAKO POZADÍ / PROFI SPLYNUTÍ ===== */
 
-body.id-759 .pp-map-hero-image {
-    position: relative !important;
-    padding: 18px !important;
-    border-radius: 34px !important;
-    background: radial-gradient(circle at center, rgba(255,255,255,.55) 0%, rgba(255,250,243,0) 72%) !important;
-}
-
-body.id-759 .pp-map-hero-image img {
-    border-radius: 22px !important;
-    box-shadow: 0 22px 60px rgba(78, 55, 36, 0.10) !important;
-    opacity: .96 !important;
-}
-
-/* jemné splynutí jen na desktopu */
 @media (min-width: 769px) {
-    body.id-759 .pp-map-hero-image img {
-        -webkit-mask-image: radial-gradient(
-            ellipse at center,
-            #000 72%,
-            rgba(0,0,0,.85) 88%,
-            transparent 100%
-        ) !important;
-        mask-image: radial-gradient(
-            ellipse at center,
-            #000 72%,
-            rgba(0,0,0,.85) 88%,
-            transparent 100%
-        ) !important;
+    body.id-759 .pp-map-hero {
+        position: relative !important;
+        min-height: 660px !important;
+        background:
+            linear-gradient(90deg,
+                #fffaf3 0%,
+                #fffaf3 28%,
+                rgba(255,250,243,.92) 38%,
+                rgba(255,250,243,.35) 52%,
+                rgba(255,250,243,0) 68%
+            ),
+            url("https://www.propohodu.com/user/documents/upload/mapa_v_obalce.png") !important;
+        background-size: auto 640px !important;
+        background-position: right center !important;
+        background-repeat: no-repeat !important;
+        overflow: hidden !important;
+    }
+
+    body.id-759 .pp-map-hero-inner {
+        min-height: 660px !important;
+        max-width: 1240px !important;
+        padding-top: 70px !important;
+        padding-bottom: 70px !important;
+        grid-template-columns: 0.48fr 0.52fr !important;
+        align-items: center !important;
+    }
+
+    body.id-759 .pp-map-hero-image {
+        display: none !important;
+    }
+
+    body.id-759 .pp-map-hero-text {
+        max-width: 520px !important;
+        position: relative !important;
+        z-index: 2 !important;
+    }
+
+    body.id-759 .pp-map-hero-text p {
+        max-width: 470px !important;
     }
 }
 
-/* mobil – necháme obrázek čitelný */
+/* Mobil necháme normálně s obrázkem pod textem */
 @media (max-width: 768px) {
+    body.id-759 .pp-map-hero {
+        background: linear-gradient(90deg, #fffaf3 0%, #f7eee6 100%) !important;
+    }
+
     body.id-759 .pp-map-hero-image {
-        padding: 8px !important;
-        border-radius: 22px !important;
+        display: block !important;
+        padding: 0 !important;
+        background: none !important;
     }
 
     body.id-759 .pp-map-hero-image img {
+        display: block !important;
+        width: 100% !important;
         border-radius: 18px !important;
         box-shadow: 0 14px 34px rgba(78, 55, 36, 0.10) !important;
     }
