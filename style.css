@@ -2568,3 +2568,35 @@ body.id-759 article.pageArticleDetail > header {
     font-size: 24px !important;
     line-height: 1 !important;
 }
+/* ===== HERO OBRÁZEK – JEMNĚJŠÍ PROFI SPLYNUTÍ S POZADÍM ===== */
+
+.pp-map-hero-image {
+    position: relative !important;
+}
+
+.pp-map-hero-image img {
+    border-radius: 0 !important;
+    box-shadow: 0 24px 70px rgba(80, 55, 35, 0.10) !important;
+    -webkit-mask-image: radial-gradient(
+        ellipse at center,
+        #000 68%,
+        rgba(0,0,0,.82) 84%,
+        transparent 100%
+    ) !important;
+    mask-image: radial-gradient(
+        ellipse at center,
+        #000 68%,
+        rgba(0,0,0,.82) 84%,
+        transparent 100%
+    ) !important;
+}
+
+/* Na mobilu necháme obrázek čitelnější */
+@media (max-width: 768px) {
+    .pp-map-hero-image img {
+        -webkit-mask-image: none !important;
+        mask-image: none !important;
+        border-radius: 18px !important;
+        box-shadow: 0 16px 42px rgba(80, 55, 35, 0.10) !important;
+    }
+}
