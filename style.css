@@ -2702,98 +2702,90 @@ body.id-759 article.pageArticleDetail > header {
     margin: 0 auto !important;
   }
 }
-/* ===== MAPA PRVNÍ POMOCI – FORMULÁŘOVÁ SEKCE PREMIUM FIX ===== */
+/* ===== MAPA PRVNÍ POMOCI – FORMULÁŘOVÁ SEKCE PREMIUM FIX V2 ===== */
 
 .pp-map-page .pp-map-form-section {
-    background: #f8f1e8 !important;
-    padding: 56px 20px 72px !important;
+    background: #f6efe6 !important;
+    padding: 48px 20px 64px !important;
 }
 
 .pp-map-page .pp-map-form-card {
-    max-width: 1320px !important;
+    max-width: 1280px !important;
     margin: 0 auto !important;
-    background: linear-gradient(135deg, #fffdfa 0%, #fbf6ef 100%) !important;
-    border: 1px solid rgba(118, 99, 77, 0.10) !important;
-    border-radius: 34px !important;
-    box-shadow: 0 28px 70px rgba(74, 55, 35, 0.08) !important;
-    padding: 68px 72px !important;
+    background: rgba(255, 253, 249, 0.86) !important;
+    border: 1px solid rgba(120,100,78,.10) !important;
+    border-radius: 32px !important;
+    box-shadow: 0 26px 64px rgba(70,55,38,.08) !important;
+    padding: 62px 72px !important;
     display: grid !important;
-    grid-template-columns: 1fr 1px 1fr !important;
-    gap: 58px !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 70px !important;
     align-items: center !important;
 }
 
 .pp-map-page .pp-map-form-card::before {
-    content: "" !important;
-    width: 1px !important;
-    height: 100% !important;
-    background: rgba(95, 83, 70, 0.12) !important;
-    grid-column: 2 !important;
-    grid-row: 1 !important;
+    display: none !important;
+    content: none !important;
 }
 
 .pp-map-page .pp-map-form-left {
-    grid-column: 1 !important;
-    display: flex !important;
-    align-items: center !important;
+    display: grid !important;
+    grid-template-columns: 96px 1fr !important;
     gap: 34px !important;
-    width: 100% !important;
-}
-.pp-map-page .pp-map-form-left > div:last-child {
-    flex: 1 1 auto !important;
-    min-width: 0 !important;
-}
-
-.pp-map-page .pp-map-form-right {
-    grid-column: 3 !important;
-    align-self: center !important;
-    padding-top: 4px !important;
+    align-items: center !important;
 }
 
 .pp-map-page .pp-map-form-icon {
-    width: 86px !important;
-    height: 86px !important;
+    width: 96px !important;
+    height: 96px !important;
     border-radius: 999px !important;
     background: #7f906f !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    box-shadow: 0 14px 30px rgba(80, 95, 68, 0.16) !important;
-    flex-shrink: 0 !important;
+    position: relative !important;
     font-size: 0 !important;
+    box-shadow: 0 14px 30px rgba(80,95,68,.16) !important;
+}
+
+.pp-map-page .pp-map-form-icon::before {
+    content: "✉" !important;
+    color: #fffaf3 !important;
+    font-size: 42px !important;
+    line-height: 1 !important;
+}
+
+.pp-map-page .pp-map-form-icon::after {
+    content: "♡" !important;
+    position: absolute !important;
+    top: 28px !important;
+    right: 26px !important;
+    color: #f3c29d !important;
+    font-size: 18px !important;
+    line-height: 1 !important;
 }
 
 .pp-map-page .pp-map-form-icon svg {
-    width: 58px !important;
-    height: 58px !important;
-    fill: none !important;
-    stroke: #fffaf3 !important;
-    stroke-width: 2.8 !important;
-    stroke-linecap: round !important;
-    stroke-linejoin: round !important;
+    display: none !important;
 }
 
 .pp-map-page .pp-map-form-left h2 {
-    margin: 0 0 20px !important;
+    max-width: 540px !important;
+    margin: 0 0 18px !important;
     color: #173033 !important;
     font-family: Georgia, "Times New Roman", serif !important;
-    font-size: 38px !important;
+    font-size: 37px !important;
     line-height: 1.12 !important;
     font-weight: 600 !important;
-    letter-spacing: -0.6px !important;
-    max-width: 520px !important;
-}
-
-.pp-map-page .pp-map-form-left h2 span {
-    color: #efb287 !important;
+    letter-spacing: -0.5px !important;
 }
 
 .pp-map-page .pp-map-form-left p {
-    margin: 0 0 34px !important;
-    max-width: 450px !important;
+    max-width: 430px !important;
+    margin: 0 0 30px !important;
     color: #302b26 !important;
-    font-size: 18px !important;
-    line-height: 1.75 !important;
+    font-size: 17px !important;
+    line-height: 1.7 !important;
 }
 
 .pp-map-page .pp-map-hand {
@@ -2802,30 +2794,16 @@ body.id-759 article.pageArticleDetail > header {
     line-height: 1.35 !important;
 }
 
-/* Ecomail formulář – větší a prémiovější vzhled */
+.pp-map-page .pp-map-form-right {
+    border-left: 1px solid rgba(120,100,78,.12) !important;
+    padding-left: 70px !important;
+    padding-top: 0 !important;
+    align-self: center !important;
+}
+
 .pp-map-page .pp-map-form-right iframe,
-.pp-map-page .pp-map-form-right form,
-.pp-map-page .pp-map-form-right input,
-.pp-map-page .pp-map-form-right button {
+.pp-map-page .pp-map-form-right div {
     max-width: 100% !important;
-}
-
-.pp-map-page .pp-map-form-right input[type="email"],
-.pp-map-page .pp-map-form-right input[type="text"] {
-    min-height: 66px !important;
-    border-radius: 8px !important;
-    border: 1px solid rgba(70, 70, 70, 0.18) !important;
-    font-size: 17px !important;
-}
-
-.pp-map-page .pp-map-form-right button,
-.pp-map-page .pp-map-form-right input[type="submit"] {
-    min-height: 66px !important;
-    border-radius: 8px !important;
-    background: #7f906f !important;
-    color: #ffffff !important;
-    font-size: 18px !important;
-    font-weight: 600 !important;
 }
 
 /* Mobil */
@@ -2842,48 +2820,31 @@ body.id-759 article.pageArticleDetail > header {
         border-radius: 28px !important;
     }
 
-    .pp-map-page .pp-map-form-card::before {
-        display: none !important;
-    }
-
     .pp-map-page .pp-map-form-left {
         display: flex !important;
         flex-direction: column !important;
         text-align: center !important;
-        gap: 22px !important;
+        gap: 20px !important;
     }
 
     .pp-map-page .pp-map-form-icon {
-        width: 92px !important;
-        height: 92px !important;
+        width: 88px !important;
+        height: 88px !important;
     }
 
-    .pp-map-page .pp-map-form-icon svg {
-    width: 42px !important;
-    height: 42px !important;
-    }
-    .pp-map-page .pp-map-form-icon svg {
-    display: block !important;
-    overflow: visible !important;
-}
     .pp-map-page .pp-map-form-left h2 {
         font-size: 30px !important;
         line-height: 1.13 !important;
-        margin-bottom: 16px !important;
     }
 
     .pp-map-page .pp-map-form-left p {
         font-size: 16px !important;
         line-height: 1.65 !important;
-        margin-bottom: 24px !important;
-    }
-
-    .pp-map-page .pp-map-hand {
-        font-size: 23px !important;
     }
 
     .pp-map-page .pp-map-form-right {
         width: 100% !important;
-        padding-top: 0 !important;
+        border-left: 0 !important;
+        padding-left: 0 !important;
     }
 }
