@@ -2807,8 +2807,8 @@ body.id-759 article.pageArticleDetail > header {
 
 .pp-map-page .pp-map-form-card {
     max-width: 1320px !important;
-    padding: 58px 72px !important;
-    background: linear-gradient(135deg, #fffdfa 0%, #fbf6ee 100%) !important;
+  padding: 48px 72px !important;
+   background: linear-gradient(135deg, #fcf7f0 0%, #f8f1e8 100%) !important;
 }
 
 .pp-map-page .pp-map-form-left {
@@ -2833,9 +2833,8 @@ body.id-759 article.pageArticleDetail > header {
 
 .pp-map-page .pp-map-form-right {
     padding-left: 58px !important;
-    transform: translateY(-6px) !important;
+    transform: translateY(-35px) !important;
 }
-
 .pp-map-page .pp-map-form-right > div {
     background: transparent !important;
 }
