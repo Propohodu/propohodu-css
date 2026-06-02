@@ -2901,3 +2901,10 @@ body.id-759 article.pageArticleDetail > header {
     fill: none !important;
     stroke: #7f906f !important;
 }
+/* ===== MOŽNÁ TO ZNÁŠ – DOLADĚNÍ CENTROVÁNÍ SVG ===== */
+
+.pp-map-known-grid .pp-map-circle.pp-map-svg-circle {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
