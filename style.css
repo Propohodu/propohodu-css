@@ -2782,3 +2782,49 @@ body.id-759 article.pageArticleDetail > header {
     box-sizing: border-box !important;
   }
 }
+/* ===== MAPA – FORMULÁŘ ZKOMPAKTNĚNÍ DESKTOP ===== */
+
+@media (min-width: 769px) {
+  body.id-759 .pp-map-form-card {
+    min-height: 0 !important;
+    padding: 42px 56px !important;
+    align-items: center !important;
+  }
+
+  body.id-759 .pp-map-form-left {
+    align-items: center !important;
+  }
+
+  body.id-759 .pp-map-form-icon {
+    width: 86px !important;
+    height: 86px !important;
+    font-size: 34px !important;
+  }
+
+  body.id-759 .pp-map-form-left h2 {
+    font-size: 30px !important;
+    line-height: 1.12 !important;
+    margin-bottom: 16px !important;
+  }
+
+  body.id-759 .pp-map-form-left p {
+    font-size: 15px !important;
+    line-height: 1.55 !important;
+    margin-bottom: 28px !important;
+  }
+
+  body.id-759 .pp-map-hand {
+    font-size: 25px !important;
+    line-height: 1.2 !important;
+  }
+
+  body.id-759 .pp-map-form-right {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  body.id-759 .pp-map-form-right > div {
+    transform: scale(0.88) !important;
+    transform-origin: center center !important;
+  }
+}
