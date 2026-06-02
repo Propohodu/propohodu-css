@@ -2674,3 +2674,58 @@ body.id-759 article.pageArticleDetail > header {
         pointer-events: none !important;
     }
 }
+/* ===== MAPA – FIX FORMULÁŘOVÉ SEKCE PODLE PŘEDLOHY ===== */
+
+@media (min-width: 769px) {
+  body.id-759 .pp-map-form-section {
+    padding: 34px 20px 36px !important;
+  }
+
+  body.id-759 .pp-map-form-card {
+    max-width: 1120px !important;
+    padding: 46px 56px !important;
+    display: grid !important;
+    grid-template-columns: minmax(430px, 0.95fr) minmax(0, 1.05fr) !important;
+    gap: 44px !important;
+    align-items: center !important;
+    overflow: hidden !important;
+  }
+
+  body.id-759 .pp-map-form-left {
+    display: grid !important;
+    grid-template-columns: 86px minmax(0, 1fr) !important;
+    gap: 28px !important;
+    align-items: start !important;
+    min-width: 0 !important;
+  }
+
+  body.id-759 .pp-map-form-left h2 {
+    max-width: 390px !important;
+    font-size: 31px !important;
+    line-height: 1.18 !important;
+    margin: 0 0 16px !important;
+  }
+
+  body.id-759 .pp-map-form-right {
+    min-width: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    border-left: 1px solid rgba(120,100,78,.14) !important;
+    padding-left: 44px !important;
+    overflow: hidden !important;
+  }
+
+  body.id-759 .pp-map-form-right > div,
+  body.id-759 .pp-map-form-right iframe,
+  body.id-759 .pp-map-form-right form {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  body.id-759 .pp-map-form-right * {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+}
