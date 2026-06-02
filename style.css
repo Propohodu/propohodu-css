@@ -2842,3 +2842,13 @@ body.id-759 article.pageArticleDetail > header {
 .pp-map-page .pp-map-form-right > div {
     background: transparent !important;
 }
+/* ===== ECOMAIL TLAČÍTKO VE FORMULÁŘI ===== */
+
+.pp-map-page .pp-map-form-right button,
+.pp-map-page .pp-map-form-right input[type="submit"] {
+    min-height: 62px !important;
+    padding: 0 32px !important;
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+}
