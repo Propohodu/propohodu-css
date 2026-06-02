@@ -2625,7 +2625,7 @@ body.id-759 article.pageArticleDetail > header {
         margin: 0 auto !important;
         padding: 35px 50px 45px !important;
         display: grid !important;
-        grid-template-columns: 390px 1fr !important;
+        grid-template-columns: 360px 1fr !important;
         gap: 0 !important;
         align-items: center !important;
     }
