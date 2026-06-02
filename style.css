@@ -2828,3 +2828,26 @@ body.id-759 article.pageArticleDetail > header {
     transform-origin: center center !important;
   }
 }
+/* ===== MAPA – FORMULÁŘ FINÁLNÍ DOLADĚNÍ ===== */
+
+@media (min-width: 769px) {
+  body.id-759 .pp-map-form-card {
+    padding: 34px 56px !important;
+  }
+
+  body.id-759 .pp-map-form-left h2 {
+    margin-bottom: 12px !important;
+  }
+
+  body.id-759 .pp-map-form-left p {
+    margin-bottom: 18px !important;
+  }
+
+  body.id-759 .pp-map-hand {
+    margin-top: 0 !important;
+  }
+
+  body.id-759 .pp-map-form-right > div {
+    transform: none !important;
+  }
+}
