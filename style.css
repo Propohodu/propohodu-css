@@ -1987,14 +1987,18 @@ body.id-759 #footer {
 }
 
 .pp-map-hero-inner {
-    max-width: 1480px;
+    max-width: 1540px;
     margin: 0 auto;
-    padding: 30px 20px 40px;
+    padding: 28px 36px 34px;
     display: grid;
-    grid-template-columns: 0.8fr 1.2fr;
-    gap: 20px;
+    grid-template-columns: 0.42fr 1.58fr;
+    gap: 0;
     align-items: center;
 }
+.pp-map-hero-image {
+    margin-left: -80px;
+}
+
 .pp-map-hero-image img {
     width: 100%;
     max-width: none;
@@ -2025,7 +2029,7 @@ body.id-759 #footer {
 }
 
 .pp-map-hero-text p {
-    max-width: 470px;
+    max-width: 420px;
     color: #3f3b36;
     font-size: 16px;
     line-height: 1.75;
