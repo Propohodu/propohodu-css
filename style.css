@@ -2702,66 +2702,63 @@ body.id-759 article.pageArticleDetail > header {
     margin: 0 auto !important;
   }
 }
-/* ===== MAPA PRVNÍ POMOCI – FORMULÁŘOVÁ SEKCE PREMIUM FIX V2 ===== */
-
-.pp-map-page .pp-map-form-section {
-    background: #f6efe6 !important;
-    padding: 48px 20px 64px !important;
-}
+/* ===== MAPA PRVNÍ POMOCI – NÁVRAT FORMULÁŘE DO STABILNÍHO STAVU ===== */
 
 .pp-map-page .pp-map-form-card {
-    max-width: 1280px !important;
+    max-width: 1240px !important;
     margin: 0 auto !important;
-    background: rgba(255, 253, 249, 0.86) !important;
-    border: 1px solid rgba(120,100,78,.10) !important;
-    border-radius: 32px !important;
-    box-shadow: 0 26px 64px rgba(70,55,38,.08) !important;
-    padding: 62px 72px !important;
+    padding: 58px 64px !important;
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
-    gap: 70px !important;
+    gap: 64px !important;
     align-items: center !important;
-}
-
-.pp-map-page .pp-map-form-card::before {
-    display: none !important;
-    content: none !important;
 }
 
 .pp-map-page .pp-map-form-left {
-    display: grid !important;
-    grid-template-columns: 96px 1fr !important;
-    gap: 34px !important;
+    display: flex !important;
     align-items: center !important;
+    gap: 34px !important;
+    min-width: 0 !important;
+}
+
+.pp-map-page .pp-map-form-left > div:last-child {
+    min-width: 0 !important;
+    max-width: 520px !important;
+}
+
+.pp-map-page .pp-map-form-left h2 {
+    max-width: 520px !important;
+    font-size: 36px !important;
+    line-height: 1.12 !important;
+    margin: 0 0 18px !important;
+    white-space: normal !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+}
+
+.pp-map-page .pp-map-form-left p {
+    max-width: 430px !important;
+    font-size: 17px !important;
+    line-height: 1.65 !important;
+    margin: 0 0 28px !important;
+    white-space: normal !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
 }
 
 .pp-map-page .pp-map-form-icon {
-    width: 96px !important;
-    height: 96px !important;
+    width: 86px !important;
+    height: 86px !important;
+    flex: 0 0 86px !important;
     border-radius: 999px !important;
     background: #7f906f !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    position: relative !important;
     font-size: 0 !important;
-    box-shadow: 0 14px 30px rgba(80,95,68,.16) !important;
 }
 
 .pp-map-page .pp-map-form-icon::before {
     content: "✉" !important;
     color: #fffaf3 !important;
-    font-size: 42px !important;
-    line-height: 1 !important;
-}
-
-.pp-map-page .pp-map-form-icon::after {
-    content: "♡" !important;
-    position: absolute !important;
-    top: 28px !important;
-    right: 26px !important;
-    color: #f3c29d !important;
-    font-size: 18px !important;
+    font-size: 38px !important;
     line-height: 1 !important;
 }
 
@@ -2769,82 +2766,36 @@ body.id-759 article.pageArticleDetail > header {
     display: none !important;
 }
 
-.pp-map-page .pp-map-form-left h2 {
-    max-width: 540px !important;
-    margin: 0 0 18px !important;
-    color: #173033 !important;
-    font-family: Georgia, "Times New Roman", serif !important;
-    font-size: 37px !important;
-    line-height: 1.12 !important;
-    font-weight: 600 !important;
-    letter-spacing: -0.5px !important;
-}
-
-.pp-map-page .pp-map-form-left p {
-    max-width: 430px !important;
-    margin: 0 0 30px !important;
-    color: #302b26 !important;
-    font-size: 17px !important;
-    line-height: 1.7 !important;
-}
-
-.pp-map-page .pp-map-hand {
-    color: #7d746b !important;
-    font-size: 27px !important;
-    line-height: 1.35 !important;
-}
-
 .pp-map-page .pp-map-form-right {
     border-left: 1px solid rgba(120,100,78,.12) !important;
-    padding-left: 70px !important;
-    padding-top: 0 !important;
-    align-self: center !important;
+    padding-left: 64px !important;
 }
 
-.pp-map-page .pp-map-form-right iframe,
-.pp-map-page .pp-map-form-right div {
-    max-width: 100% !important;
+.pp-map-page .pp-map-form-card::before {
+    display: none !important;
+    content: none !important;
 }
 
-/* Mobil */
 @media (max-width: 768px) {
-    .pp-map-page .pp-map-form-section {
-        padding: 34px 16px 52px !important;
-    }
-
     .pp-map-page .pp-map-form-card {
         display: flex !important;
         flex-direction: column !important;
-        gap: 30px !important;
-        padding: 34px 22px !important;
-        border-radius: 28px !important;
+        padding: 32px 22px !important;
+        gap: 28px !important;
     }
 
     .pp-map-page .pp-map-form-left {
-        display: flex !important;
         flex-direction: column !important;
         text-align: center !important;
-        gap: 20px !important;
-    }
-
-    .pp-map-page .pp-map-form-icon {
-        width: 88px !important;
-        height: 88px !important;
-    }
-
-    .pp-map-page .pp-map-form-left h2 {
-        font-size: 30px !important;
-        line-height: 1.13 !important;
-    }
-
-    .pp-map-page .pp-map-form-left p {
-        font-size: 16px !important;
-        line-height: 1.65 !important;
     }
 
     .pp-map-page .pp-map-form-right {
         width: 100% !important;
         border-left: 0 !important;
         padding-left: 0 !important;
+    }
+
+    .pp-map-page .pp-map-form-left h2 {
+        font-size: 29px !important;
     }
 }
