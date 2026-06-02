@@ -1946,7 +1946,23 @@ transform: translateY(28px) scale(1.55) !important;
         border-radius: 18px !important;
     }
 }
-/* ===== PROPOHODU – MAPA PRVNÍ POMOCI LANDING PAGE ===== */
+/* ===== PROPOHODU – MAPA PRVNÍ POMOCI – FINÁLNÍ LANDING PAGE ===== */
+
+body.id-759 .breadcrumbs,
+body.id-759 .content-inner > h1,
+body.id-759 #content > h1 {
+    display: none !important;
+}
+
+body.id-759 .content-inner,
+body.id-759 #content {
+    max-width: none !important;
+    padding: 0 !important;
+}
+
+body.id-759 #footer {
+    margin-top: 0 !important;
+}
 
 .pp-map-page {
     background: #fffaf3;
@@ -1973,7 +1989,7 @@ transform: translateY(28px) scale(1.55) !important;
 .pp-map-hero-inner {
     max-width: 1240px;
     margin: 0 auto;
-    padding: 70px 48px 60px;
+    padding: 48px 48px 50px;
     display: grid;
     grid-template-columns: 0.9fr 1.1fr;
     gap: 44px;
@@ -1985,17 +2001,17 @@ transform: translateY(28px) scale(1.55) !important;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: .04em;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 .pp-map-hero-text h1 {
     font-family: "Cormorant Garamond", Georgia, serif !important;
     color: #21342e;
-    font-size: clamp(46px, 5vw, 72px);
+    font-size: clamp(44px, 4.4vw, 64px);
     line-height: 1.03;
     font-weight: 500;
     letter-spacing: -1px;
-    margin-bottom: 26px;
+    margin-bottom: 24px;
 }
 
 .pp-map-hero-text h1 span,
@@ -2004,7 +2020,7 @@ transform: translateY(28px) scale(1.55) !important;
 }
 
 .pp-map-hero-text p {
-    max-width: 460px;
+    max-width: 470px;
     color: #3f3b36;
     font-size: 16px;
     line-height: 1.75;
@@ -2021,7 +2037,7 @@ transform: translateY(28px) scale(1.55) !important;
 .pp-map-benefits {
     display: grid;
     gap: 16px;
-    margin-top: 28px;
+    margin-top: 26px;
 }
 
 .pp-map-benefits div {
@@ -2029,6 +2045,10 @@ transform: translateY(28px) scale(1.55) !important;
     grid-template-columns: 44px 1fr;
     align-items: center;
     gap: 14px;
+}
+
+.pp-map-benefits p {
+    margin: 0 !important;
     color: #3f3b36;
     font-size: 14px;
     line-height: 1.55;
@@ -2048,7 +2068,7 @@ transform: translateY(28px) scale(1.55) !important;
 
 .pp-map-hero-image img {
     width: 100%;
-    max-width: 720px;
+    max-width: 620px;
     display: block;
     margin-left: auto;
 }
@@ -2061,7 +2081,7 @@ transform: translateY(28px) scale(1.55) !important;
 .pp-map-form-card {
     max-width: 1120px;
     margin: 0 auto;
-    background: rgba(255,255,255,.72);
+    background: rgba(255,255,255,.74);
     border: 1px solid rgba(120,100,78,.10);
     border-radius: 28px;
     box-shadow: 0 18px 48px rgba(70,55,38,.06);
@@ -2292,13 +2312,43 @@ transform: translateY(28px) scale(1.55) !important;
 }
 
 .pp-map-strip {
-    max-width: 1240px;
-    margin: 0 auto;
-    padding: 28px 48px;
+    background: #f8f2eb;
+    border-top: 1px solid rgba(120,100,78,.08);
+    border-bottom: 1px solid rgba(120,100,78,.08);
+    padding: 26px 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 22px;
-    border-top: 1px solid rgba(120,100,78,.08);
+    gap: 0;
+    max-width: none;
+}
+
+.pp-map-strip-item {
+    display: grid;
+    grid-template-columns: 54px 1fr;
+    align-items: center;
+    gap: 14px;
+    padding: 0 28px;
+    border-right: 1px solid rgba(120,100,78,.14);
+}
+
+.pp-map-strip-item:last-child {
+    border-right: 0;
+}
+
+.pp-map-strip-item span {
+    width: 54px;
+    height: 54px;
+    border-radius: 999px;
+    background: #eef1e8;
+    color: #718268;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.pp-map-strip-item p {
+    margin: 0 !important;
     color: #3f3b36;
     font-size: 14px;
     line-height: 1.55;
@@ -2308,13 +2358,13 @@ transform: translateY(28px) scale(1.55) !important;
     .pp-map-hero-inner {
         display: flex;
         flex-direction: column;
-        padding: 44px 20px 34px;
+        padding: 34px 18px 30px;
         gap: 28px;
     }
 
     .pp-map-hero-text h1 {
-        font-size: 44px;
-        line-height: 1.04;
+        font-size: 38px !important;
+        line-height: 1.06;
         margin-bottom: 20px;
     }
 
@@ -2346,13 +2396,15 @@ transform: translateY(28px) scale(1.55) !important;
     }
 
     .pp-map-form-left {
-        grid-template-columns: 62px 1fr;
+        grid-template-columns: 1fr;
         gap: 16px;
+        text-align: center;
     }
 
     .pp-map-form-icon {
         width: 62px;
         height: 62px;
+        margin: 0 auto;
         font-size: 28px;
     }
 
@@ -2420,80 +2472,25 @@ transform: translateY(28px) scale(1.55) !important;
 
     .pp-map-strip {
         grid-template-columns: 1fr;
-        padding: 26px 20px;
+        padding: 22px 22px;
+        gap: 18px;
+    }
+
+    .pp-map-strip-item {
+        grid-template-columns: 46px 1fr;
         gap: 14px;
-    }
-}
-/* ===== FIX MAPA STRÁNKA – SHOPTET NADPIS + VELIKOSTI ===== */
-
-body.type-page .pp-map-page {
-    margin-top: -30px !important;
-}
-
-/* skrytí systémového nadpisu a drobečkové navigace jen na téhle stránce */
-body.type-page:has(.pp-map-page) .breadcrumbs,
-body.type-page:has(.pp-map-page) .content-inner > h1 {
-    display: none !important;
-}
-
-/* aby stránka nebyla roztažená Shoptet obsahem */
-body.type-page:has(.pp-map-page) .content-inner {
-    max-width: none !important;
-    padding: 0 !important;
-}
-
-body.type-page:has(.pp-map-page) #content {
-    padding: 0 !important;
-}
-
-/* zmenšení hero části */
-.pp-map-hero-inner {
-    padding-top: 46px !important;
-    padding-bottom: 46px !important;
-}
-
-.pp-map-hero-text h1 {
-    font-size: clamp(42px, 4.2vw, 62px) !important;
-}
-
-.pp-map-hero-image img {
-    max-width: 620px !important;
-}
-
-/* mobilní verze */
-@media (max-width: 768px) {
-    body.type-page .pp-map-page {
-        margin-top: -10px !important;
+        padding: 0;
+        border-right: 0;
     }
 
-    .pp-map-hero-inner {
-        padding: 34px 18px 30px !important;
+    .pp-map-strip-item span {
+        width: 46px;
+        height: 46px;
+        font-size: 21px;
     }
 
-    .pp-map-hero-text h1 {
-        font-size: 38px !important;
-        line-height: 1.06 !important;
-    }
-
-    .pp-map-hero-text p {
-        font-size: 15px !important;
-    }
-
-    .pp-map-hero-image img {
-        max-width: 100% !important;
-    }
-
-    .pp-map-known-grid,
-    .pp-map-content-grid {
-        grid-template-columns: 1fr !important;
-    }
-
-    .pp-map-form-left {
-        grid-template-columns: 1fr !important;
-        text-align: center !important;
-    }
-
-    .pp-map-form-icon {
-        margin: 0 auto !important;
+    .pp-map-strip-item p {
+        font-size: 14px;
+        line-height: 1.55;
     }
 }
