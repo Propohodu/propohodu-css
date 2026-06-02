@@ -2702,16 +2702,3 @@ body.id-759 article.pageArticleDetail > header {
     margin: 0 auto !important;
   }
 }
-/* ===== MAPA – JEMNÉ DOLADĚNÍ FORMULÁŘE ===== */
-
-@media (min-width: 769px) {
-  body.id-759 .pp-map-form-card {
-    padding-top: 38px !important;
-    padding-bottom: 38px !important;
-  }
-
-  body.id-759 .pp-map-form-right {
-    transform: translateY(-8px) !important;
-  }
-}
-
