@@ -2852,3 +2852,14 @@ body.id-759 article.pageArticleDetail > header {
     font-weight: 600 !important;
     border-radius: 10px !important;
 }
+/* ===== ECOMAIL EMAIL POLE ===== */
+
+.pp-map-page .pp-map-form-right input[type="email"] {
+    min-height: 62px !important;
+    padding: 0 18px !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(120,100,78,.18) !important;
+    background: #fffdf9 !important;
+    font-size: 16px !important;
+    box-shadow: none !important;
+}
