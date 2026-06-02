@@ -2581,28 +2581,45 @@ body.id-759 article.pageArticleDetail > header {
 
 @media (min-width: 769px) {
     body.id-759 .pp-map-hero {
-    position: relative !important;
-    min-height: 620px !important;
-    background:
-        linear-gradient(
+        position: relative !important;
+        min-height: 620px !important;
+        background: #fffaf3 !important;
+        overflow: hidden !important;
+    }
+
+    body.id-759 .pp-map-hero::before {
+        content: "" !important;
+        position: absolute !important;
+        inset: 0 !important;
+        background-image: url("https://www.propohodu.com/user/documents/upload/mapa_v_obalce.png") !important;
+        background-size: auto 780px !important;
+        background-position: calc(50% + 190px) center !important;
+        background-repeat: no-repeat !important;
+        z-index: 0 !important;
+    }
+
+    body.id-759 .pp-map-hero::after {
+        content: "" !important;
+        position: absolute !important;
+        inset: 0 !important;
+        background: linear-gradient(
             90deg,
             #fffaf3 0%,
-            rgba(255,250,243,.98) 8%,
-            rgba(255,250,243,.82) 15%,
-            rgba(255,250,243,.55) 23%,
-            rgba(255,250,243,.28) 31%,
-            rgba(255,250,243,.10) 39%,
-            rgba(255,250,243,0) 58%
-        ),
-        url("https://www.propohodu.com/user/documents/upload/mapa_v_obalce.png") !important;
-    background-size: auto 780px !important;
-    background-position: calc(50% + 190px) center !important;
-    background-repeat: no-repeat !important;
-    overflow: hidden !important;
-}
+            rgba(255,250,243,.98) 12%,
+            rgba(255,250,243,.82) 20%,
+            rgba(255,250,243,.55) 30%,
+            rgba(255,250,243,.25) 42%,
+            rgba(255,250,243,.08) 52%,
+            rgba(255,250,243,0) 62%
+        ) !important;
+        z-index: 1 !important;
+        pointer-events: none !important;
+    }
 
     body.id-759 .pp-map-hero-inner {
-        max-width: 1600px !important;
+        position: relative !important;
+        z-index: 2 !important;
+        max-width: 1540px !important;
         min-height: 620px !important;
         margin: 0 auto !important;
         padding: 35px 50px 45px !important;
@@ -2619,7 +2636,7 @@ body.id-759 article.pageArticleDetail > header {
     body.id-759 .pp-map-hero-text {
         max-width: 390px !important;
         position: relative !important;
-        z-index: 2 !important;
+        z-index: 3 !important;
     }
 
     body.id-759 .pp-map-hero-text h1 {
@@ -2632,25 +2649,5 @@ body.id-759 article.pageArticleDetail > header {
         max-width: 380px !important;
         font-size: 16px !important;
         line-height: 1.65 !important;
-    }
-}
-
-/* Mobil necháme normálně s obrázkem pod textem */
-@media (max-width: 768px) {
-    body.id-759 .pp-map-hero {
-        background: linear-gradient(90deg, #fffaf3 0%, #f7eee6 100%) !important;
-    }
-
-    body.id-759 .pp-map-hero-image {
-        display: block !important;
-        padding: 0 !important;
-        background: none !important;
-    }
-
-    body.id-759 .pp-map-hero-image img {
-        display: block !important;
-        width: 100% !important;
-        border-radius: 18px !important;
-        box-shadow: 0 14px 34px rgba(78, 55, 36, 0.10) !important;
     }
 }
