@@ -2674,50 +2674,63 @@ body.id-759 article.pageArticleDetail > header {
         pointer-events: none !important;
     }
 }
-/* ===== MAPA – FORMULÁŘ PODLE PŘEDLOHY ===== */
+/* ===== MAPA – FORMULÁŘ PODLE PŘEDLOHY CLEAN ===== */
 
 @media (min-width: 769px) {
-  body.id-759 .pp-map-form-section {
-    padding: 36px 20px 44px !important;
-  }
-
   body.id-759 .pp-map-form-card {
     max-width: 1180px !important;
-    margin: 0 auto !important;
-    padding: 48px 64px !important;
+    padding: 46px 58px !important;
     display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    gap: 52px !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+    gap: 46px !important;
     align-items: center !important;
-    border-radius: 28px !important;
     overflow: hidden !important;
   }
 
   body.id-759 .pp-map-form-left {
     display: grid !important;
-    grid-template-columns: 92px 1fr !important;
+    grid-template-columns: 92px minmax(0, 1fr) !important;
     gap: 30px !important;
-    align-items: start !important;
+    min-width: 0 !important;
   }
 
   body.id-759 .pp-map-form-left h2 {
     font-size: 31px !important;
     line-height: 1.16 !important;
-    max-width: 430px !important;
-    margin: 0 0 18px !important;
-  }
-
-  body.id-759 .pp-map-form-left p {
-    font-size: 16px !important;
-    line-height: 1.6 !important;
-    margin: 0 0 30px !important;
+    max-width: 440px !important;
   }
 
   body.id-759 .pp-map-form-right {
     border-left: 1px solid rgba(120,100,78,.14) !important;
-    padding-left: 52px !important;
+    padding-left: 46px !important;
     min-width: 0 !important;
     overflow: hidden !important;
+  }
+
+  body.id-759 .pp-map-form-right > div,
+  body.id-759 .pp-map-form-right .ec-v-form,
+  body.id-759 .pp-map-form-right .ec-v-form-step-visible,
+  body.id-759 .pp-map-form-right .ec-v-form-column {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  body.id-759 .pp-map-form-right .ec-v-form-input,
+  body.id-759 .pp-map-form-right .ec-v-form-submit {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background: transparent !important;
+  }
+
+  body.id-759 .pp-map-form-right .ec-v-form-spacer {
+    height: 14px !important;
   }
 
   body.id-759 .pp-map-form-right input,
