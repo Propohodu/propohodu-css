@@ -2577,35 +2577,37 @@ body.id-759 article.pageArticleDetail > header {
     font-size: 24px !important;
     line-height: 1 !important;
 }
-/* ===== HERO MAPA – OBRÁZEK JAKO POZADÍ / PROFI SPLYNUTÍ ===== */
+/* ===== HERO MAPA – CÍLOVÝ STAV DESKTOP ===== */
 
 @media (min-width: 769px) {
     body.id-759 .pp-map-hero {
         position: relative !important;
-        min-height: 660px !important;
+        min-height: 620px !important;
         background:
-     linear-gradient(90deg,
-    #fffaf3 0%,
-    rgba(255,250,243,.96) 10%,
-    rgba(255,250,243,.78) 18%,
-    rgba(255,250,243,.46) 28%,
-    rgba(255,250,243,.18) 38%,
-    rgba(255,250,243,.04) 46%,
-    rgba(255,250,243,0) 54%
-),
-    url("https://www.propohodu.com/user/documents/upload/mapa_v_obalce.png") !important;
-        background-size: auto 860px !important;
-background-position: right center !important;
+            linear-gradient(90deg,
+                #fffaf3 0%,
+                rgba(255,250,243,.98) 11%,
+                rgba(255,250,243,.86) 20%,
+                rgba(255,250,243,.58) 29%,
+                rgba(255,250,243,.25) 38%,
+                rgba(255,250,243,.05) 47%,
+                rgba(255,250,243,0) 55%
+            ),
+            url("https://www.propohodu.com/user/documents/upload/mapa_v_obalce.png") !important;
+        background-size: auto 690px !important;
+        background-position: calc(50% + 255px) center !important;
         background-repeat: no-repeat !important;
         overflow: hidden !important;
     }
 
     body.id-759 .pp-map-hero-inner {
-        min-height: 660px !important;
-        max-width: 1240px !important;
-        padding-top: 70px !important;
-        padding-bottom: 70px !important;
-    grid-template-columns: 0.40fr 0.60fr !important;
+        max-width: 1540px !important;
+        min-height: 620px !important;
+        margin: 0 auto !important;
+        padding: 35px 50px 45px !important;
+        display: grid !important;
+        grid-template-columns: 390px 1fr !important;
+        gap: 0 !important;
         align-items: center !important;
     }
 
@@ -2614,13 +2616,21 @@ background-position: right center !important;
     }
 
     body.id-759 .pp-map-hero-text {
-        max-width: 520px !important;
+        max-width: 390px !important;
         position: relative !important;
         z-index: 2 !important;
     }
 
+    body.id-759 .pp-map-hero-text h1 {
+        font-size: 48px !important;
+        line-height: 0.98 !important;
+        margin-bottom: 24px !important;
+    }
+
     body.id-759 .pp-map-hero-text p {
-        max-width: 470px !important;
+        max-width: 380px !important;
+        font-size: 16px !important;
+        line-height: 1.65 !important;
     }
 }
 
