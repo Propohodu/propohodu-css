@@ -2598,19 +2598,19 @@ body.id-759 article.pageArticleDetail > header {
         z-index: 0 !important;
     }
 
-   body.id-759 .pp-map-hero::after {
+  body.id-759 .pp-map-hero::after {
     content: "" !important;
     position: absolute !important;
     inset: 0 !important;
     background: linear-gradient(
         90deg,
         #fffaf3 0%,
-        rgba(255,250,243,1) 12%,
+        #fffaf3 12%,
         rgba(255,250,243,.96) 20%,
-        rgba(255,250,243,.78) 29%,
-        rgba(255,250,243,.50) 38%,
-        rgba(255,250,243,.24) 48%,
-        rgba(255,250,243,.08) 58%,
+        rgba(255,250,243,.82) 28%,
+        rgba(255,250,243,.55) 38%,
+        rgba(255,250,243,.28) 48%,
+        rgba(255,250,243,.10) 58%,
         rgba(255,250,243,0) 68%
     ) !important;
     z-index: 1 !important;
