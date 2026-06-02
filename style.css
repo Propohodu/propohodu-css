@@ -2674,56 +2674,55 @@ body.id-759 article.pageArticleDetail > header {
         pointer-events: none !important;
     }
 }
-/* ===== MAPA – FORMULÁŘ FINAL RESET ===== */
+/* ===== MAPA – FORMULÁŘ PODLE PŘEDLOHY ===== */
 
-body.id-759 .pp-map-form-card {
-  max-width: 1120px !important;
-  margin: 0 auto !important;
-  padding: 42px 56px !important;
-  display: grid !important;
-  grid-template-columns: 1fr 1fr !important;
-  gap: 44px !important;
-  align-items: center !important;
-  min-height: 0 !important;
-}
+@media (min-width: 769px) {
+  body.id-759 .pp-map-form-section {
+    padding: 36px 20px 44px !important;
+  }
 
-body.id-759 .pp-map-form-right {
-  border-left: 1px solid rgba(120,100,78,.14) !important;
-  padding-left: 44px !important;
-  display: flex !important;
-  align-items: center !important;
-}
-
-body.id-759 .pp-map-form-right iframe,
-body.id-759 .pp-map-form-right > div,
-body.id-759 .pp-map-form-right .ec-v-form,
-body.id-759 .pp-map-form-right .ec-v-form-column,
-body.id-759 .pp-map-form-right .ec-v-form-step-visible {
-  width: 100% !important;
-  max-width: 100% !important;
-  height: auto !important;
-  min-height: 0 !important;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  box-sizing: border-box !important;
-}
-
-body.id-759 .pp-map-form-right .ec-v-form-spacer {
-  display: none !important;
-}
-
-@media (max-width: 768px) {
   body.id-759 .pp-map-form-card {
-    display: flex !important;
-    flex-direction: column !important;
-    padding: 28px 22px !important;
-    gap: 26px !important;
+    max-width: 1180px !important;
+    margin: 0 auto !important;
+    padding: 48px 64px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 52px !important;
+    align-items: center !important;
+    border-radius: 28px !important;
+    overflow: hidden !important;
+  }
+
+  body.id-759 .pp-map-form-left {
+    display: grid !important;
+    grid-template-columns: 92px 1fr !important;
+    gap: 30px !important;
+    align-items: start !important;
+  }
+
+  body.id-759 .pp-map-form-left h2 {
+    font-size: 31px !important;
+    line-height: 1.16 !important;
+    max-width: 430px !important;
+    margin: 0 0 18px !important;
+  }
+
+  body.id-759 .pp-map-form-left p {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    margin: 0 0 30px !important;
   }
 
   body.id-759 .pp-map-form-right {
-    border-left: 0 !important;
-    padding-left: 0 !important;
+    border-left: 1px solid rgba(120,100,78,.14) !important;
+    padding-left: 52px !important;
+    min-width: 0 !important;
+    overflow: hidden !important;
+  }
+
+  body.id-759 .pp-map-form-right input,
+  body.id-759 .pp-map-form-right button {
     width: 100% !important;
+    max-width: 100% !important;
   }
 }
-
