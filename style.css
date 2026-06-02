@@ -2799,3 +2799,43 @@ body.id-759 article.pageArticleDetail > header {
         font-size: 29px !important;
     }
 }
+/* ===== MAPA FORMULÁŘ – JEMNÉ DOLADĚNÍ VZHLEDU ===== */
+
+.pp-map-page .pp-map-form-section {
+    background: #f3ebe1 !important;
+}
+
+.pp-map-page .pp-map-form-card {
+    max-width: 1320px !important;
+    padding: 58px 72px !important;
+    background: linear-gradient(135deg, #fffdfa 0%, #fbf6ee 100%) !important;
+}
+
+.pp-map-page .pp-map-form-left {
+    gap: 28px !important;
+}
+
+.pp-map-page .pp-map-form-icon {
+    width: 92px !important;
+    height: 92px !important;
+    flex-basis: 92px !important;
+}
+
+.pp-map-page .pp-map-form-left h2 {
+    font-size: 38px !important;
+    line-height: 1.08 !important;
+    max-width: 560px !important;
+}
+
+.pp-map-page .pp-map-form-left p {
+    margin-bottom: 26px !important;
+}
+
+.pp-map-page .pp-map-form-right {
+    padding-left: 58px !important;
+    transform: translateY(-6px) !important;
+}
+
+.pp-map-page .pp-map-form-right > div {
+    background: transparent !important;
+}
