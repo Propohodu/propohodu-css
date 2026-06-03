@@ -2908,3 +2908,87 @@ body.id-759 article.pageArticleDetail > header {
     align-items: center !important;
     justify-content: center !important;
 }
+/* ===== MAPA PRVNÍ POMOCI – FORM SECTION MOBILE FIX ===== */
+
+@media (max-width: 768px) {
+  .pp-map-page .pp-map-form-section {
+    padding: 26px 16px 34px !important;
+    background: #fffaf3 !important;
+  }
+
+  .pp-map-page .pp-map-form-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 26px !important;
+    padding: 32px 24px 28px !important;
+    border-radius: 26px !important;
+    background: #fbf8f1 !important;
+    box-shadow: 0 14px 34px rgba(70,55,38,.06) !important;
+  }
+
+  .pp-map-page .pp-map-form-left {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 18px !important;
+  }
+
+  .pp-map-page .pp-map-form-icon {
+    width: 68px !important;
+    height: 68px !important;
+    margin: 0 auto !important;
+    flex: 0 0 68px !important;
+  }
+
+  .pp-map-page .pp-map-form-left h2 {
+    max-width: 300px !important;
+    margin: 0 auto 14px !important;
+    font-size: 31px !important;
+    line-height: 1.08 !important;
+    font-weight: 500 !important;
+    letter-spacing: -0.3px !important;
+  }
+
+  .pp-map-page .pp-map-form-left p {
+    max-width: 290px !important;
+    margin: 0 auto 18px !important;
+    font-size: 15px !important;
+    line-height: 1.55 !important;
+  }
+
+  .pp-map-page .pp-map-hand {
+    font-size: 22px !important;
+    line-height: 1.25 !important;
+  }
+
+  .pp-map-page .pp-map-form-right {
+    width: 100% !important;
+    max-width: 100% !important;
+    border-left: 0 !important;
+    border-top: 1px solid rgba(120,100,78,.12) !important;
+    padding: 24px 0 0 !important;
+  }
+
+  .pp-map-page .pp-map-form-right *,
+  .pp-map-page .pp-map-form-right iframe,
+  .pp-map-page .pp-map-form-right form,
+  .pp-map-page .pp-map-form-right input,
+  .pp-map-page .pp-map-form-right button {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+}
+
+@media (max-width: 390px) {
+  .pp-map-page .pp-map-form-card {
+    padding: 30px 20px 26px !important;
+  }
+
+  .pp-map-page .pp-map-form-left h2 {
+    max-width: 270px !important;
+    font-size: 29px !important;
+  }
+}
