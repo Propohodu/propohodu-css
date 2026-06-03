@@ -3056,3 +3056,11 @@ body.id-759 .pp-map-known-grid > div > div:first-child {
 body.id-759 .pp-map-known-grid {
     margin-top: 24px !important;
 }
+/* ===== MAPA – TEXT POD IKONAMI ===== */
+
+.pp-map-content-grid p {
+    color: #66706a !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 1.7 !important;
+}
