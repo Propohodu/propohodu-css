@@ -3305,7 +3305,7 @@ body.id-759 .pp-map-known-grid p {
         top: 0 !important;
         right: 0 !important;
         bottom: 0 !important;
-        width: 78% !important;
+       width: 100% !important;
         height: 100% !important;
         margin: 0 !important;
         z-index: 1 !important;
@@ -3318,7 +3318,7 @@ body.id-759 .pp-map-known-grid p {
         height: 100% !important;
         max-width: none !important;
         object-fit: cover !important;
-        object-position: right center !important;
+        object-position: 82% center !important;
 
         opacity: .95 !important;
         mix-blend-mode: multiply !important;
