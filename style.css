@@ -3029,3 +3029,9 @@ body.id-759 article.pageArticleDetail > header {
     padding-right: 14px !important;
   }
 }
+/* ===== MAPA – OBNOVENÍ IKON V SEKCI MOŽNÁ TO ZNÁŠ ===== */
+
+.pp-map-known-grid .pp-map-circle {
+    font-size: 30px !important;
+    color: #7f906f !important;
+}
