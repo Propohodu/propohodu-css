@@ -3029,3 +3029,16 @@ body.id-759 article.pageArticleDetail > header {
     padding-right: 14px !important;
   }
 }
+/* ===== MAPA – SEKCE MOŽNÁ TO ZNÁŠ BEZ IKON ===== */
+
+.pp-map-known-grid .pp-map-circle {
+    display: none !important;
+}
+
+.pp-map-known-grid {
+    margin-top: 42px !important;
+}
+
+.pp-map-known-grid p {
+    margin-top: 0 !important;
+}
