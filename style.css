@@ -3286,3 +3286,34 @@ body.id-759 .pp-map-known .pp-map-note strong {
 body.id-759 .pp-map-known-grid p {
     line-height: 1.6;
 }
+/* ===== HOMEPAGE HERO – OBRÁZEK SPLYNUTÍ S POZADÍM ===== */
+
+.prop-homepage-new .prop-hero-image {
+    position: relative !important;
+    justify-content: center !important;
+    overflow: visible !important;
+}
+
+.prop-homepage-new .prop-hero-image img {
+    max-width: 820px !important;
+    width: 112% !important;
+    border-radius: 0 !important;
+    filter: none !important;
+    -webkit-mask-image: radial-gradient(ellipse at center, #000 58%, rgba(0,0,0,.75) 72%, transparent 100%) !important;
+    mask-image: radial-gradient(ellipse at center, #000 58%, rgba(0,0,0,.75) 72%, transparent 100%) !important;
+}
+
+@media (max-width: 768px) {
+    .prop-homepage-new .prop-hero-image {
+        overflow: hidden !important;
+    }
+
+    .prop-homepage-new .prop-hero-image img {
+        width: 118% !important;
+        max-width: none !important;
+        margin-left: -9% !important;
+        margin-right: -9% !important;
+        -webkit-mask-image: radial-gradient(ellipse at center, #000 62%, rgba(0,0,0,.75) 78%, transparent 100%) !important;
+        mask-image: radial-gradient(ellipse at center, #000 62%, rgba(0,0,0,.75) 78%, transparent 100%) !important;
+    }
+}
