@@ -3318,9 +3318,9 @@ body.id-759 .pp-map-known-grid p {
         object-fit: cover !important;
         object-position: 88% center !important;
 
-        opacity: .92 !important;
+        opacity: .96 !important;
         mix-blend-mode: multiply !important;
-        filter: brightness(1.04) contrast(.96) saturate(.94) !important;
+        filter: brightness(1.01) contrast(1.02) saturate(1.04) !important;
 
         -webkit-mask-image:
             linear-gradient(to right,
