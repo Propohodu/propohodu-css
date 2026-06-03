@@ -3320,7 +3320,7 @@ body.id-759 .pp-map-known-grid p {
 
         opacity: .99 !important;
         mix-blend-mode: multiply !important;
-       filter: brightness(.99) contrast(1.05) saturate(1.18) sepia(.08) !important;
+        filter: brightness(.99) contrast(1.05) saturate(1.18) sepia(.08) !important;
 
         -webkit-mask-image:
             linear-gradient(to right,
@@ -3335,8 +3335,8 @@ body.id-759 .pp-map-known-grid p {
             ),
             linear-gradient(to bottom,
                 #000 0%,
-                #000 86%,
-                rgba(0,0,0,.85) 94%,
+                #000 94%,
+                rgba(0,0,0,.90) 98%,
                 transparent 100%
             );
 
@@ -3355,8 +3355,8 @@ body.id-759 .pp-map-known-grid p {
             ),
             linear-gradient(to bottom,
                 #000 0%,
-                #000 86%,
-                rgba(0,0,0,.85) 94%,
+                #000 94%,
+                rgba(0,0,0,.90) 98%,
                 transparent 100%
             );
 
