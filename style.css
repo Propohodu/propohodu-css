@@ -3292,11 +3292,11 @@ body.id-759 .pp-map-known-grid p {
     .prop-homepage-new .prop-hero-image {
         overflow: visible !important;
         justify-content: flex-end !important;
-        margin-right: -120px !important;
+       margin-right: -70px !important;
     }
 
     .prop-homepage-new .prop-hero-image img {
-        width: 218% !important;
+        width: 230% !important;
         max-width: none !important;
         margin-right: -135px !important;
         opacity: .95 !important;
