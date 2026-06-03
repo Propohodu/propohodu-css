@@ -3292,14 +3292,15 @@ body.id-759 .pp-map-known-grid p {
     .prop-homepage-new .prop-hero-image {
         overflow: visible !important;
         justify-content: flex-end !important;
-        margin-right: -140px !important;
+        margin-right: -210px !important;
     }
 
     .prop-homepage-new .prop-hero-image img {
-        width: 180% !important;
+        width: 205% !important;
         max-width: none !important;
-        margin-right: -170px !important;
+        margin-right: -260px !important;
+        opacity: .88 !important;
         mix-blend-mode: multiply !important;
-        opacity: .96 !important;
+        filter: brightness(1.08) contrast(.92) saturate(.88) !important;
     }
 }
