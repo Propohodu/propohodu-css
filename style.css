@@ -3177,3 +3177,19 @@ body.id-759 .pp-map-branch-right img {
         opacity: .55 !important;
     }
 }
+@media (max-width: 768px) {
+
+    body.id-759 .pp-map-branch {
+        width: 95px !important;
+        height: 95px !important;
+    }
+
+    body.id-759 .pp-map-branch-top {
+        margin-bottom: 12px !important;
+    }
+
+    body.id-759 .pp-map-branch-bottom {
+        margin-top: 12px !important;
+    }
+
+}
