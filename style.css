@@ -3293,7 +3293,7 @@ body.id-759 .pp-map-known-grid p {
     .prop-homepage-new .prop-hero-content {
         position: relative !important;
         overflow: hidden !important;
-        background: #fbf7ef !important;
+        background: #fbf4ea !important;
     }
 
     .prop-homepage-new .prop-hero-text {
@@ -3318,25 +3318,25 @@ body.id-759 .pp-map-known-grid p {
         object-fit: cover !important;
         object-position: 88% center !important;
 
-        opacity: .96 !important;
+        opacity: .99 !important;
         mix-blend-mode: multiply !important;
-        filter: brightness(1.01) contrast(1.02) saturate(1.04) !important;
+        filter: brightness(.99) contrast(1.05) saturate(1.12) sepia(.05) !important;
 
         -webkit-mask-image:
             linear-gradient(to right,
                 transparent 0%,
                 rgba(0,0,0,.12) 9%,
-                rgba(0,0,0,.70) 24%,
-                #000 42%,
-                #000 75%,
-                rgba(0,0,0,.75) 86%,
-                rgba(0,0,0,.35) 95%,
+                rgba(0,0,0,.72) 24%,
+                #000 40%,
+                #000 88%,
+                rgba(0,0,0,.85) 94%,
+                rgba(0,0,0,.45) 98%,
                 transparent 100%
             ),
             linear-gradient(to bottom,
                 #000 0%,
-                #000 78%,
-                rgba(0,0,0,.65) 90%,
+                #000 86%,
+                rgba(0,0,0,.85) 94%,
                 transparent 100%
             );
 
@@ -3346,17 +3346,17 @@ body.id-759 .pp-map-known-grid p {
             linear-gradient(to right,
                 transparent 0%,
                 rgba(0,0,0,.12) 9%,
-                rgba(0,0,0,.70) 24%,
-                #000 42%,
-                #000 75%,
-                rgba(0,0,0,.75) 86%,
-                rgba(0,0,0,.35) 95%,
+                rgba(0,0,0,.72) 24%,
+                #000 40%,
+                #000 88%,
+                rgba(0,0,0,.85) 94%,
+                rgba(0,0,0,.45) 98%,
                 transparent 100%
             ),
             linear-gradient(to bottom,
                 #000 0%,
-                #000 78%,
-                rgba(0,0,0,.65) 90%,
+                #000 86%,
+                rgba(0,0,0,.85) 94%,
                 transparent 100%
             );
 
