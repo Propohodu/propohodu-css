@@ -3341,10 +3341,3 @@ body.id-759 .pp-map-known-grid p {
         ) !important;
     }
 }
-/* ===== HOMEPAGE HERO – ŠIRŠÍ DESKTOP BLOK ===== */
-
-@media (min-width: 769px) {
-    .prop-homepage-new .prop-hero-content {
-        max-width: 1360px !important;
-    }
-}
