@@ -3256,3 +3256,28 @@ body.id-759 .pp-map-strip-item p {
 body.id-759 .pp-map-strip-item p {
     color: #5f6f5c !important;
 }
+/* ===== MAPA – JEMNÉ ZVÝRAZNĚNÍ TEXTU V SEKCI MOŽNÁ TO ZNÁŠ ===== */
+
+body.id-759 .pp-map-known .pp-map-note {
+    display: inline-block !important;
+    background: #eef2e9 !important;
+    padding: 14px 28px !important;
+    border-radius: 999px !important;
+    margin-top: 38px !important;
+    color: #3f463f !important;
+}
+
+body.id-759 .pp-map-known .pp-map-note strong {
+    color: #7a876f !important;
+}
+
+@media (max-width: 768px) {
+    body.id-759 .pp-map-known .pp-map-note {
+        display: block !important;
+        max-width: 320px !important;
+        margin: 34px auto 0 !important;
+        padding: 14px 20px !important;
+        border-radius: 24px !important;
+        line-height: 1.55 !important;
+    }
+}
