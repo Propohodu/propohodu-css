@@ -3150,12 +3150,12 @@ body.id-759 .pp-map-stars {
 }
 
 body.id-759 .pp-map-branch {
-    width: 110px !important;
-    height: 110px !important;
+    width: 135px !important;
+    height: 135px !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    opacity: .78 !important;
+    opacity: .82 !important;
     pointer-events: none !important;
 }
 
