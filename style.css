@@ -3281,3 +3281,8 @@ body.id-759 .pp-map-known .pp-map-note strong {
         line-height: 1.55 !important;
     }
 }
+/* Možná to znáš - jemně vzdušnější text */
+
+body.id-759 .pp-map-known-grid p {
+    line-height: 1.6;
+}
