@@ -3286,19 +3286,40 @@ body.id-759 .pp-map-known .pp-map-note strong {
 body.id-759 .pp-map-known-grid p {
     line-height: 1.6;
 }
-/* ===== HOMEPAGE HERO – PREMIUM SPLYNUTÍ OBRÁZKU ===== */
+/* ===== HOMEPAGE HERO – OBRÁZEK JAKO SOUČÁST POZADÍ ===== */
 
 @media (min-width: 769px) {
+
+    .prop-homepage-new .prop-hero-content {
+        position: relative !important;
+        overflow: hidden !important;
+    }
+
+    .prop-homepage-new .prop-hero-text {
+        position: relative !important;
+        z-index: 2 !important;
+    }
+
     .prop-homepage-new .prop-hero-image {
-        overflow: visible !important;
+        position: absolute !important;
+        top: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        width: 78% !important;
+        height: 100% !important;
+        margin: 0 !important;
+        z-index: 1 !important;
+        overflow: hidden !important;
         justify-content: flex-end !important;
-       margin-right: -70px !important;
     }
 
     .prop-homepage-new .prop-hero-image img {
-        width: 230% !important;
+        width: 100% !important;
+        height: 100% !important;
         max-width: none !important;
-        margin-right: -135px !important;
+        object-fit: cover !important;
+        object-position: right center !important;
+
         opacity: .95 !important;
         mix-blend-mode: multiply !important;
         filter: brightness(1.02) contrast(.98) saturate(.98) !important;
@@ -3306,16 +3327,17 @@ body.id-759 .pp-map-known-grid p {
         -webkit-mask-image: linear-gradient(
             to right,
             transparent 0%,
-            rgba(0,0,0,.25) 8%,
-            rgba(0,0,0,.75) 18%,
-            #000 34%
+            rgba(0,0,0,.25) 10%,
+            rgba(0,0,0,.75) 22%,
+            #000 38%
         ) !important;
+
         mask-image: linear-gradient(
             to right,
             transparent 0%,
-            rgba(0,0,0,.25) 8%,
-            rgba(0,0,0,.75) 18%,
-            #000 34%
+            rgba(0,0,0,.25) 10%,
+            rgba(0,0,0,.75) 22%,
+            #000 38%
         ) !important;
     }
 }
