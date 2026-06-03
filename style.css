@@ -3043,3 +3043,16 @@ body.id-759 article.pageArticleDetail > header {
 .pp-map-known-grid p {
     margin-top: 0 !important;
 }
+/* ===== MAPA – SKRYTÍ ŠEDÝCH KOLEČEK V SEKCI MOŽNÁ TO ZNÁŠ ===== */
+
+body.id-759 .pp-map-known-grid .pp-map-circle.pp-map-svg-circle {
+    display: none !important;
+}
+
+body.id-759 .pp-map-known-grid > div > div:first-child {
+    display: none !important;
+}
+
+body.id-759 .pp-map-known-grid {
+    margin-top: 24px !important;
+}
