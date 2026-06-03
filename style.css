@@ -3193,3 +3193,63 @@ body.id-759 .pp-map-branch-right img {
     }
 
 }
+/* ===== MAPA – SPODNÍ BENEFITY PREMIUM DOLADĚNÍ ===== */
+
+body.id-759 .pp-map-strip {
+    background: transparent !important;
+    border-top: 1px solid rgba(120,100,78,.08) !important;
+    margin-top: 54px !important;
+    padding: 32px 0 24px !important;
+}
+
+body.id-759 .pp-map-strip-item {
+    padding: 18px 30px !important;
+}
+
+body.id-759 .pp-map-strip-item:not(:last-child) {
+    border-right: 1px solid rgba(120,100,78,.07) !important;
+}
+
+body.id-759 .pp-map-strip-item .pp-svg-icon {
+    width: 54px !important;
+    height: 54px !important;
+    background: #eef2e9 !important;
+    color: #7a876f !important;
+    margin-bottom: 14px !important;
+}
+
+body.id-759 .pp-map-strip-item p {
+    color: #3f463f !important;
+    font-size: 16px !important;
+    line-height: 1.55 !important;
+    font-weight: 400 !important;
+}
+
+@media (max-width: 768px) {
+    body.id-759 .pp-map-strip {
+        margin-top: 42px !important;
+        padding: 22px 18px 18px !important;
+        border-top: 1px solid rgba(120,100,78,.08) !important;
+    }
+
+    body.id-759 .pp-map-strip-item {
+        padding: 18px 0 !important;
+        border-right: none !important;
+        border-bottom: 1px solid rgba(120,100,78,.07) !important;
+    }
+
+    body.id-759 .pp-map-strip-item:last-child {
+        border-bottom: none !important;
+    }
+
+    body.id-759 .pp-map-strip-item .pp-svg-icon {
+        width: 50px !important;
+        height: 50px !important;
+        margin-bottom: 12px !important;
+    }
+
+    body.id-759 .pp-map-strip-item p {
+        font-size: 15px !important;
+        line-height: 1.55 !important;
+    }
+}
