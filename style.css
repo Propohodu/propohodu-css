@@ -3296,10 +3296,10 @@ body.id-759 .pp-map-known-grid p {
     }
 
     .prop-homepage-new .prop-hero-image img {
-        width: 138% !important;
-        max-width: none !important;
-        margin-right: -40px !important;
-        mix-blend-mode: multiply !important;
-        opacity: .96 !important;
-    }
+    width: 165% !important;
+    max-width: none !important;
+    margin-right: -120px !important;
+    mix-blend-mode: multiply !important;
+    opacity: .96 !important;
+}
 }
