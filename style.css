@@ -3286,3 +3286,17 @@ body.id-759 .pp-map-known .pp-map-note strong {
 body.id-759 .pp-map-known-grid p {
     line-height: 1.6;
 }
+/* ===== HOMEPAGE HERO – VĚTŠÍ PRÉMIOVÝ OBRÁZEK DESKTOP ===== */
+
+@media (min-width: 769px) {
+    .prop-homepage-new .prop-hero-image {
+        overflow: visible !important;
+        justify-content: flex-end !important;
+    }
+
+    .prop-homepage-new .prop-hero-image img {
+        width: 118% !important;
+        max-width: none !important;
+        margin-right: -54px !important;
+    }
+}
