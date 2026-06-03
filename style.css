@@ -3067,3 +3067,31 @@ body.id-759 .pp-map-known-grid {
     margin-left: auto !important;
     margin-right: auto !important;
 }
+/* ===== MAPA – PREMIUM LINE IKONY V SEKCI CO V MAPĚ NAJDEŠ ===== */
+
+body.id-759 .pp-map-content-grid .pp-map-color-circle {
+    font-size: 0 !important;
+}
+
+body.id-759 .pp-map-content-grid .pp-map-color-circle svg {
+    width: 38px !important;
+    height: 38px !important;
+    display: block !important;
+    fill: none !important;
+    stroke: #173734 !important;
+    stroke-width: 1.55 !important;
+    stroke-linecap: round !important;
+    stroke-linejoin: round !important;
+}
+
+body.id-759 .pp-map-content-grid .pp-icon-leaf svg {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+@media (max-width: 768px) {
+    body.id-759 .pp-map-content-grid .pp-map-color-circle svg {
+        width: 32px !important;
+        height: 32px !important;
+    }
+}
