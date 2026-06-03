@@ -3031,7 +3031,8 @@ body.id-759 article.pageArticleDetail > header {
 }
 /* ===== MAPA – SEKCE MOŽNÁ TO ZNÁŠ BEZ IKON ===== */
 
-.pp-map-known-grid .pp-map-circle {
+.pp-map-known-grid .pp-map-circle,
+.pp-map-known-grid .pp-map-svg-circle {
     display: none !important;
 }
 
