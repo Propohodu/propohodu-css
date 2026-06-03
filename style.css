@@ -3320,7 +3320,7 @@ body.id-759 .pp-map-known-grid p {
 
         opacity: .99 !important;
         mix-blend-mode: multiply !important;
-        filter: brightness(.99) contrast(1.05) saturate(1.12) sepia(.05) !important;
+       filter: brightness(.99) contrast(1.05) saturate(1.18) sepia(.08) !important;
 
         -webkit-mask-image:
             linear-gradient(to right,
