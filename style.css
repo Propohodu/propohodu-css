@@ -2992,3 +2992,40 @@ body.id-759 article.pageArticleDetail > header {
     font-size: 29px !important;
   }
 }
+/* ===== MAPA FORMULÁŘ – OPRAVA ECOMAIL MOBIL ===== */
+
+@media (max-width: 768px) {
+  body.id-759 .pp-map-form-right,
+  body.id-759 .pp-map-form-right > div,
+  body.id-759 .pp-map-form-right div[id^="f-"],
+  body.id-759 .pp-map-form-right form {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 auto !important;
+    box-sizing: border-box !important;
+  }
+
+  body.id-759 .pp-map-form-right input[type="email"],
+  body.id-759 .pp-map-form-right input,
+  body.id-759 .pp-map-form-right button,
+  body.id-759 .pp-map-form-right .btn,
+  body.id-759 .pp-map-form-right [type="submit"] {
+    width: 100% !important;
+    max-width: 290px !important;
+    min-width: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+    box-sizing: border-box !important;
+  }
+
+  body.id-759 .pp-map-form-right button,
+  body.id-759 .pp-map-form-right [type="submit"] {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+}
