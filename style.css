@@ -3142,3 +3142,38 @@ body.id-759 .pp-icon-heart::before {
         height: 34px !important;
     }
 }
+/* ===== MAPA – VĚTVIČKY V CTA BLOKU ===== */
+
+body.id-759 .pp-map-flower,
+body.id-759 .pp-map-stars {
+    display: none !important;
+}
+
+body.id-759 .pp-map-branch {
+    width: 110px !important;
+    height: 110px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    opacity: .78 !important;
+    pointer-events: none !important;
+}
+
+body.id-759 .pp-map-branch img {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+}
+
+body.id-759 .pp-map-branch-right img {
+    transform: scaleX(-1) !important;
+}
+
+@media (max-width: 768px) {
+
+    body.id-759 .pp-map-branch {
+        width: 60px !important;
+        height: 60px !important;
+        opacity: .55 !important;
+    }
+}
