@@ -3299,8 +3299,8 @@ body.id-759 .pp-map-known-grid p {
         width: 205% !important;
         max-width: none !important;
         margin-right: -260px !important;
-        opacity: .88 !important;
+        opacity: .95 !important;
         mix-blend-mode: multiply !important;
-        filter: brightness(1.08) contrast(.92) saturate(.88) !important;
+        filter: brightness(1.02) contrast(.98) saturate(.98) !important;
     }
 }
