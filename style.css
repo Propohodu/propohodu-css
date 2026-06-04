@@ -3439,14 +3439,31 @@ body.id-759 .pp-map-known-grid p {
     }
 
 }
-/* ===== SJEDNOCENÍ POZADÍ CELÉHO WEBU ===== */
+/* ===== PROPOHODU – SJEDNOCENÍ ZÁKLADNÍHO POZADÍ WEBU ===== */
 
+html,
 body,
-#content,
+.overall-wrapper,
+#header,
+.header-top,
+.header-bottom,
+.header-top-wrapper,
+.navigation-wrapper,
 .content-wrapper,
 .content-wrapper-in,
-#wrapper,
-.overall-wrapper,
-.welcome-wrapper {
+#content {
     background: #f6ede1 !important;
+}
+
+/* Obsahové boxy necháváme bílé, aby zůstala čitelnost */
+.content-inner,
+.p-detail,
+.product,
+.products-block,
+.category-content,
+.cart-inner,
+.checkout-box,
+.order-summary,
+.footer {
+    background: #ffffff !important;
 }
