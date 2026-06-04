@@ -3537,5 +3537,5 @@ body:not(.type-index).type-articles-list h1,
 body:not(.type-index).type-articles h1,
 body:not(.type-index).type-news h1 {
     color: #5C5651 !important;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
 }
