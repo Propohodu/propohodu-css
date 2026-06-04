@@ -3467,3 +3467,57 @@ body:not(.type-index) .site-name {
     border-color: #7a876f !important;
     color: #ffffff !important;
 }
+/* ===== HOMEPAGE HERO – JEMNÉ ROZPUŠTĚNÍ HORNÍ HRANY OBRÁZKU ===== */
+
+@media (min-width: 769px) {
+
+    .prop-homepage-new .prop-hero-image img {
+        -webkit-mask-image:
+            linear-gradient(to right,
+                transparent 0%,
+                rgba(0,0,0,.12) 9%,
+                rgba(0,0,0,.72) 24%,
+                #000 40%,
+                #000 84%,
+                rgba(0,0,0,.85) 90%,
+                rgba(0,0,0,.55) 95%,
+                rgba(0,0,0,.18) 98%,
+                transparent 100%
+            ),
+            linear-gradient(to bottom,
+                transparent 0%,
+                rgba(0,0,0,.45) 5%,
+                rgba(0,0,0,.82) 10%,
+                #000 16%,
+                #000 96%,
+                rgba(0,0,0,.90) 99%,
+                transparent 100%
+            ) !important;
+
+        -webkit-mask-composite: source-in !important;
+
+        mask-image:
+            linear-gradient(to right,
+                transparent 0%,
+                rgba(0,0,0,.12) 9%,
+                rgba(0,0,0,.72) 24%,
+                #000 40%,
+                #000 84%,
+                rgba(0,0,0,.85) 90%,
+                rgba(0,0,0,.55) 95%,
+                rgba(0,0,0,.18) 98%,
+                transparent 100%
+            ),
+            linear-gradient(to bottom,
+                transparent 0%,
+                rgba(0,0,0,.45) 5%,
+                rgba(0,0,0,.82) 10%,
+                #000 16%,
+                #000 96%,
+                rgba(0,0,0,.90) 99%,
+                transparent 100%
+            ) !important;
+
+        mask-composite: intersect !important;
+    }
+}
