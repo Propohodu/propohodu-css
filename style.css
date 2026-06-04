@@ -3395,3 +3395,25 @@ body.id-759 .pp-map-known-grid p {
         background: #f6ede1 !important;
     }
 }
+/* ===== HOMEPAGE – SJEDNOCENÍ HLAVIČKY S HERO POZADÍM ===== */
+
+@media (min-width: 769px) {
+
+    body.type-index {
+        background: #f6ede1 !important;
+    }
+
+    body.type-index #header,
+    body.type-index header,
+    body.type-index .header,
+    body.type-index .header-top,
+    body.type-index .header-top-wrapper,
+    body.type-index .navigation-wrapper,
+    body.type-index .overall-wrapper {
+        background: #f6ede1 !important;
+    }
+
+    body.type-index :is(.header, header#header, header.site-header)::after {
+        background: #f6ede1 !important;
+    }
+}
