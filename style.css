@@ -3384,3 +3384,14 @@ body.id-759 .pp-map-known-grid p {
         background: #f6ede1 !important;
     }
 }
+/* ===== HOMEPAGE – BARVA POZADÍ HLAVIČKY NAVAZUJÍCÍ NA HERO ===== */
+
+@media (min-width: 769px) {
+
+    body.type-index #header,
+    body.type-index #header .header-top,
+    body.type-index #header .header-top-wrapper,
+    body.type-index .navigation-wrapper {
+        background: #f6ede1 !important;
+    }
+}
