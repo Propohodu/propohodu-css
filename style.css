@@ -3539,3 +3539,20 @@ body:not(.type-index).type-news h1 {
     color: #5C5651 !important;
     font-weight: 500 !important;
 }
+/* ===== HOMEPAGE MOBIL – SJEDNOCENÍ POZADÍ HLAVIČKY A MENU ===== */
+
+@media (max-width: 768px) {
+
+    body.type-index #header,
+    body.type-index #header .header-top,
+    body.type-index #header .header-top-wrapper,
+    body.type-index #header .header-bottom,
+    body.type-index #header .navigation-wrapper,
+    body.type-index #header .navigation-in,
+    body.type-index #header .navigation-window,
+    body.type-index .navigation-window,
+    body.type-index .navigation-in,
+    body.type-index .menu-level-1 {
+        background: #f6ede1 !important;
+    }
+}
