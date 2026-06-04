@@ -3286,7 +3286,7 @@ body.id-759 .pp-map-known .pp-map-note strong {
 body.id-759 .pp-map-known-grid p {
     line-height: 1.6;
 }
-/* ===== HOMEPAGE HERO – OBRÁZEK BEZ VIDITELNÝCH HRAN ===== */
+/* ===== HOMEPAGE HERO – OBRÁZEK JAKO POZADÍ, VÍCE NAHORU ===== */
 
 @media (min-width: 769px) {
 
@@ -3294,18 +3294,21 @@ body.id-759 .pp-map-known-grid p {
         position: relative !important;
         overflow: hidden !important;
         background: #f6ede1 !important;
+        min-height: 620px !important;
     }
 
     .prop-homepage-new .prop-hero-text {
         position: relative !important;
-        z-index: 2 !important;
+        z-index: 3 !important;
     }
 
     .prop-homepage-new .prop-hero-image {
         position: absolute !important;
-        inset: 0 !important;
+        top: -55px !important;
+        right: 0 !important;
+        bottom: 0 !important;
         width: 100% !important;
-        height: 100% !important;
+        height: calc(100% + 55px) !important;
         margin: 0 !important;
         z-index: 1 !important;
         overflow: hidden !important;
@@ -3316,7 +3319,7 @@ body.id-759 .pp-map-known-grid p {
         height: 100% !important;
         max-width: none !important;
         object-fit: cover !important;
-        object-position: 88% center !important;
+        object-position: 88% top !important;
 
         opacity: .99 !important;
         mix-blend-mode: multiply !important;
@@ -3336,8 +3339,8 @@ body.id-759 .pp-map-known-grid p {
             ),
             linear-gradient(to bottom,
                 #000 0%,
-                #000 94%,
-                rgba(0,0,0,.90) 98%,
+                #000 96%,
+                rgba(0,0,0,.90) 99%,
                 transparent 100%
             );
 
@@ -3357,8 +3360,8 @@ body.id-759 .pp-map-known-grid p {
             ),
             linear-gradient(to bottom,
                 #000 0%,
-                #000 94%,
-                rgba(0,0,0,.90) 98%,
+                #000 96%,
+                rgba(0,0,0,.90) 99%,
                 transparent 100%
             );
 
