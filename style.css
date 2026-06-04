@@ -3523,3 +3523,19 @@ body:not(.type-index) .site-name {
         mask-composite: intersect !important;
     }
 }
+/* ===== PROPOHODU – SJEDNOCENÍ HLAVNÍCH NADPISŮ MIMO HOMEPAGE ===== */
+
+body:not(.type-index) .category-title,
+body:not(.type-index) .sectionDescription h1,
+body:not(.type-index) .content-inner .sectionDescription h1,
+body:not(.type-index) #content .sectionDescription h1,
+body:not(.type-index).type-category h1,
+body:not(.type-index).type-page h1,
+body:not(.type-index).type-blog h1,
+body:not(.type-index).type-article h1,
+body:not(.type-index).type-articles-list h1,
+body:not(.type-index).type-articles h1,
+body:not(.type-index).type-news h1 {
+    color: #5C5651 !important;
+    font-weight: 600 !important;
+}
