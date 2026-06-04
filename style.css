@@ -3439,3 +3439,14 @@ body.id-759 .pp-map-known-grid p {
     }
 
 }
+/* ===== SJEDNOCENÍ POZADÍ CELÉHO WEBU ===== */
+
+body,
+#content,
+.content-wrapper,
+.content-wrapper-in,
+#wrapper,
+.overall-wrapper,
+.welcome-wrapper {
+    background: #f6ede1 !important;
+}
