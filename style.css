@@ -3439,31 +3439,16 @@ body.id-759 .pp-map-known-grid p {
     }
 
 }
-/* ===== PROPOHODU – SJEDNOCENÍ ZÁKLADNÍHO POZADÍ WEBU ===== */
+/* ===== TEST – POZADÍ HLAVNÍCH STRÁNEK PROPOHODU ===== */
 
-html,
-body,
-.overall-wrapper,
-#header,
-.header-top,
-.header-bottom,
-.header-top-wrapper,
-.navigation-wrapper,
-.content-wrapper,
-.content-wrapper-in,
-#content {
+body:not(.type-index) .overall-wrapper,
+body:not(.type-index) #header,
+body:not(.type-index) .header-top,
+body:not(.type-index) .header-bottom,
+body:not(.type-index) .header-top-wrapper,
+body:not(.type-index) .navigation-wrapper,
+body:not(.type-index) .content-wrapper,
+body:not(.type-index) .content-wrapper-in,
+body:not(.type-index) #content {
     background: #f6ede1 !important;
-}
-
-/* Obsahové boxy necháváme bílé, aby zůstala čitelnost */
-.content-inner,
-.p-detail,
-.product,
-.products-block,
-.category-content,
-.cart-inner,
-.checkout-box,
-.order-summary,
-.footer {
-    background: #ffffff !important;
 }
