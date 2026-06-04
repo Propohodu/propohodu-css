@@ -3417,3 +3417,16 @@ body.id-759 .pp-map-known-grid p {
         background: #f6ede1 !important;
     }
 }
+/* HOMEPAGE – pozadí pod menu */
+
+@media (min-width: 769px) {
+
+    body.type-index .header-bottom,
+    body.type-index .navigation-wrapper,
+    body.type-index nav#navigation,
+    body.type-index .navigation-in,
+    body.type-index .menu-level-1 {
+        background: #f6ede1 !important;
+    }
+
+}
