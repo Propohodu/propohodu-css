@@ -3451,3 +3451,19 @@ body:not(.type-index) .navigation-in,
 body:not(.type-index) .site-name {
     background: #f6ede1 !important;
 }
+/* ===== PRODUKTOVÝ VÝPIS – TLAČÍTKO DETAIL ===== */
+/* Mění jen tlačítko Detail u produktů ve výpisu. Košíku se nedotýká. */
+
+.products-block > div .p .p-in .p-bottom > div .p-tools a.btn.btn-primary {
+    background: #ffffff !important;
+    border: 1px solid #7a876f !important;
+    color: #7a876f !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+}
+
+.products-block > div .p .p-in .p-bottom > div .p-tools a.btn.btn-primary:hover {
+    background: #7a876f !important;
+    border-color: #7a876f !important;
+    color: #ffffff !important;
+}
