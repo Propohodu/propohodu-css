@@ -3439,3 +3439,15 @@ body.id-759 .pp-map-known-grid p {
     }
 
 }
+/* ===== SJEDNOCENÍ HLAVIČKY MIMO HOMEPAGE ===== */
+
+body:not(.type-index) #header,
+body:not(.type-index) .header-top,
+body:not(.type-index) .header-bottom,
+body:not(.type-index) .header-top-wrapper,
+body:not(.type-index) .header-bottom-wrapper,
+body:not(.type-index) .navigation-wrapper,
+body:not(.type-index) .navigation-in,
+body:not(.type-index) .site-name {
+    background: #f6ede1 !important;
+}
