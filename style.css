@@ -3368,3 +3368,19 @@ body.id-759 .pp-map-known-grid p {
         mask-composite: intersect;
     }
 }
+/* ===== DESKTOP HOMEPAGE – ODSTRANĚNÍ PÁSU MEZI MENU A HERO ===== */
+
+@media (min-width: 769px) {
+
+    body.type-index .welcome-wrapper {
+        padding-top: 0 !important;
+        background: #f6ede1 !important;
+    }
+
+    body.type-index .content-wrapper,
+    body.type-index .content-wrapper-in,
+    body.type-index main.content,
+    body.type-index .content-wide {
+        background: #f6ede1 !important;
+    }
+}
