@@ -3430,3 +3430,12 @@ body.id-759 .pp-map-known-grid p {
     }
 
 }
+/* HOMEPAGE – sjednocení levého pásu hero s béžovým pozadím */
+
+@media (min-width: 769px) {
+
+    body.type-index .prop-homepage-new .prop-hero-new {
+        background: #f6ede1 !important;
+    }
+
+}
