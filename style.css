@@ -3566,3 +3566,28 @@ body:not(.type-index).type-news h1 {
     }
 
 }
+/* ===== H1 v článcích ===== */
+
+body.type-article h1,
+body.type-article .h1 {
+    font-family: "Poppins", sans-serif !important;
+    font-size: clamp(34px, 4vw, 54px) !important;
+    line-height: 1.12 !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.02em !important;
+    color: #2f3f31 !important;
+    text-align: center !important;
+    max-width: 900px !important;
+    margin: 32px auto 24px !important;
+    text-wrap: balance;
+}
+
+@media (max-width: 768px) {
+    body.type-article h1,
+    body.type-article .h1 {
+        font-size: 28px !important;
+        line-height: 1.15 !important;
+        max-width: 92% !important;
+        margin: 24px auto 20px !important;
+    }
+}
