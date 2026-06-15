@@ -3568,10 +3568,10 @@ body:not(.type-index).type-news h1 {
 }
 /* ===== ČLÁNKY – HLAVNÍ NADPIS H1 FINAL ===== */
 
-body.type-article article header h1,
-body.type-article .news-item-detail h1,
-body.type-article .content-inner h1,
-body.type-article #content h1 {
+main#content article header h1,
+#content article header h1,
+.content-inner article header h1,
+h1[data-testid="textArticleTitle"] {
     max-width: 900px !important;
     margin: 32px auto 26px !important;
     text-align: center !important;
@@ -3584,10 +3584,10 @@ body.type-article #content h1 {
 }
 
 @media (max-width: 768px) {
-    body.type-article article header h1,
-    body.type-article .news-item-detail h1,
-    body.type-article .content-inner h1,
-    body.type-article #content h1 {
+    main#content article header h1,
+    #content article header h1,
+    .content-inner article header h1,
+    h1[data-testid="textArticleTitle"] {
         font-size: 28px !important;
         line-height: 1.15 !important;
         max-width: 92% !important;
