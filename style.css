@@ -3614,3 +3614,151 @@ body:has(.pp-page-hero) article > img[src*="osamele_materstvi_pod_2mb"],
 body:has(.pp-page-hero) article > p:has(> img[src*="osamele_materstvi_pod_2mb"]) {
   display: none !important;
 }
+/* ===== PROPOHODU ČLÁNEK – MAGAZÍNOVÉ DOLADĚNÍ HERO ===== */
+
+body:has(.pp-page-hero) .pp-page-hero {
+  max-width: 1180px !important;
+  width: calc(100vw - 80px) !important;
+  margin-top: 28px !important;
+  margin-bottom: 56px !important;
+  border-radius: 28px !important;
+  background: linear-gradient(90deg, #fff4e8 0%, #fff1e5 42%, #f7eee6 62%, #eef5e9 100%) !important;
+  box-shadow: 0 22px 55px rgba(70,55,42,0.07) !important;
+}
+
+body:has(.pp-page-hero) .pp-page-hero-inner {
+  min-height: 365px !important;
+  grid-template-columns: 0.95fr 1.05fr !important;
+}
+
+body:has(.pp-page-hero) .pp-page-hero-content {
+  padding: 48px 38px 44px 46px !important;
+}
+
+body:has(.pp-page-hero) .pp-page-hero-title {
+  max-width: 500px !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: clamp(38px, 4vw, 56px) !important;
+  line-height: 1.08 !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.035em !important;
+  color: #284f38 !important;
+}
+
+body:has(.pp-page-hero) .pp-page-hero-text {
+  max-width: 500px !important;
+  font-size: 16px !important;
+  line-height: 1.68 !important;
+}
+
+body:has(.pp-page-hero) .pp-page-hero-badge {
+  padding: 7px 13px !important;
+  font-size: 11px !important;
+  background: #f8e7e2 !important;
+  color: #c67b68 !important;
+}
+
+body:has(.pp-page-hero) .pp-page-hero-image,
+body:has(.pp-page-hero) .pp-page-hero-image img {
+  min-height: 365px !important;
+}
+
+body:has(.pp-page-hero) .pp-page-hero-image img {
+  object-position: center right !important;
+  filter: sepia(0.12) saturate(0.82) brightness(1.15) contrast(0.92) !important;
+}
+
+body:has(.pp-page-hero) .pp-page-hero-image::before {
+  background: linear-gradient(
+    90deg,
+    #fff1e2 0%,
+    rgba(255,241,226,0.96) 10%,
+    rgba(255,241,226,0.74) 26%,
+    rgba(255,241,226,0.28) 48%,
+    rgba(255,241,226,0) 74%
+  ) !important;
+}
+
+body:has(.pp-page-hero) .pp-page-hero-blob {
+  left: -92px !important;
+  top: 96px !important;
+  opacity: 0.58 !important;
+  transform: rotate(24deg) scale(0.92) !important;
+}
+
+body:has(.pp-page-hero) .pp-page-hero-deco {
+  width: 96px !important;
+  height: 96px !important;
+  right: 24px !important;
+  bottom: 18px !important;
+  opacity: 0.72 !important;
+}
+
+body:has(.pp-page-hero) .pp-reader-note {
+  max-width: 720px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Mobil */
+@media (max-width: 768px) {
+  body:has(.pp-page-hero) .pp-page-hero {
+    width: calc(100vw - 28px) !important;
+    margin-top: 16px !important;
+    margin-bottom: 34px !important;
+    border-radius: 24px !important;
+  }
+
+  body:has(.pp-page-hero) .pp-page-hero-inner {
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: auto !important;
+  }
+
+  body:has(.pp-page-hero) .pp-page-hero-image {
+    order: -1 !important;
+    min-height: 245px !important;
+  }
+
+  body:has(.pp-page-hero) .pp-page-hero-image img {
+    min-height: 245px !important;
+    object-position: center center !important;
+  }
+
+  body:has(.pp-page-hero) .pp-page-hero-image::before {
+    background: linear-gradient(
+      0deg,
+      #fff1e2 0%,
+      rgba(255,241,226,0.86) 20%,
+      rgba(255,241,226,0.18) 58%,
+      rgba(255,241,226,0) 100%
+    ) !important;
+  }
+
+  body:has(.pp-page-hero) .pp-page-hero-content {
+    padding: 28px 22px 30px 22px !important;
+  }
+
+  body:has(.pp-page-hero) .pp-page-hero-title {
+    font-size: 36px !important;
+    line-height: 1.08 !important;
+    max-width: 100% !important;
+  }
+
+  body:has(.pp-page-hero) .pp-page-hero-text {
+    font-size: 15px !important;
+    line-height: 1.65 !important;
+    max-width: 100% !important;
+  }
+
+  body:has(.pp-page-hero) .pp-page-hero-blob {
+    left: -58px !important;
+    top: 225px !important;
+    opacity: 0.42 !important;
+  }
+
+  body:has(.pp-page-hero) .pp-page-hero-deco {
+    width: 72px !important;
+    height: 72px !important;
+  }
+}
