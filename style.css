@@ -3594,3 +3594,23 @@ h1[data-testid="textArticleTitle"] {
         margin: 24px auto 20px !important;
     }
 }
+/* ===== PROPOHODU ČLÁNEK – FIX HERO FOTKY VPRAVO ===== */
+/* Schová výchozí Shoptet nadpis a výchozí horní obrázek jen u článků,
+   kde je vložený vlastní blok .pp-page-hero. */
+
+body:has(.pp-page-hero) main#content > h1,
+body:has(.pp-page-hero) #content > h1,
+body:has(.pp-page-hero) .content-inner > h1,
+body:has(.pp-page-hero) article > header h1,
+body:has(.pp-page-hero) h1[data-testid="textArticleTitle"] {
+  display: none !important;
+}
+
+body:has(.pp-page-hero) #content > img[src*="osamele_materstvi_pod_2mb"],
+body:has(.pp-page-hero) #content > p:has(> img[src*="osamele_materstvi_pod_2mb"]),
+body:has(.pp-page-hero) .content-inner > img[src*="osamele_materstvi_pod_2mb"],
+body:has(.pp-page-hero) .content-inner > p:has(> img[src*="osamele_materstvi_pod_2mb"]),
+body:has(.pp-page-hero) article > img[src*="osamele_materstvi_pod_2mb"],
+body:has(.pp-page-hero) article > p:has(> img[src*="osamele_materstvi_pod_2mb"]) {
+  display: none !important;
+}
