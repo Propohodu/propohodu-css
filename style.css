@@ -3816,3 +3816,52 @@ body:has(.pp-page-hero) .pp-reader-note {
     bottom: 10px !important;
   }
 }
+/* ===== PROPOHODU ČLÁNEK – ZJEMNĚNÍ BOXŮ POD HERO ===== */
+
+body:has(.pp-page-hero) .pp-reader-note {
+  max-width: 760px !important;
+  background: #fbf8f3 !important;
+  border: 1px solid rgba(120, 98, 78, 0.10) !important;
+  box-shadow: 0 16px 36px rgba(70, 55, 42, 0.045) !important;
+  border-radius: 22px !important;
+  padding: 22px 26px !important;
+}
+
+body:has(.pp-page-hero) .pp-reader-note p {
+  font-size: 16px !important;
+  line-height: 1.68 !important;
+  color: #3f3a34 !important;
+}
+
+body:has(.pp-page-hero) .pp-reader-note::after {
+  color: #9caf8f !important;
+  opacity: 0.55 !important;
+}
+
+body:has(.pp-page-hero) .pp-hero-card {
+  background: #fbf8f3 !important;
+  border: 1px solid rgba(120, 98, 78, 0.11) !important;
+  box-shadow: 0 18px 42px rgba(70, 55, 42, 0.045) !important;
+  border-radius: 24px !important;
+}
+
+body:has(.pp-page-hero) .pp-hero-card::before {
+  border-color: rgba(255,255,255,0.65) !important;
+}
+
+body:has(.pp-page-hero) .pp-hero-card::after {
+  opacity: 0.28 !important;
+  background: radial-gradient(circle, rgba(166, 194, 145, 0.26) 0%, rgba(166, 194, 145, 0) 70%) !important;
+}
+
+body:has(.pp-page-hero) .pp-lead-line {
+  color: #3f372f !important;
+}
+
+@media (max-width: 768px) {
+  body:has(.pp-page-hero) .pp-reader-note,
+  body:has(.pp-page-hero) .pp-hero-card {
+    border-radius: 20px !important;
+    padding: 21px 19px !important;
+  }
+}
