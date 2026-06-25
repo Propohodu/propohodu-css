@@ -3937,3 +3937,48 @@ body:has(.pp-page-hero) .pp-mini-list p:nth-child(4) {
   background: #f6f8f2 !important;
   border-color: rgba(156, 175, 143, 0.20) !important;
 }
+/* ===== PROPOHODU ČLÁNEK – MOBILNÍ DOLADĚNÍ ===== */
+
+@media (max-width: 768px) {
+  body:has(.pp-page-hero) .pp-page-hero {
+    margin-top: 12px !important;
+    margin-bottom: 30px !important;
+  }
+
+  body:has(.pp-page-hero) .pp-page-hero-title {
+    font-size: 36px !important;
+    line-height: 1.04 !important;
+  }
+
+  body:has(.pp-page-hero) .pp-reader-note {
+    margin-bottom: 26px !important;
+  }
+
+  body:has(.pp-page-hero) .pp-hero-card,
+  body:has(.pp-page-hero) .pp-reader-note,
+  body:has(.pp-page-hero) .pp-cta,
+  body:has(.pp-page-hero) .pp-final-box,
+  body:has(.pp-page-hero) .pp-soft-card {
+    box-shadow: 0 10px 24px rgba(70,55,42,0.035) !important;
+  }
+
+  body:has(.pp-page-hero) .pp-cta {
+    text-align: left !important;
+  }
+
+  body:has(.pp-page-hero) .pp-cta .pp-cta-title {
+    font-size: 20px !important;
+  }
+
+  body:has(.pp-page-hero) .pp-button {
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: center !important;
+  }
+
+  body:has(.pp-page-hero) .pp-article-wrap h2 {
+    font-size: 24px !important;
+    line-height: 1.28 !important;
+    margin-top: 48px !important;
+  }
+}
