@@ -3865,3 +3865,44 @@ body:has(.pp-page-hero) .pp-lead-line {
     padding: 21px 19px !important;
   }
 }
+/* ===== PROPOHODU ČLÁNEK – PROFESIONÁLNĚJŠÍ CTA BOX ===== */
+
+body:has(.pp-page-hero) .pp-cta {
+  background: #fbf8f3 !important;
+  border: 1px solid rgba(120, 98, 78, 0.12) !important;
+  box-shadow: 0 14px 34px rgba(70, 55, 42, 0.045) !important;
+  border-radius: 24px !important;
+  padding: 34px 32px !important;
+}
+
+body:has(.pp-page-hero) .pp-cta .pp-cta-title {
+  font-size: 22px !important;
+  color: #3f372f !important;
+}
+
+body:has(.pp-page-hero) .pp-cta .pp-cta-text {
+  max-width: 620px !important;
+  font-size: 16px !important;
+  line-height: 1.7 !important;
+  color: #3f3a34 !important;
+}
+
+body:has(.pp-page-hero) .pp-button {
+  background: #7f956f !important;
+  box-shadow: 0 10px 22px rgba(112,137,99,0.18) !important;
+  padding: 12px 26px !important;
+  min-height: 44px !important;
+  border-radius: 999px !important;
+  font-size: 15px !important;
+}
+
+body:has(.pp-page-hero) .pp-button:hover {
+  background: #6f8562 !important;
+}
+
+@media (max-width: 768px) {
+  body:has(.pp-page-hero) .pp-cta {
+    padding: 28px 20px !important;
+    border-radius: 22px !important;
+  }
+}
