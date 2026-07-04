@@ -4368,3 +4368,68 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
     rgba(252, 248, 243, 0) 100%
   ) !important;
 }
+/* ===== PP2 HERO – světlejší hero + větvička uprostřed ===== */
+
+.pp2-article .pp2-hero {
+  background: linear-gradient(
+    90deg,
+    #fcf8f3 0%,
+    #fcf8f3 56%,
+    #f8f6ef 78%,
+    #eef3ea 100%
+  ) !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.pp2-article .pp2-hero-image::before {
+  background: linear-gradient(
+    90deg,
+    #fcf8f3 0%,
+    rgba(252, 248, 243, 0.96) 18%,
+    rgba(252, 248, 243, 0.72) 36%,
+    rgba(252, 248, 243, 0.28) 57%,
+    rgba(252, 248, 243, 0.02) 78%,
+    rgba(252, 248, 243, 0) 100%
+  ) !important;
+}
+
+.pp2-article .pp2-hero-image img {
+  filter: sepia(0.08) saturate(0.84) brightness(1.18) contrast(0.9) !important;
+}
+
+/* odstranění svislé čáry uprostřed hero */
+.pp2-article .pp2-hero-inner::after,
+.pp2-article .pp2-hero::after {
+  display: none !important;
+}
+
+/* větvička uprostřed hero */
+.pp2-article .pp2-hero-divider-leaf {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 86px;
+  height: 140px;
+  opacity: 0.32;
+  z-index: 3;
+  pointer-events: none;
+  background-color: #8fa180;
+
+  -webkit-mask-image: url("https://www.propohodu.com/user/documents/upload/ikonka_lepsi.png");
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+
+  mask-image: url("https://www.propohodu.com/user/documents/upload/ikonka_lepsi.png");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+@media (max-width: 768px) {
+  .pp2-article .pp2-hero-divider-leaf {
+    display: none !important;
+  }
+}
