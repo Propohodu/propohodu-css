@@ -4341,3 +4341,30 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
     background: linear-gradient(0deg, #fff1e2 0%, rgba(255,241,226,0.82) 20%, rgba(255,241,226,0) 64%) !important;
   }
 }
+/* ===== PP2 HERO – sjednocení barvy s článkem o osamělém mateřství ===== */
+
+.pp2-article .pp2-hero {
+  background: linear-gradient(
+    90deg,
+    #fcf8f3 0%,
+    #fcf8f3 56%,
+    #f8f6ef 78%,
+    #eef3ea 100%
+  ) !important;
+}
+
+.pp2-article .pp2-hero-image img {
+  filter: sepia(0.08) saturate(0.84) brightness(1.18) contrast(0.9) !important;
+}
+
+.pp2-article .pp2-hero-image::before {
+  background: linear-gradient(
+    90deg,
+    #fcf8f3 0%,
+    rgba(252, 248, 243, 0.96) 18%,
+    rgba(252, 248, 243, 0.72) 36%,
+    rgba(252, 248, 243, 0.28) 57%,
+    rgba(252, 248, 243, 0.02) 78%,
+    rgba(252, 248, 243, 0) 100%
+  ) !important;
+}
