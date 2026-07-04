@@ -4275,3 +4275,69 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
 
   .pp2-related-title { max-width:92%; }
 }
+/* ======================================================
+   PROPOHODU ARTICLE SYSTEM v2 – OPRAVA HERO + TEXTOVÝCH BOXŮ
+   Přidat úplně na konec GitHub raw CSS.
+   Ovlivní pouze nové články s třídou .pp2-article.
+   Starších článků se nedotkne.
+====================================================== */
+
+/* HERO – sjednocení s článkem o osamělém mateřství */
+.pp2-article .pp2-hero {
+  background: linear-gradient(90deg, #fff4e7 0%, #fff0e1 39%, #f8eee4 56%, #eef4e8 100%) !important;
+  border: 1px solid rgba(204, 145, 105, 0.18) !important;
+  box-shadow: 0 22px 55px rgba(70,55,42,0.08) !important;
+}
+
+.pp2-article .pp2-hero-image::before {
+  background: linear-gradient(90deg, #fff1e2 0%, rgba(255,241,226,0.88) 14%, rgba(255,241,226,0.34) 38%, rgba(255,241,226,0) 68%) !important;
+}
+
+.pp2-article .pp2-badge {
+  background: #f8e7e2 !important;
+  color: #c67b68 !important;
+}
+
+/* TEXTOVÉ BOXY – jemnější, papírovější vzhled bez zeleno-žlutých fleků */
+.pp2-article .pp2-reader-note,
+.pp2-article .pp2-hero-card,
+.pp2-article .pp2-soft-box,
+.pp2-article .pp2-final-box,
+.pp2-article .pp2-cta {
+  background: linear-gradient(135deg, #fbf8f3 0%, #f8f4ed 100%) !important;
+  border: 1px solid rgba(110, 95, 78, 0.12) !important;
+  box-shadow: 0 12px 30px rgba(70,55,42,0.045) !important;
+}
+
+/* Vnitřní jemný rámeček u úvodního boxu zůstává, ale bez barevné bubliny */
+.pp2-article .pp2-hero-card::before {
+  border: 1px solid rgba(255,255,255,0.62) !important;
+}
+
+/* Pryč ta divná zeleno-béžová bublina vpravo dole */
+.pp2-article .pp2-hero-card::after,
+.pp2-article .pp2-final-box::after,
+.pp2-article .pp2-soft-box::after {
+  display: none !important;
+  content: none !important;
+  background: none !important;
+}
+
+/* Quote box – stejný jemný tón, ale necháváme levý akcent */
+.pp2-article .pp2-quote {
+  background: linear-gradient(135deg, #fbf8f3 0%, #f8f4ed 100%) !important;
+  border-left-color: #c98f6b !important;
+  box-shadow: 0 12px 28px rgba(70,55,42,0.05) !important;
+}
+
+/* CTA benefit kartičky – méně syté, aby nelítaly barevně od zbytku */
+.pp2-article .pp2-cta-benefit {
+  background: rgba(255,255,255,0.58) !important;
+  border: 1px solid rgba(110,95,78,0.12) !important;
+}
+
+@media (max-width: 768px) {
+  .pp2-article .pp2-hero-image::before {
+    background: linear-gradient(0deg, #fff1e2 0%, rgba(255,241,226,0.82) 20%, rgba(255,241,226,0) 64%) !important;
+  }
+}
