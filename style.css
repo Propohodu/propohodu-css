@@ -4851,43 +4851,89 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
   height: auto !important;
   opacity: 0.9 !important;
 }
-/* ===== PP2 HERO – odstranění dělící čáry + větší větvička ===== */
+/* ===== PP2 HERO – FINAL PREMIUM HERO bez čáry + větvička mezi textem a fotkou ===== */
 
 .pp2-article .pp2-hero,
 .pp2-article .pp2-hero-inner,
 .pp2-article .pp2-hero-content,
 .pp2-article .pp2-hero-divider-leaf,
 .pp2-article .pp2-hero-image {
+  border: 0 !important;
   border-left: 0 !important;
   border-right: 0 !important;
-  border: 0 !important;
   box-shadow: none !important;
 }
 
-.pp2-article .pp2-hero-inner::before,
-.pp2-article .pp2-hero-inner::after,
-.pp2-article .pp2-hero-content::before,
-.pp2-article .pp2-hero-content::after,
-.pp2-article .pp2-hero-image::before,
-.pp2-article .pp2-hero-image::after,
-.pp2-article .pp2-hero-divider-leaf::before,
-.pp2-article .pp2-hero-divider-leaf::after {
-  display: none !important;
-  content: none !important;
-  border: 0 !important;
-  background: none !important;
+.pp2-article .pp2-hero-inner {
+  grid-template-columns: minmax(0, 1fr) 120px minmax(0, 1fr) !important;
+  column-gap: 0 !important;
+}
+
+.pp2-article .pp2-hero-content {
+  padding-right: 26px !important;
 }
 
 .pp2-article .pp2-hero-divider-leaf {
-  min-width: 190px !important;
+  min-width: 120px !important;
+  width: 120px !important;
+  margin-left: -34px !important;
+  margin-right: 14px !important;
   background: transparent !important;
+  z-index: 8 !important;
+  overflow: visible !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .pp2-article .pp2-hero-divider-leaf img {
   width: auto !important;
-  height: 280px !important;
-  max-height: 280px !important;
+  height: 330px !important;
+  max-height: 330px !important;
   max-width: none !important;
   display: block !important;
-  opacity: 0.9 !important;
+  opacity: 0.88 !important;
+  transform: translateX(-18px) !important;
+}
+
+.pp2-article .pp2-hero-image {
+  margin-left: -70px !important;
+}
+
+.pp2-article .pp2-hero-image::before {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  inset: 0 !important;
+  left: -110px !important;
+  z-index: 2 !important;
+  pointer-events: none !important;
+  background: linear-gradient(
+    90deg,
+    #fcf8f3 0%,
+    rgba(252, 248, 243, 0.98) 18%,
+    rgba(252, 248, 243, 0.78) 36%,
+    rgba(252, 248, 243, 0.38) 56%,
+    rgba(252, 248, 243, 0.10) 76%,
+    rgba(252, 248, 243, 0) 100%
+  ) !important;
+}
+
+@media (max-width: 760px) {
+  .pp2-article .pp2-hero-inner {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .pp2-article .pp2-hero-divider-leaf {
+    display: none !important;
+  }
+
+  .pp2-article .pp2-hero-image {
+    margin-left: 0 !important;
+  }
+
+  .pp2-article .pp2-hero-content {
+    padding-right: 22px !important;
+  }
 }
