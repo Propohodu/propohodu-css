@@ -4812,46 +4812,7 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
     ) !important;
   }
 }
-/* ===== PP2 HERO – odstranění čáry + větší větvička FINAL ===== */
-
-.pp2-article .pp2-hero-content,
-.pp2-article .pp2-hero-image,
-.pp2-article .pp2-hero-divider-leaf {
-  border: none !important;
-  border-left: none !important;
-  border-right: none !important;
-  box-shadow: none !important;
-}
-
-.pp2-article .pp2-hero-divider-leaf {
-  position: relative !important;
-  z-index: 10 !important;
-  background: #fcf8f3 !important;
-  min-width: 165px !important;
-}
-
-.pp2-article .pp2-hero-divider-leaf::before {
-  content: "" !important;
-  display: block !important;
-  position: absolute !important;
-  left: 50% !important;
-  top: 0 !important;
-  transform: translateX(-50%) !important;
-  width: 8px !important;
-  height: 100% !important;
-  background: #fcf8f3 !important;
-  z-index: 1 !important;
-}
-
-.pp2-article .pp2-hero-divider-leaf img {
-  position: relative !important;
-  z-index: 2 !important;
-  width: 150px !important;
-  max-width: 150px !important;
-  height: auto !important;
-  opacity: 0.9 !important;
-}
-/* ===== PP2 HERO – FINAL PREMIUM HERO bez čáry + větvička mezi textem a fotkou ===== */
+/* ===== PP2 HERO – FINÁLNÍ DOLADĚNÍ: bez čáry, větvička blíž středu ===== */
 
 .pp2-article .pp2-hero,
 .pp2-article .pp2-hero-inner,
@@ -4864,20 +4825,34 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
   box-shadow: none !important;
 }
 
+.pp2-article .pp2-hero-inner::before,
+.pp2-article .pp2-hero-inner::after,
+.pp2-article .pp2-hero-content::before,
+.pp2-article .pp2-hero-content::after,
+.pp2-article .pp2-hero-divider-leaf::before,
+.pp2-article .pp2-hero-divider-leaf::after,
+.pp2-article .pp2-hero-image::after {
+  display: none !important;
+  content: none !important;
+  border: 0 !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
 .pp2-article .pp2-hero-inner {
-  grid-template-columns: minmax(0, 1fr) 120px minmax(0, 1fr) !important;
+  grid-template-columns: minmax(0, 1fr) 138px minmax(0, 1fr) !important;
   column-gap: 0 !important;
 }
 
 .pp2-article .pp2-hero-content {
-  padding-right: 26px !important;
+  padding-right: 30px !important;
 }
 
 .pp2-article .pp2-hero-divider-leaf {
-  min-width: 120px !important;
-  width: 120px !important;
-  margin-left: -34px !important;
-  margin-right: 14px !important;
+  min-width: 138px !important;
+  width: 138px !important;
+  margin-left: -4px !important;
+  margin-right: 0 !important;
   background: transparent !important;
   z-index: 8 !important;
   overflow: visible !important;
@@ -4888,16 +4863,16 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
 
 .pp2-article .pp2-hero-divider-leaf img {
   width: auto !important;
-  height: 330px !important;
-  max-height: 330px !important;
+  height: 350px !important;
+  max-height: 350px !important;
   max-width: none !important;
   display: block !important;
-  opacity: 0.88 !important;
-  transform: translateX(-18px) !important;
+  opacity: 0.86 !important;
+  transform: translateX(8px) !important;
 }
 
 .pp2-article .pp2-hero-image {
-  margin-left: -70px !important;
+  margin-left: -80px !important;
 }
 
 .pp2-article .pp2-hero-image::before {
@@ -4905,16 +4880,16 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
   display: block !important;
   position: absolute !important;
   inset: 0 !important;
-  left: -110px !important;
+  left: -130px !important;
   z-index: 2 !important;
   pointer-events: none !important;
   background: linear-gradient(
     90deg,
     #fcf8f3 0%,
-    rgba(252, 248, 243, 0.98) 18%,
-    rgba(252, 248, 243, 0.78) 36%,
-    rgba(252, 248, 243, 0.38) 56%,
-    rgba(252, 248, 243, 0.10) 76%,
+    rgba(252, 248, 243, 1) 14%,
+    rgba(252, 248, 243, 0.92) 28%,
+    rgba(252, 248, 243, 0.62) 48%,
+    rgba(252, 248, 243, 0.24) 68%,
     rgba(252, 248, 243, 0) 100%
   ) !important;
 }
