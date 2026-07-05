@@ -4130,9 +4130,7 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
   filter: sepia(0.08) saturate(0.92) brightness(1.03);
 }
 .pp2-hero-image::before {
-  content:""; position:absolute; inset:0; z-index:1;
-  background: linear-gradient(90deg, #fff1e2 0%, rgba(255,241,226,0.88) 14%, rgba(255,241,226,0.34) 38%, rgba(255,241,226,0) 68%);
-  pointer-events:none;
+    display: none !important;
 }
 .pp2-hero-mark { position:absolute; right:22px; bottom:18px; z-index:3; color:rgba(255,255,255,.82); font-size:70px; line-height:1; font-family:Georgia,serif; }
 
