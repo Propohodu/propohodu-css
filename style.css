@@ -4759,19 +4759,18 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
   content: "" !important;
   position: absolute !important;
   inset: 0 !important;
-  left: -125px !important;
+  left: -180px !important;
   z-index: 2 !important;
   pointer-events: none !important;
-  background: linear-gradient(
-    90deg,
-    #fcf8f3 0%,
-    rgba(252, 248, 243, 0.98) 20%,
-    rgba(252, 248, 243, 0.78) 38%,
-    rgba(252, 248, 243, 0.34) 58%,
-    rgba(252, 248, 243, 0.08) 77%,
-    rgba(252, 248, 243, 0) 100%
-  ) !important;
-}
+ background: linear-gradient(
+  90deg,
+  #fcf8f3 0%,
+  #fcf8f3 28%,
+  rgba(252,248,243,0.96) 42%,
+  rgba(252,248,243,0.72) 60%,
+  rgba(252,248,243,0.28) 82%,
+  rgba(252,248,243,0) 100%
+) !important;
 
 @media (max-width: 760px) {
   .pp2-article .pp2-hero-inner {
