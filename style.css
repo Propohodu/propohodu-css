@@ -4642,3 +4642,173 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
     ) !important;
   }
 }
+/* ======================================================
+   PP2 HERO FINAL FIX v5 – skutečná PNG větvička ze Shoptetu
+   Vložit úplně na konec GitHub raw CSS.
+   Ovlivní jen nové články s .pp2-article.
+====================================================== */
+
+.pp2-article .pp2-hero {
+  background: linear-gradient(
+    90deg,
+    #fcf8f3 0%,
+    #fcf8f3 56%,
+    #f8f6ef 78%,
+    #eef3ea 100%
+  ) !important;
+}
+
+.pp2-article .pp2-hero-inner {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) 150px minmax(0, 1fr) !important;
+  align-items: stretch !important;
+  position: relative !important;
+  background: transparent !important;
+  column-gap: 0 !important;
+}
+
+.pp2-article .pp2-hero-inner::before,
+.pp2-article .pp2-hero-inner::after,
+.pp2-article .pp2-hero::before,
+.pp2-article .pp2-hero::after,
+.pp2-article .pp2-hero-content::before,
+.pp2-article .pp2-hero-content::after,
+.pp2-article .pp2-hero-image::after,
+.pp2-article .pp2-hero-divider-leaf::before,
+.pp2-article .pp2-hero-divider-leaf::after {
+  display: none !important;
+  content: none !important;
+  width: 0 !important;
+  border: 0 !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.pp2-article .pp2-hero-content {
+  grid-column: 1 !important;
+  grid-row: 1 !important;
+  padding: 54px 36px 50px 54px !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.pp2-article .pp2-hero-divider-leaf {
+  grid-column: 2 !important;
+  grid-row: 1 !important;
+  position: relative !important;
+  left: auto !important;
+  top: auto !important;
+  transform: none !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: auto !important;
+  height: auto !important;
+  min-width: 150px !important;
+  min-height: 420px !important;
+  z-index: 8 !important;
+  opacity: 0.82 !important;
+  pointer-events: none !important;
+  overflow: visible !important;
+  background: transparent !important;
+  background-image: none !important;
+  background-color: transparent !important;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+
+.pp2-article .pp2-hero-divider-leaf img {
+  display: block !important;
+  width: 122px !important;
+  height: auto !important;
+  max-width: none !important;
+  max-height: 250px !important;
+  object-fit: contain !important;
+  opacity: 1 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.pp2-article .pp2-hero-image {
+  grid-column: 3 !important;
+  grid-row: 1 !important;
+  position: relative !important;
+  margin-left: -90px !important;
+  min-height: 420px !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  overflow: hidden !important;
+  border-radius: 0 32px 32px 0 !important;
+  z-index: 1 !important;
+}
+
+.pp2-article .pp2-hero-image img {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 420px !important;
+  object-fit: cover !important;
+  object-position: calc(50% + 14px) center !important;
+  filter: sepia(0.08) saturate(0.84) brightness(1.18) contrast(0.9) !important;
+}
+
+.pp2-article .pp2-hero-image::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  left: -125px !important;
+  z-index: 2 !important;
+  pointer-events: none !important;
+  background: linear-gradient(
+    90deg,
+    #fcf8f3 0%,
+    rgba(252, 248, 243, 0.98) 20%,
+    rgba(252, 248, 243, 0.78) 38%,
+    rgba(252, 248, 243, 0.34) 58%,
+    rgba(252, 248, 243, 0.08) 77%,
+    rgba(252, 248, 243, 0) 100%
+  ) !important;
+}
+
+@media (max-width: 760px) {
+  .pp2-article .pp2-hero-inner {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .pp2-article .pp2-hero-image {
+    order: -1 !important;
+    margin-left: 0 !important;
+    min-height: 265px !important;
+    border-radius: 26px 26px 0 0 !important;
+  }
+
+  .pp2-article .pp2-hero-image img {
+    min-height: 265px !important;
+    object-position: center !important;
+  }
+
+  .pp2-article .pp2-hero-content {
+    padding: 34px 22px 32px !important;
+  }
+
+  .pp2-article .pp2-hero-divider-leaf {
+    display: none !important;
+  }
+
+  .pp2-article .pp2-hero-image::before {
+    left: 0 !important;
+    background: linear-gradient(
+      0deg,
+      #fcf8f3 0%,
+      rgba(252, 248, 243, 0.88) 22%,
+      rgba(252, 248, 243, 0.28) 48%,
+      rgba(252, 248, 243, 0) 70%
+    ) !important;
+  }
+}
