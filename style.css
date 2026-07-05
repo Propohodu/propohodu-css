@@ -4759,17 +4759,17 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
   content: "" !important;
   position: absolute !important;
   inset: 0 !important;
-  left: -180px !important;
+  left: -130px !important;
   z-index: 2 !important;
   pointer-events: none !important;
- background: linear-gradient(
+background: linear-gradient(
   90deg,
   #fcf8f3 0%,
-  #fcf8f3 28%,
-  rgba(252,248,243,0.96) 42%,
-  rgba(252,248,243,0.72) 60%,
-  rgba(252,248,243,0.28) 82%,
-  rgba(252,248,243,0) 100%
+  rgba(252, 248, 243, 1) 14%,
+  rgba(252, 248, 243, 0.92) 28%,
+  rgba(252, 248, 243, 0.62) 48%,
+  rgba(252, 248, 243, 0.24) 68%,
+  rgba(252, 248, 243, 0) 100%
 ) !important;
 
 @media (max-width: 760px) {
