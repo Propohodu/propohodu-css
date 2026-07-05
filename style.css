@@ -4812,3 +4812,42 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
     ) !important;
   }
 }
+/* ===== PP2 HERO – odstranění čáry + větší větvička FINAL ===== */
+
+.pp2-article .pp2-hero-content,
+.pp2-article .pp2-hero-image,
+.pp2-article .pp2-hero-divider-leaf {
+  border: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  box-shadow: none !important;
+}
+
+.pp2-article .pp2-hero-divider-leaf {
+  position: relative !important;
+  z-index: 10 !important;
+  background: #fcf8f3 !important;
+  min-width: 165px !important;
+}
+
+.pp2-article .pp2-hero-divider-leaf::before {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 0 !important;
+  transform: translateX(-50%) !important;
+  width: 8px !important;
+  height: 100% !important;
+  background: #fcf8f3 !important;
+  z-index: 1 !important;
+}
+
+.pp2-article .pp2-hero-divider-leaf img {
+  position: relative !important;
+  z-index: 2 !important;
+  width: 150px !important;
+  max-width: 150px !important;
+  height: auto !important;
+  opacity: 0.9 !important;
+}
