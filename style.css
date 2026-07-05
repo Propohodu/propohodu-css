@@ -4422,3 +4422,53 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
     grid-template-columns: 1fr !important;
   }
 }
+/* ======================================================
+   PP2 HERO LEAF FIX – bez ořezu větvičky, bez dělící čáry
+   Vložit úplně na konec GitHub raw CSS.
+====================================================== */
+
+.pp2-article .pp2-hero-divider-leaf {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 120px !important;
+  height: 176px !important;
+  z-index: 5 !important;
+  pointer-events: none !important;
+  opacity: 0.72 !important;
+  background: none !important;
+  background-image: none !important;
+  background-color: transparent !important;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+  border: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  overflow: visible !important;
+}
+
+.pp2-article .pp2-hero-divider-leaf::before,
+.pp2-article .pp2-hero-divider-leaf::after,
+.pp2-article .pp2-hero-inner::before,
+.pp2-article .pp2-hero-inner::after,
+.pp2-article .pp2-hero::before,
+.pp2-article .pp2-hero::after {
+  display: none !important;
+  content: none !important;
+  border: 0 !important;
+  background: none !important;
+}
+
+.pp2-article .pp2-hero-divider-leaf svg {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: visible !important;
+}
+
+@media (max-width: 760px) {
+  .pp2-article .pp2-hero-divider-leaf {
+    display: none !important;
+  }
+}
