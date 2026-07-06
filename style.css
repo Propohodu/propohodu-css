@@ -4137,7 +4137,7 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
 .pp2-reader-note {
   position:relative;
   overflow:hidden;
-  background:linear-gradient(135deg, #fff8ee 0%, #f3eadf 54%, #edf5e7 100%);
+  background: #FCF8F3;
   border:1px solid rgba(166, 194, 145, 0.24);
   border-radius:24px;
   padding:24px 26px;
@@ -4151,7 +4151,7 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
 .pp2-hero-card {
   position:relative;
   overflow:hidden;
-  background:linear-gradient(135deg, #fff2de 0%, #f9e6da 42%, #eef6e8 100%);
+ background: #FCF8F3;
   border:1px solid rgba(204, 145, 105, 0.22);
   border-radius:30px;
   padding:34px 34px;
@@ -4164,7 +4164,7 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
 .pp2-hero-card p:last-child { margin-bottom:0; }
 .pp2-strong-line { font-weight:600; color:#3f372f; }
 .pp2-quote {
-  background:linear-gradient(135deg, #fff8ee 0%, #f2eadf 100%);
+  background: #FCF8F3;
   border-left:4px solid #c98f6b;
   margin:26px 0;
   padding:18px 23px;
@@ -4173,7 +4173,7 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
 }
 .pp2-quote p { margin:0; font-size:19px; line-height:1.5; font-weight:560; color:#3f372f; }
 .pp2-soft-box {
-  background:linear-gradient(135deg, #fff7ed 0%, #f7eadf 100%);
+ background: #FCF8F3;
   border:1px solid rgba(214, 154, 112, 0.22);
   border-radius:22px;
   padding:24px 25px;
@@ -4182,7 +4182,7 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
 }
 .pp2-soft-box p:last-child { margin-bottom:0; }
 .pp2-final-box {
-  background:linear-gradient(135deg, #fff0df 0%, #eaf5e4 100%);
+ background: #F7F9F4;
   border-radius:26px;
   padding:28px 28px;
   margin:30px 0 8px 0;
@@ -4193,7 +4193,7 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
 .pp2-cta {
   position:relative;
   overflow:hidden;
-  background:linear-gradient(135deg, #f6dfcd 0%, #fff3dd 48%, #e6f2df 100%);
+  background: #FCF8F3;
   border:1px solid rgba(204,145,105,0.24);
   border-radius:28px;
   padding:34px 30px;
