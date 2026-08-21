@@ -4578,30 +4578,56 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"]::after {
         border-radius: 18px !important;
     }
 }
-/* ===== ČLÁNKY – KARTY VĚTŠÍ A STEJNĚ VELKÉ ===== */
+/* ===== ČLÁNKY – KARTY DESKTOP FINAL ===== */
 
-body.type-posts-listing ul.subcategories.with-image {
-    max-width: 1240px !important;
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-    gap: 28px 34px !important;
-}
+@media (min-width: 769px) {
 
-body.type-posts-listing ul.subcategories.with-image > li {
-    width: 100% !important;
-    height: auto !important;
-    align-self: stretch !important;
-}
+    body.type-posts-listing ul.subcategories.with-image {
+        width: calc(100% - 40px) !important;
+        max-width: 1320px !important;
+        margin: 42px auto 55px !important;
 
-body.type-posts-listing .subcategories a[href*="psychicka-pohoda"],
-body.type-posts-listing .subcategories a[href*="sebepece"],
-body.type-posts-listing .subcategories a[href*="rodicovstvi"],
-body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
-    display: block !important;
-    width: 100% !important;
-    height: auto !important;
-    aspect-ratio: 1672 / 941 !important;
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        column-gap: 36px !important;
+        row-gap: 34px !important;
 
-    background-size: 100% 100% !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
+        padding: 0 !important;
+        align-items: stretch !important;
+    }
+
+    body.type-posts-listing ul.subcategories.with-image > li {
+        display: block !important;
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: none !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        align-self: stretch !important;
+    }
+
+    body.type-posts-listing .subcategories a[href*="psychicka-pohoda"],
+    body.type-posts-listing .subcategories a[href*="sebepece"],
+    body.type-posts-listing .subcategories a[href*="rodicovstvi"],
+    body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
+        display: block !important;
+
+        width: 100% !important;
+        height: auto !important;
+
+        aspect-ratio: 1672 / 941 !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        background-size: 102.9% auto !important;
+        background-position: left top !important;
+        background-repeat: no-repeat !important;
+
+        border-radius: 22px !important;
+        overflow: hidden !important;
+        box-shadow: 0 8px 26px rgba(50,40,30,.06) !important;
+    }
 }
