@@ -4447,18 +4447,39 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
     grid-template-columns: 1fr !important;
   }
 }
-/* ===== ČLÁNKY – NOVÉ OBRÁZKY RUBRIK FINAL ===== */
+/* ===== ČLÁNKY – RUBRIKY FINAL FIX ===== */
 
-body.type-posts-listing .subcategories > li {
+/* Celá mřížka */
+body.type-posts-listing ul.subcategories.with-image {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 28px !important;
     width: 100% !important;
-    min-width: 0 !important;
+    max-width: 1120px !important;
+    margin: 35px auto 45px !important;
+    padding: 0 !important;
 }
 
+/* Shoptet LI – odstranění původních rozměrů a odsazení */
+body.type-posts-listing ul.subcategories.with-image > li {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    float: none !important;
+    flex: none !important;
+}
+
+/* Vlastní karty */
 body.type-posts-listing .subcategories a[href*="psychicka-pohoda"],
 body.type-posts-listing .subcategories a[href*="sebepece"],
 body.type-posts-listing .subcategories a[href*="rodicovstvi"],
 body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
     display: block !important;
+    position: relative !important;
+
     width: 100% !important;
     max-width: none !important;
 
@@ -4469,12 +4490,14 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
     padding: 0 !important;
     margin: 0 !important;
 
-    background-size: 100% 100% !important;
+    background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
 
     border: 0 !important;
+    border-radius: 24px !important;
     box-shadow: none !important;
+    overflow: hidden !important;
 }
 
 
@@ -4497,8 +4520,7 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
 }
 
 
-/* text už je přímo v obrázku */
-
+/* Původní název rubriky */
 body.type-posts-listing .subcategories a[href*="psychicka-pohoda"] span,
 body.type-posts-listing .subcategories a[href*="sebepece"] span,
 body.type-posts-listing .subcategories a[href*="rodicovstvi"] span,
@@ -4507,8 +4529,11 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"] span {
 }
 
 
-/* šipka už je přímo v obrázku */
-
+/* Původní Shoptet šipky */
+body.type-posts-listing .subcategories a[href*="psychicka-pohoda"]::before,
+body.type-posts-listing .subcategories a[href*="sebepece"]::before,
+body.type-posts-listing .subcategories a[href*="rodicovstvi"]::before,
+body.type-posts-listing .subcategories a[href*="prakticke-tipy"]::before,
 body.type-posts-listing .subcategories a[href*="psychicka-pohoda"]::after,
 body.type-posts-listing .subcategories a[href*="sebepece"]::after,
 body.type-posts-listing .subcategories a[href*="rodicovstvi"]::after,
@@ -4522,13 +4547,19 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"]::after {
 
 @media (max-width: 768px) {
 
-    body.type-posts-listing .subcategories {
+    body.type-posts-listing ul.subcategories.with-image {
         grid-template-columns: 1fr !important;
-        gap: 16px !important;
+        gap: 18px !important;
+
+        width: calc(100% - 32px) !important;
+        max-width: none !important;
+        margin: 28px 16px 40px !important;
     }
 
-    body.type-posts-listing .subcategories > li {
+    body.type-posts-listing ul.subcategories.with-image > li {
         width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
     body.type-posts-listing .subcategories a[href*="psychicka-pohoda"],
@@ -4537,7 +4568,13 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"]::after {
     body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
         width: 100% !important;
         aspect-ratio: 1672 / 941 !important;
+
         min-height: 0 !important;
-        background-size: 100% 100% !important;
+        padding: 0 !important;
+
+        background-size: cover !important;
+        background-position: center !important;
+
+        border-radius: 18px !important;
     }
 }
