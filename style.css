@@ -4447,17 +4447,29 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
     grid-template-columns: 1fr !important;
   }
 }
-/* ===== ČLÁNKY – NOVÉ OBRÁZKY RUBRIK ===== */
+/* ===== ČLÁNKY – NOVÉ OBRÁZKY RUBRIK FINAL ===== */
+
+body.type-posts-listing .subcategories > li {
+    width: 100% !important;
+    min-width: 0 !important;
+}
 
 body.type-posts-listing .subcategories a[href*="psychicka-pohoda"],
 body.type-posts-listing .subcategories a[href*="sebepece"],
 body.type-posts-listing .subcategories a[href*="rodicovstvi"],
 body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+
     aspect-ratio: 1672 / 941 !important;
     min-height: 0 !important;
-    padding: 0 !important;
+    height: auto !important;
 
-    background-size: cover !important;
+    padding: 0 !important;
+    margin: 0 !important;
+
+    background-size: 100% 100% !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
 
@@ -4465,7 +4477,28 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
     box-shadow: none !important;
 }
 
-/* Schová původní text Shoptetu – text už je součástí obrázku */
+
+/* NOVÉ OBRÁZKY */
+
+body.type-posts-listing .subcategories a[href*="psychicka-pohoda"] {
+    background-image: url("https://www.propohodu.com/user/documents/upload/Psychicka_pohoda.png") !important;
+}
+
+body.type-posts-listing .subcategories a[href*="sebepece"] {
+    background-image: url("https://www.propohodu.com/user/documents/upload/Sebepece.png") !important;
+}
+
+body.type-posts-listing .subcategories a[href*="rodicovstvi"] {
+    background-image: url("https://www.propohodu.com/user/documents/upload/Rodicovstvi.png") !important;
+}
+
+body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
+    background-image: url("https://www.propohodu.com/user/documents/upload/Prakticke_tipy.png") !important;
+}
+
+
+/* text už je přímo v obrázku */
+
 body.type-posts-listing .subcategories a[href*="psychicka-pohoda"] span,
 body.type-posts-listing .subcategories a[href*="sebepece"] span,
 body.type-posts-listing .subcategories a[href*="rodicovstvi"] span,
@@ -4473,7 +4506,9 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"] span {
     display: none !important;
 }
 
-/* Schová původní CSS šipku – šipka už je součástí obrázku */
+
+/* šipka už je přímo v obrázku */
+
 body.type-posts-listing .subcategories a[href*="psychicka-pohoda"]::after,
 body.type-posts-listing .subcategories a[href*="sebepece"]::after,
 body.type-posts-listing .subcategories a[href*="rodicovstvi"]::after,
@@ -4492,6 +4527,10 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"]::after {
         gap: 16px !important;
     }
 
+    body.type-posts-listing .subcategories > li {
+        width: 100% !important;
+    }
+
     body.type-posts-listing .subcategories a[href*="psychicka-pohoda"],
     body.type-posts-listing .subcategories a[href*="sebepece"],
     body.type-posts-listing .subcategories a[href*="rodicovstvi"],
@@ -4499,11 +4538,6 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"]::after {
         width: 100% !important;
         aspect-ratio: 1672 / 941 !important;
         min-height: 0 !important;
-
-        background-size: cover !important;
-        background-position: center !important;
-
-        padding: 0 !important;
-        margin: 0 !important;
+        background-size: 100% 100% !important;
     }
 }
