@@ -4578,26 +4578,32 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"]::after {
         border-radius: 18px !important;
     }
 }
-/* ===== ČLÁNKY – KARTY DESKTOP FINAL ===== */
+/* ===== ČLÁNKY – KARTY DESKTOP OPRAVDU FINAL ===== */
 
 @media (min-width: 769px) {
 
+    /* CELÝ GRID */
     body.type-posts-listing ul.subcategories.with-image {
-        width: calc(100% - 40px) !important;
-        max-width: 1320px !important;
-        margin: 42px auto 55px !important;
-
         display: grid !important;
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-        column-gap: 36px !important;
-        row-gap: 34px !important;
 
+        width: calc(100% - 40px) !important;
+        max-width: 1360px !important;
+
+        margin: 42px auto 58px !important;
         padding: 0 !important;
+
+        column-gap: 26px !important;
+        row-gap: 26px !important;
+
         align-items: stretch !important;
     }
 
+
+    /* OBAL KAŽDÉ KARTY – ŽÁDNÝ BÍLÝ RÁM */
     body.type-posts-listing ul.subcategories.with-image > li {
         display: block !important;
+
         width: 100% !important;
         min-width: 0 !important;
         max-width: none !important;
@@ -4605,29 +4611,61 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"]::after {
         margin: 0 !important;
         padding: 0 !important;
 
-        align-self: stretch !important;
+        background: transparent !important;
+        border: 0 !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+
+        float: none !important;
+        flex: none !important;
+
+        overflow: visible !important;
     }
 
+
+    /* VLASTNÍ 4 KARTY */
     body.type-posts-listing .subcategories a[href*="psychicka-pohoda"],
     body.type-posts-listing .subcategories a[href*="sebepece"],
     body.type-posts-listing .subcategories a[href*="rodicovstvi"],
     body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
+
         display: block !important;
 
         width: 100% !important;
-        height: auto !important;
+        max-width: none !important;
 
-        aspect-ratio: 1672 / 941 !important;
+        /* skutečná viditelná oblast PNG je 1626 × 923 */
+        aspect-ratio: 1626 / 923 !important;
+
+        height: auto !important;
+        min-height: 0 !important;
 
         margin: 0 !important;
         padding: 0 !important;
 
-        background-size: 102.9% auto !important;
+        /*
+        PNG má trochu průhledného prostoru vpravo a dole.
+        Tohle ho přesně vytlačí mimo kartu.
+        */
+        background-size: 102.83% 101.95% !important;
         background-position: left top !important;
         background-repeat: no-repeat !important;
 
+        background-color: transparent !important;
+
+        border: 0 !important;
         border-radius: 22px !important;
+
+        box-shadow: 0 8px 22px rgba(50,40,30,.07) !important;
+
         overflow: hidden !important;
-        box-shadow: 0 8px 26px rgba(50,40,30,.06) !important;
+    }
+
+
+    /* PRO JISTOTU ZRUŠÍ I PSEUDOPRVKY OBALU */
+    body.type-posts-listing ul.subcategories.with-image > li::before,
+    body.type-posts-listing ul.subcategories.with-image > li::after {
+        display: none !important;
+        content: none !important;
     }
 }
