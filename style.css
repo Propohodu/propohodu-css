@@ -4596,10 +4596,12 @@ body.type-posts-listing .subcategories a[href*="psychicka-pohoda"],
 body.type-posts-listing .subcategories a[href*="sebepece"],
 body.type-posts-listing .subcategories a[href*="rodicovstvi"],
 body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
+    display: block !important;
     width: 100% !important;
     height: auto !important;
     aspect-ratio: 1672 / 941 !important;
-    display: block !important;
-    background-size: cover !important;
+
+    background-size: 100% 100% !important;
     background-position: center !important;
+    background-repeat: no-repeat !important;
 }
