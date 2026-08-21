@@ -4578,3 +4578,28 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"]::after {
         border-radius: 18px !important;
     }
 }
+/* ===== ČLÁNKY – KARTY VĚTŠÍ A STEJNĚ VELKÉ ===== */
+
+body.type-posts-listing ul.subcategories.with-image {
+    max-width: 1240px !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 28px 34px !important;
+}
+
+body.type-posts-listing ul.subcategories.with-image > li {
+    width: 100% !important;
+    height: auto !important;
+    align-self: stretch !important;
+}
+
+body.type-posts-listing .subcategories a[href*="psychicka-pohoda"],
+body.type-posts-listing .subcategories a[href*="sebepece"],
+body.type-posts-listing .subcategories a[href*="rodicovstvi"],
+body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 1672 / 941 !important;
+    display: block !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
