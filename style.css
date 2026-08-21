@@ -4447,3 +4447,63 @@ body:has(.pp2-article) #content > div:not(.pp2-article):has(> img) { display:non
     grid-template-columns: 1fr !important;
   }
 }
+/* ===== ČLÁNKY – NOVÉ OBRÁZKY RUBRIK ===== */
+
+body.type-posts-listing .subcategories a[href*="psychicka-pohoda"],
+body.type-posts-listing .subcategories a[href*="sebepece"],
+body.type-posts-listing .subcategories a[href*="rodicovstvi"],
+body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
+    aspect-ratio: 1672 / 941 !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+/* Schová původní text Shoptetu – text už je součástí obrázku */
+body.type-posts-listing .subcategories a[href*="psychicka-pohoda"] span,
+body.type-posts-listing .subcategories a[href*="sebepece"] span,
+body.type-posts-listing .subcategories a[href*="rodicovstvi"] span,
+body.type-posts-listing .subcategories a[href*="prakticke-tipy"] span {
+    display: none !important;
+}
+
+/* Schová původní CSS šipku – šipka už je součástí obrázku */
+body.type-posts-listing .subcategories a[href*="psychicka-pohoda"]::after,
+body.type-posts-listing .subcategories a[href*="sebepece"]::after,
+body.type-posts-listing .subcategories a[href*="rodicovstvi"]::after,
+body.type-posts-listing .subcategories a[href*="prakticke-tipy"]::after {
+    display: none !important;
+    content: none !important;
+}
+
+
+/* ===== MOBIL ===== */
+
+@media (max-width: 768px) {
+
+    body.type-posts-listing .subcategories {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+    }
+
+    body.type-posts-listing .subcategories a[href*="psychicka-pohoda"],
+    body.type-posts-listing .subcategories a[href*="sebepece"],
+    body.type-posts-listing .subcategories a[href*="rodicovstvi"],
+    body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
+        width: 100% !important;
+        aspect-ratio: 1672 / 941 !important;
+        min-height: 0 !important;
+
+        background-size: cover !important;
+        background-position: center !important;
+
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}
