@@ -4669,3 +4669,85 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"]::after {
         content: none !important;
     }
 }
+/* ===== ČLÁNKY – FINÁLNÍ ROZTAŽENÍ KARET PŘES RODIČE ===== */
+
+@media (min-width: 769px) {
+
+    /* Grid vytáhneme z úzkého rodičovského kontejneru */
+    body.type-posts-listing ul.subcategories.with-image {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+
+        width: min(1360px, calc(100vw - 80px)) !important;
+        max-width: none !important;
+
+        position: relative !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+
+        margin: 42px 0 58px !important;
+        padding: 0 !important;
+
+        column-gap: 28px !important;
+        row-gap: 28px !important;
+
+        align-items: stretch !important;
+    }
+
+    /* Každá položka přesně vyplní polovinu gridu */
+    body.type-posts-listing ul.subcategories.with-image > li {
+        display: block !important;
+
+        width: 100% !important;
+        max-width: none !important;
+        min-width: 0 !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        background: transparent !important;
+        border: 0 !important;
+        box-shadow: none !important;
+
+        float: none !important;
+        flex: none !important;
+    }
+
+    /* Všechny čtyři karty naprosto stejně */
+    body.type-posts-listing .subcategories a[href*="psychicka-pohoda"],
+    body.type-posts-listing .subcategories a[href*="sebepece"],
+    body.type-posts-listing .subcategories a[href*="rodicovstvi"],
+    body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
+
+        display: block !important;
+
+        width: 100% !important;
+        max-width: none !important;
+
+        aspect-ratio: 1672 / 941 !important;
+        height: auto !important;
+        min-height: 0 !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        background-size: 100% 100% !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+
+        border: 0 !important;
+        border-radius: 22px !important;
+
+        box-shadow: none !important;
+        overflow: hidden !important;
+    }
+
+    /* Zrušení bílého obalu / pseudoprvků položky */
+    body.type-posts-listing ul.subcategories.with-image > li::before,
+    body.type-posts-listing ul.subcategories.with-image > li::after {
+        display: none !important;
+        content: none !important;
+        background: none !important;
+        box-shadow: none !important;
+    }
+}
