@@ -4769,9 +4769,3 @@ body.type-detail .p-price-wrapper .price-final-holder strong {
         font-size: 36px !important;
     }
 }
-/* DESKTOP – menší mezera mezi logem a menu */
-@media (min-width: 769px) {
-    body #header .header-bottom .navigation-in {
-        margin-top: -24px !important;
-    }
-}
