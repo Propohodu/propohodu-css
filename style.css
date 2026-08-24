@@ -4775,3 +4775,9 @@ body.type-detail .p-price-wrapper .price-final-holder strong {
         padding-bottom: 4px !important;
     }
 }
+/* VNITŘNÍ STRÁNKY – odstranění pásu pod menu */
+body:not(.type-index) #header::after {
+    display: none !important;
+    content: none !important;
+    height: 0 !important;
+}
