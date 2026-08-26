@@ -6091,3 +6091,27 @@ body.id-759 .pp-map-v2 {
 .pp-map-v2 .pp-map-v2-signature {
     font-family: "Segoe Script", "Segoe Print", cursive !important;
 }
+/* ===== MAPA – PROFESIONÁLNĚJŠÍ PRODUKTOVÁ FOTOGRAFIE POUZE NA PC ===== */
+@media (min-width: 981px) {
+
+    .pp-map-v2 .pp-map-v2-visual > img {
+        border-radius: 20px !important;
+        filter: none !important;
+        box-shadow:
+            0 0 0 9px rgba(255, 255, 255, 0.82),
+            0 25px 55px rgba(76, 57, 42, 0.14) !important;
+    }
+
+    .pp-map-v2 .pp-map-v2-badge {
+        top: 17px !important;
+        right: 17px !important;
+    }
+
+    .pp-map-v2 .pp-map-v2-visual-note {
+        position: relative !important;
+        z-index: 3 !important;
+        margin-top: -13px !important;
+        background: rgba(255, 255, 255, 0.96) !important;
+        box-shadow: 0 8px 20px rgba(76, 57, 42, 0.10) !important;
+    }
+}
