@@ -5965,3 +5965,125 @@ body.id-759 .pp-map-v2 {
         font-size: 23px !important;
     }
 }
+/* ===== MAPA – SKUTEČNÁ UKÁZKA TŘÍ MOŽNOSTÍ ===== */
+
+.pp-map-v2 .pp-map-v2-preview-frame {
+    padding: 14px !important;
+    transform: none !important;
+    border: 1px solid rgba(92, 75, 61, 0.12) !important;
+    border-radius: 28px !important;
+    background: rgba(255, 255, 255, 0.64) !important;
+    box-shadow: 0 20px 48px rgba(70, 55, 42, 0.08) !important;
+}
+
+.pp-map-v2 .pp-map-v2-sample {
+    min-height: 430px !important;
+    padding: 40px 38px 34px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    border-radius: 19px !important;
+    background: #fff5e9 !important;
+    text-align: center !important;
+}
+
+.pp-map-v2 .pp-map-v2-sample-kicker {
+    width: fit-content !important;
+    margin: 0 auto 25px !important;
+    padding: 8px 14px !important;
+    border-radius: 999px !important;
+    background: rgba(129, 149, 117, 0.14) !important;
+    color: #6d825f !important;
+    font-size: 12px !important;
+    line-height: 1 !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.07em !important;
+}
+
+.pp-map-v2 .pp-map-v2-sample-list {
+    width: 100% !important;
+    max-width: 350px !important;
+    margin: 0 auto !important;
+    display: grid !important;
+    gap: 12px !important;
+}
+
+.pp-map-v2 .pp-map-v2-sample-list p {
+    width: 100% !important;
+    min-height: 66px !important;
+    margin: 0 !important;
+    padding: 13px 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 22px !important;
+    color: #40372f !important;
+    font-size: 14px !important;
+    line-height: 1.45 !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+}
+
+.pp-map-v2 .pp-map-v2-sample-yellow {
+    background: #fae8a2 !important;
+}
+
+.pp-map-v2 .pp-map-v2-sample-orange {
+    background: #f5d7a7 !important;
+}
+
+.pp-map-v2 .pp-map-v2-sample-pink {
+    background: #ead0cc !important;
+}
+
+.pp-map-v2 .pp-map-v2-sample-note {
+    max-width: 410px !important;
+    margin: 27px auto 0 !important;
+    color: #6f665e !important;
+    font-size: 13px !important;
+    line-height: 1.65 !important;
+    text-align: center !important;
+}
+
+.pp-map-v2 .pp-map-v2-sample-note strong {
+    display: block !important;
+    margin-bottom: 4px !important;
+    color: #34483b !important;
+    font-weight: 700 !important;
+}
+
+@media (max-width: 768px) {
+    .pp-map-v2 .pp-map-v2-preview-frame {
+        padding: 8px !important;
+        border-radius: 22px !important;
+    }
+
+    .pp-map-v2 .pp-map-v2-sample {
+        min-height: 0 !important;
+        padding: 29px 17px 27px !important;
+        border-radius: 16px !important;
+    }
+
+    .pp-map-v2 .pp-map-v2-sample-kicker {
+        margin-bottom: 20px !important;
+        font-size: 11px !important;
+    }
+
+    .pp-map-v2 .pp-map-v2-sample-list {
+        max-width: 100% !important;
+        gap: 10px !important;
+    }
+
+    .pp-map-v2 .pp-map-v2-sample-list p {
+        min-height: 60px !important;
+        padding: 12px 15px !important;
+        border-radius: 19px !important;
+        font-size: 13px !important;
+    }
+
+    .pp-map-v2 .pp-map-v2-sample-note {
+        margin-top: 23px !important;
+        font-size: 12px !important;
+        line-height: 1.6 !important;
+    }
+}
