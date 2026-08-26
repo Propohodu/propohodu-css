@@ -6087,3 +6087,7 @@ body.id-759 .pp-map-v2 {
         line-height: 1.6 !important;
     }
 }
+/* Oprava českého č v podpisu */
+.pp-map-v2 .pp-map-v2-signature {
+    font-family: "Segoe Script", "Segoe Print", cursive !important;
+}
