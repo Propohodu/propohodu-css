@@ -4813,7 +4813,10 @@ body.id-759 #footer {
   --ppv2-text: #403a34;
   --ppv2-muted: #756b62;
   --ppv2-line: rgba(92, 75, 61, .12);
-  width: 100%;
+  position: relative;
+  left: 50%;
+  width: 100vw;
+  margin-left: -50vw;
   overflow: hidden;
   background: var(--ppv2-bg);
   color: var(--ppv2-text);
@@ -4865,8 +4868,8 @@ body.id-759 #footer {
   margin: 0 auto;
   padding: 56px 0 62px;
   display: grid;
-  grid-template-columns: minmax(0, .96fr) minmax(420px, 1.04fr);
-  gap: 54px;
+  grid-template-columns: minmax(0, 1.04fr) minmax(410px, .96fr);
+  gap: 48px;
   align-items: center;
 }
 
@@ -4889,7 +4892,7 @@ body.id-759 #footer {
 .pp-map-v2-copy h1 {
   max-width: 650px;
   margin-bottom: 21px;
-  font-size: clamp(43px, 4.45vw, 66px) !important;
+  font-size: clamp(42px, 4.15vw, 61px) !important;
   line-height: 1.02;
   font-weight: 560;
   letter-spacing: -.035em;
@@ -4936,7 +4939,7 @@ body.id-759 #footer {
 
 .pp-map-v2-form {
   max-width: 625px;
-  padding: 21px 23px 18px;
+  padding: 21px 23px 17px;
   border: 1px solid rgba(91, 72, 56, .12);
   border-radius: 22px;
   background: rgba(255, 255, 255, .88);
@@ -4992,6 +4995,55 @@ body.id-759 #footer {
   max-width: none !important;
 }
 
+/* Ecomail přidává vlastní pevnou šířku 770 px a prázdné odstavce.
+   Tyto selektory formulář bezpečně stáhnou do šířky karty. */
+.pp-map-v2-widget .ec-v-form-holder,
+.pp-map-v2-widget .ec-v-form-holder-basic,
+.pp-map-v2-widget [id^="ec_form_"],
+.pp-map-v2-widget .ec-v-form-step,
+.pp-map-v2-widget .ec-v-form-column,
+.pp-map-v2-widget form {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+}
+
+.pp-map-v2-widget .ec-v-form-holder,
+.pp-map-v2-widget .ec-v-form-holder-basic {
+  background: transparent !important;
+}
+
+.pp-map-v2-widget .ec-v-form-step {
+  display: block !important;
+}
+
+.pp-map-v2-widget .ec-v-form-column {
+  display: block !important;
+}
+
+.pp-map-v2-widget .ec-v-form-step:not(.ec-v-form-step-visible) {
+  display: none !important;
+}
+
+.pp-map-v2-widget .ec-v-form-step-visible .ec-v-form-text:has(h4):has(h5) {
+  display: none !important;
+}
+
+.pp-map-v2-widget .ec-v-form-input,
+.pp-map-v2-widget .ec-v-form-submit {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.pp-map-v2-widget .ec-v-form-input {
+  height: auto !important;
+  min-height: 0 !important;
+  margin-bottom: 10px !important;
+}
+
 .pp-map-v2-widget input[type="email"] {
   min-height: 52px !important;
   border-radius: 12px !important;
@@ -5001,6 +5053,7 @@ body.id-759 #footer {
 
 .pp-map-v2-widget button,
 .pp-map-v2-widget input[type="submit"] {
+  width: 100% !important;
   min-height: 52px !important;
   border: 0 !important;
   border-radius: 12px !important;
@@ -5046,7 +5099,7 @@ body.id-759 #footer {
 .pp-map-v2-visual img {
   display: block;
   width: 100%;
-  max-width: 620px;
+  max-width: 570px;
   margin: 0 auto;
   filter: drop-shadow(0 30px 30px rgba(76, 57, 42, .12));
 }
@@ -5105,7 +5158,7 @@ body.id-759 #footer {
 }
 
 .pp-map-v2-recognition {
-  padding: 82px 0 76px;
+  padding: 68px 0 64px;
 }
 
 .pp-map-v2-section-heading {
@@ -5206,7 +5259,7 @@ body.id-759 #footer {
 }
 
 .pp-map-v2-inside {
-  padding: 80px 20px;
+  padding: 66px 20px;
   background: #f3eee7;
   border-top: 1px solid var(--ppv2-line);
   border-bottom: 1px solid var(--ppv2-line);
@@ -5223,18 +5276,84 @@ body.id-759 #footer {
 
 .pp-map-v2-preview-frame {
   position: relative;
-  padding: 14px;
+  padding: 13px;
   border: 1px solid var(--ppv2-line);
   border-radius: 28px;
   background: rgba(255, 255, 255, .58);
   box-shadow: 0 24px 55px rgba(76, 57, 42, .08);
-  transform: rotate(-1.2deg);
+  transform: rotate(-.8deg);
 }
 
-.pp-map-v2-preview-frame img {
-  display: block;
-  width: 100%;
+.pp-map-v2-mini-map {
+  position: relative;
+  min-height: 460px;
+  padding: 30px 25px 24px;
+  overflow: hidden;
   border-radius: 18px;
+  background: #fff4e6;
+  text-align: center;
+}
+
+.pp-map-v2-mini-map h3 {
+  position: relative;
+  z-index: 2;
+  margin: 0 0 23px;
+  color: #342d28;
+  font-family: "Poppins", Arial, sans-serif !important;
+  font-size: 22px;
+  line-height: 1.25;
+  font-weight: 650;
+}
+
+.pp-map-v2-mini-map h3 span {
+  color: #b9d9da;
+}
+
+.pp-map-v2-mini-grid {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 11px;
+}
+
+.pp-map-v2-mini-grid span {
+  min-height: 62px;
+  padding: 10px 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: #443b34;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.pp-map-v2-mini-grid span:nth-child(1) { background: #f7d5d5; }
+.pp-map-v2-mini-grid span:nth-child(2) { background: #fae89c; }
+.pp-map-v2-mini-grid span:nth-child(3) { background: #e5ddd7; }
+.pp-map-v2-mini-grid span:nth-child(4) { background: #f6d9a9; }
+.pp-map-v2-mini-grid span:nth-child(5) { background: #f4c59f; }
+.pp-map-v2-mini-grid span:nth-child(6) { background: #ead0cb; }
+
+.pp-map-v2-mini-cup {
+  width: 74px;
+  height: 74px;
+  margin: 18px auto 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #c4dde0;
+  font-size: 34px;
+  line-height: 1;
+}
+
+.pp-map-v2-mini-map > strong {
+  display: block;
+  color: #342d28;
+  font-size: 13px;
+  line-height: 1.45;
 }
 
 .pp-map-v2-preview > p {
@@ -5336,7 +5455,7 @@ body.id-759 #footer {
 }
 
 .pp-map-v2-story {
-  padding: 84px 0;
+  padding: 68px 0;
 }
 
 .pp-map-v2-story-card {
@@ -5400,7 +5519,7 @@ body.id-759 #footer {
 }
 
 .pp-map-v2-emails {
-  padding: 76px 20px;
+  padding: 64px 20px;
   background: #edf2e9;
   border-top: 1px solid rgba(91, 116, 76, .10);
   border-bottom: 1px solid rgba(91, 116, 76, .10);
@@ -5459,7 +5578,7 @@ body.id-759 #footer {
 }
 
 .pp-map-v2-final {
-  padding: 76px 0 88px;
+  padding: 64px 0 72px;
 }
 
 .pp-map-v2-final-card {
@@ -5547,6 +5666,12 @@ body.id-759 #footer {
 }
 
 @media (max-width: 768px) {
+  .pp-map-v2 {
+    left: 50%;
+    width: 100vw;
+    margin-left: -50vw;
+  }
+
   .pp-map-v2-hero-inner {
     width: calc(100% - 30px);
     padding: 34px 0 42px;
@@ -5570,6 +5695,18 @@ body.id-759 #footer {
   .pp-map-v2-form {
     padding: 18px 15px 15px;
     border-radius: 19px;
+  }
+
+  .pp-map-v2-widget .ec-v-form-text {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .pp-map-v2-widget input[type="email"],
+  .pp-map-v2-widget button,
+  .pp-map-v2-widget input[type="submit"] {
+    width: 100% !important;
+    max-width: 100% !important;
   }
 
   .pp-map-v2-form-heading {
@@ -5662,6 +5799,25 @@ body.id-759 #footer {
   .pp-map-v2-preview-frame {
     padding: 8px;
     border-radius: 21px;
+  }
+
+  .pp-map-v2-mini-map {
+    min-height: 0;
+    padding: 24px 16px 20px;
+  }
+
+  .pp-map-v2-mini-map h3 {
+    font-size: 19px;
+  }
+
+  .pp-map-v2-mini-grid {
+    gap: 8px;
+  }
+
+  .pp-map-v2-mini-grid span {
+    min-height: 58px;
+    padding: 8px;
+    font-size: 10px;
   }
 
   .pp-map-v2-button {
