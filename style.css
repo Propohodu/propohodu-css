@@ -4802,6 +4802,10 @@ body.id-759 #footer {
   margin-top: 0 !important;
 }
 
+body.id-759 {
+  overflow-x: hidden !important;
+}
+
 .pp-map-v2 {
   --ppv2-bg: #fcf8f3;
   --ppv2-bg-soft: #f5eee5;
@@ -4814,9 +4818,10 @@ body.id-759 #footer {
   --ppv2-muted: #756b62;
   --ppv2-line: rgba(92, 75, 61, .12);
   position: relative;
-  left: 50%;
-  width: 100vw;
-  margin-left: -50vw;
+  left: auto;
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
   overflow: hidden;
   background: var(--ppv2-bg);
   color: var(--ppv2-text);
@@ -5201,7 +5206,7 @@ body.id-759 #footer {
 .pp-map-v2-feelings article {
   position: relative;
   min-height: 205px;
-  padding: 29px 27px 26px;
+  padding: 32px 27px 28px;
   overflow: hidden;
   border: 1px solid var(--ppv2-line);
   border-radius: 23px;
@@ -5209,19 +5214,9 @@ body.id-759 #footer {
   box-shadow: 0 12px 34px rgba(70, 55, 42, .045);
 }
 
-.pp-map-v2-feelings article > span {
-  position: absolute;
-  right: 17px;
-  top: 5px;
-  color: rgba(129, 149, 117, .12);
-  font-family: Georgia, serif;
-  font-size: 74px;
-  line-height: 1;
-}
-
 .pp-map-v2-feelings h3 {
   position: relative;
-  margin: 20px 0 11px;
+  margin: 0 0 13px;
   font-size: 26px;
   line-height: 1.15;
   font-weight: 620;
@@ -5511,11 +5506,29 @@ body.id-759 #footer {
 }
 
 .pp-map-v2-signature {
-  margin-top: 25px;
+  margin-top: 0;
   color: #8a765f;
   font-family: "Brush Script MT", "Segoe Script", cursive !important;
   font-size: 26px;
   transform: rotate(-2deg);
+}
+
+.pp-map-v2-author {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.pp-map-v2-author img {
+  width: 78px;
+  height: 78px;
+  display: block;
+  flex: 0 0 78px;
+  border: 5px solid rgba(255, 255, 255, .9);
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 9px 24px rgba(70, 55, 42, .12);
 }
 
 .pp-map-v2-emails {
@@ -5542,20 +5555,12 @@ body.id-759 #footer {
 
 .pp-map-v2-email-list > div {
   min-height: 142px;
-  padding: 20px 18px;
-  display: grid;
-  grid-template-columns: 34px 1fr;
-  gap: 10px;
-  align-items: start;
+  padding: 22px 21px;
+  display: block;
   border: 1px solid rgba(91, 116, 76, .10);
+  border-top: 3px solid rgba(129, 149, 117, .42);
   border-radius: 19px;
   background: rgba(255, 255, 255, .72);
-}
-
-.pp-map-v2-email-list > div > span {
-  color: var(--ppv2-peach);
-  font-size: 22px;
-  line-height: 1;
 }
 
 .pp-map-v2-email-list p,
@@ -5667,9 +5672,10 @@ body.id-759 #footer {
 
 @media (max-width: 768px) {
   .pp-map-v2 {
-    left: 50%;
-    width: 100vw;
-    margin-left: -50vw;
+    left: auto;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
   }
 
   .pp-map-v2-hero-inner {
@@ -5780,7 +5786,7 @@ body.id-759 #footer {
   }
 
   .pp-map-v2-feelings h3 {
-    margin-top: 10px;
+    margin-top: 0;
   }
 
   .pp-map-v2-bridge {
@@ -5846,6 +5852,20 @@ body.id-759 #footer {
   .pp-map-v2-story-copy > p {
     font-size: 14px;
     line-height: 1.72;
+  }
+
+  .pp-map-v2-author {
+    gap: 13px;
+  }
+
+  .pp-map-v2-author img {
+    width: 68px;
+    height: 68px;
+    flex-basis: 68px;
+  }
+
+  .pp-map-v2-signature {
+    font-size: 23px;
   }
 
   .pp-map-v2-emails {
