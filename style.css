@@ -6158,3 +6158,18 @@ body.type-posts-listing .subcategories a[href*="rodicovstvi"] {
 body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
     background-image: url("https://www.propohodu.com/user/documents/upload/Prakticke_tipy_1624x969.png") !important;
 }
+/* HOMEPAGE – zarovnání odkazů u článků ke spodnímu okraji */
+.prop-homepage-new .pp-blog-card {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.prop-homepage-new .pp-blog-content {
+    display: flex !important;
+    flex-direction: column !important;
+    flex: 1 1 auto !important;
+}
+
+.prop-homepage-new .pp-blog-link {
+    margin-top: auto !important;
+}
