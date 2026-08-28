@@ -6173,3 +6173,23 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
 .prop-homepage-new .pp-blog-link {
     margin-top: auto !important;
 }
+/* HOMEPAGE – menší profilová fotografie */
+.prop-homepage-new .pp-about-image {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.prop-homepage-new .pp-about-image img {
+    width: 320px !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+@media (max-width: 768px) {
+    .prop-homepage-new .pp-about-image img {
+        width: 220px !important;
+    }
+}
