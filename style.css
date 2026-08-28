@@ -6131,3 +6131,30 @@ main#content article.pageArticleDetail > header > h1 {
     letter-spacing: normal !important;
     color: #5c5651 !important;
 }
+/* ===== ČLÁNKY – NOVÉ SJEDNOCENÉ OBRÁZKY RUBRIK 1624 × 969 ===== */
+
+body.type-posts-listing .subcategories a[href*="psychicka-pohoda"],
+body.type-posts-listing .subcategories a[href*="sebepece"],
+body.type-posts-listing .subcategories a[href*="rodicovstvi"],
+body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
+    aspect-ratio: 1624 / 969 !important;
+    background-size: 100% 100% !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+body.type-posts-listing .subcategories a[href*="psychicka-pohoda"] {
+    background-image: url("https://www.propohodu.com/user/documents/upload/Psychicka_pohoda_1624x969.png") !important;
+}
+
+body.type-posts-listing .subcategories a[href*="sebepece"] {
+    background-image: url("https://www.propohodu.com/user/documents/upload/Sebepece_1624x969.png") !important;
+}
+
+body.type-posts-listing .subcategories a[href*="rodicovstvi"] {
+    background-image: url("https://www.propohodu.com/user/documents/upload/Rodicovstvi_1624x969.png") !important;
+}
+
+body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
+    background-image: url("https://www.propohodu.com/user/documents/upload/Prakticke_tipy_1624x969.png") !important;
+}
