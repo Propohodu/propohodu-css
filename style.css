@@ -6121,3 +6121,8 @@ body.id-759 .pp-map-v2 {
         display: none !important;
     }
 }
+/* O MNĚ + KONTAKT – sjednocení fontu hlavního nadpisu */
+body.type-page.in-o-mne h1,
+body.type-page.in-kontakt h1 {
+    font-family: "Poppins", sans-serif !important;
+}
