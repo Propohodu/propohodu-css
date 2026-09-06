@@ -6547,3 +6547,162 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
     line-height: 1.3 !important;
   }
 }
+/* ===== FREEBIE – DEFINITIVNÍ FIX TLAČÍTKA + VELKÁ ŠIPKA ===== */
+
+/* DESKTOP */
+@media (min-width: 769px) {
+
+  .prop-homepage-new .pp-freebie-card {
+    display: grid !important;
+    grid-template-columns: 300px minmax(0, 1fr) 180px !important;
+    gap: 34px !important;
+    align-items: center !important;
+    max-width: 1120px !important;
+    width: 100% !important;
+    padding: 30px 34px !important;
+  }
+
+  .prop-homepage-new .pp-freebie-content {
+    min-width: 0 !important;
+  }
+
+  .prop-homepage-new .pp-freebie-right {
+    width: 180px !important;
+    min-width: 180px !important;
+    max-width: 180px !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+    transform: none !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+    justify-self: center !important;
+    overflow: visible !important;
+  }
+
+  /* VELKÁ ŠIPKA */
+  .prop-homepage-new .pp-freebie-arrow {
+    display: block !important;
+
+    width: 175px !important;
+    height: 155px !important;
+
+    background-image: none !important;
+    background-color: rgba(154,137,111,.9) !important;
+
+    -webkit-mask-image: url("https://www.propohodu.com/user/documents/upload/sipka.png") !important;
+    -webkit-mask-size: contain !important;
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-position: center !important;
+
+    mask-image: url("https://www.propohodu.com/user/documents/upload/sipka.png") !important;
+    mask-size: contain !important;
+    mask-repeat: no-repeat !important;
+    mask-position: center !important;
+
+    opacity: .30 !important;
+
+    transform: none !important;
+    margin: -30px 0 -10px !important;
+
+    pointer-events: none !important;
+  }
+
+  /* TLAČÍTKO */
+  .prop-homepage-new .pp-freebie-right .pp-product-button {
+    width: 170px !important;
+    min-width: 170px !important;
+    max-width: 170px !important;
+
+    height: 48px !important;
+    min-height: 48px !important;
+
+    padding: 0 16px !important;
+    margin: 0 !important;
+
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 7px !important;
+
+    white-space: nowrap !important;
+    overflow: hidden !important;
+
+    box-sizing: border-box !important;
+
+    /* SCHOVÁ STARÝ TEXT Z HTML */
+    font-size: 0 !important;
+  }
+
+  /* VYNUTÍ NOVÝ TEXT */
+  .prop-homepage-new .pp-freebie-right .pp-product-button::before {
+    content: "Stáhnout zdarma" !important;
+    display: inline !important;
+    font-size: 14px !important;
+    line-height: 1 !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+    white-space: nowrap !important;
+  }
+
+  .prop-homepage-new .pp-freebie-right .pp-product-button > span {
+    font-size: 14px !important;
+    line-height: 1 !important;
+    color: #fff !important;
+    flex-shrink: 0 !important;
+  }
+}
+
+
+/* MOBIL */
+@media (max-width: 768px) {
+
+  .prop-homepage-new .pp-freebie-right {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin: 4px 0 0 !important;
+    padding: 0 !important;
+    transform: none !important;
+  }
+
+  .prop-homepage-new .pp-freebie-arrow {
+    display: none !important;
+  }
+
+  .prop-homepage-new .pp-freebie-right .pp-product-button {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+
+    min-height: 48px !important;
+    padding: 13px 18px !important;
+    margin: 0 !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+
+    box-sizing: border-box !important;
+
+    /* schová případný starý text */
+    font-size: 0 !important;
+  }
+
+  .prop-homepage-new .pp-freebie-right .pp-product-button::before {
+    content: "Stáhnout zdarma" !important;
+    font-size: 14px !important;
+    line-height: 1.2 !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+  }
+
+  .prop-homepage-new .pp-freebie-right .pp-product-button > span {
+    font-size: 14px !important;
+    color: #fff !important;
+  }
+}
