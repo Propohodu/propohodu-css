@@ -7024,6 +7024,6 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
 }
 @media (min-width: 769px) {
   .prop-homepage-new .pp-freebie-right .pp-product-button {
-    transform: translateX(-10px) !important;
+    transform: translateX(-4px) !important;
   }
 }
