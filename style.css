@@ -6299,3 +6299,48 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
         box-sizing: border-box !important;
     }
 }
+/* ===== FREEBIE - PROFI ROZLOŽENÍ DESKTOP ===== */
+@media (min-width: 769px) {
+
+  .prop-homepage-new .pp-freebie-card {
+    grid-template-columns: 300px minmax(0, 1fr) 190px !important;
+    gap: 34px !important;
+    padding: 30px 34px !important;
+  }
+
+  .prop-homepage-new .pp-freebie-heading h3 {
+    max-width: 360px !important;
+    font-size: 26px !important;
+    line-height: 1.12 !important;
+  }
+
+  .prop-homepage-new .pp-freebie-content p {
+    max-width: 500px !important;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+  }
+
+  .prop-homepage-new .pp-freebie-right {
+    width: 190px !important;
+    max-width: 190px !important;
+    justify-self: end !important;
+  }
+
+  .prop-homepage-new .pp-freebie-arrow {
+    width: 90px !important;
+    height: 90px !important;
+    margin-bottom: -2px !important;
+    transform: none !important;
+    opacity: .22 !important;
+  }
+
+  .prop-homepage-new .pp-freebie-right .pp-product-button {
+    width: auto !important;
+    min-width: 160px !important;
+    max-width: 190px !important;
+    padding: 14px 22px !important;
+    margin: 0 !important;
+    white-space: nowrap !important;
+    font-size: 14px !important;
+  }
+}
