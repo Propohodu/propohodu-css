@@ -6194,3 +6194,42 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
         max-width: 190px !important;
     }
 }
+/* ===== FREEBIE - FIX TLAČÍTKA NA DESKTOPU ===== */
+
+@media (min-width: 769px) {
+
+    .prop-homepage-new .pp-freebie-card {
+        width: 100% !important;
+        grid-template-columns:
+            minmax(220px, 260px)
+            minmax(0, 1fr)
+            minmax(240px, 280px) !important;
+        gap: 26px !important;
+    }
+
+    .prop-homepage-new .pp-freebie-content {
+        min-width: 0 !important;
+    }
+
+    .prop-homepage-new .pp-freebie-right {
+        width: 100% !important;
+        max-width: 280px !important;
+        min-width: 0 !important;
+        padding-right: 0 !important;
+        margin: 0 !important;
+        justify-self: end !important;
+        box-sizing: border-box !important;
+    }
+
+    .prop-homepage-new .pp-freebie-right .pp-product-button {
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+        margin-right: 0 !important;
+        padding: 14px 16px !important;
+        box-sizing: border-box !important;
+        white-space: normal !important;
+        text-align: center !important;
+        justify-content: center !important;
+    }
+}
