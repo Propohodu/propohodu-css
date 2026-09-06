@@ -6729,3 +6729,106 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
     margin-left: 2px !important;
   }
 }
+/* ===== FREEBIE CTA - FINÁLNÍ VNITŘNÍ ROZLOŽENÍ ===== */
+
+@media (min-width: 769px) {
+
+  .prop-homepage-new .pp-freebie-right .pp-product-button {
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+
+    padding: 0 24px !important;
+    min-height: 48px !important;
+
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 10px !important;
+
+    margin: 0 auto !important;
+    white-space: nowrap !important;
+
+    font-size: 0 !important;
+  }
+
+  .prop-homepage-new .pp-freebie-right .pp-product-button::before {
+    content: "Stáhnout zdarma" !important;
+
+    display: inline-block !important;
+    font-size: 14px !important;
+    line-height: 1 !important;
+    font-weight: 600 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    color: #fff !important;
+  }
+
+  .prop-homepage-new .pp-freebie-right .pp-product-button > span {
+    display: inline-block !important;
+
+    font-size: 14px !important;
+    line-height: 1 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    flex: 0 0 auto !important;
+    color: #fff !important;
+  }
+
+  .prop-homepage-new .pp-freebie-email-note {
+    margin-top: 10px !important;
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+    color: #7c746c !important;
+  }
+}
+
+
+/* MOBIL */
+@media (max-width: 768px) {
+
+  .prop-homepage-new .pp-freebie-right .pp-product-button {
+    width: 100% !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 9px !important;
+
+    padding: 13px 20px !important;
+
+    font-size: 0 !important;
+  }
+
+  .prop-homepage-new .pp-freebie-right .pp-product-button::before {
+    content: "Stáhnout zdarma" !important;
+
+    font-size: 14px !important;
+    line-height: 1 !important;
+    font-weight: 600 !important;
+
+    margin: 0 !important;
+    color: #fff !important;
+  }
+
+  .prop-homepage-new .pp-freebie-right .pp-product-button > span {
+    font-size: 14px !important;
+    line-height: 1 !important;
+
+    margin: 0 !important;
+    color: #fff !important;
+  }
+
+  .prop-homepage-new .pp-freebie-email-note {
+    margin-top: 9px !important;
+    font-size: 12.5px !important;
+    line-height: 1.5 !important;
+    color: #7c746c !important;
+  }
+}
