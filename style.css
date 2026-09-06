@@ -6706,3 +6706,26 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
     color: #fff !important;
   }
 }
+/* ===== FREEBIE TLAČÍTKO - VNITŘNÍ ROZESTUP ===== */
+
+@media (min-width: 769px) {
+  .prop-homepage-new .pp-freebie-right .pp-product-button {
+    width: 190px !important;
+    min-width: 190px !important;
+    max-width: 190px !important;
+
+    padding: 0 22px !important;
+    gap: 14px !important;
+
+    justify-content: center !important;
+  }
+
+  .prop-homepage-new .pp-freebie-right .pp-product-button::before {
+    flex: 0 1 auto !important;
+  }
+
+  .prop-homepage-new .pp-freebie-right .pp-product-button > span {
+    flex: 0 0 auto !important;
+    margin-left: 2px !important;
+  }
+}
