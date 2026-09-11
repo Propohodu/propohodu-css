@@ -7027,3 +7027,12 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
         transform: none !important;
     }
 }
+/* Vysvětlení zákaznického účtu na stránce registrace */
+.co-registration::before {
+    content: "Zákaznický účet ti usnadní další nákup a umožní zobrazit přehled objednávek.";
+    display: block;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #4a4a4a;
+}
