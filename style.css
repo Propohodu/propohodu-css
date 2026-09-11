@@ -7029,7 +7029,7 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
 }
 /* Vysvětlení zákaznického účtu na stránce registrace */
 .co-registration::before {
-    content: "Zákaznický účet ti usnadní další nákup a umožní zobrazit přehled objednávek.";
+    content: "Zákaznický účet ti usnadní další nákupy a umožní zobrazit přehled objednávek.";
     display: block;
     margin-bottom: 24px;
     font-size: 16px;
