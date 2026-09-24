@@ -7135,3 +7135,8 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
 body:has(.pp-ebook-category-marker) .listSorting {
     display: none !important;
 }
+/* /ebook/ - odstranit prázdné lišty po schování řazení */
+body:has(.pp-ebook-category-marker) .category-header,
+body:has(.pp-ebook-category-marker) #filters-wrapper {
+    display: none !important;
+}
