@@ -7131,7 +7131,7 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
         max-width: 100% !important;
     }
 }
-/* SCHOVAT ŘAZENÍ JEN NA STRÁNCE /ebook/ */
-body.type-category .ordering-process {
+/* SCHOVAT ŘAZENÍ POUZE V KATEGORII KLIDNÉ DNY S MIMINKEM */
+body:has(.pp-ebook-category-marker) .listSorting {
     display: none !important;
 }
