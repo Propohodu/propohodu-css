@@ -7131,12 +7131,11 @@ body.type-posts-listing .subcategories a[href*="prakticke-tipy"] {
         max-width: 100% !important;
     }
 }
-/* SCHOVAT ŘAZENÍ POUZE V KATEGORII KLIDNÉ DNY S MIMINKEM */
-body:has(.pp-ebook-category-marker) .listSorting {
-    display: none !important;
-}
-/* /ebook/ - odstranit prázdné lišty po schování řazení */
+/* /ebook/ - schovat řazení a prázdné oddělovací pásy */
+body:has(.pp-ebook-category-marker) .listSorting,
+body:has(.pp-ebook-category-marker) #category-header,
+body:has(.pp-ebook-category-marker) #filters-wrapper,
 body:has(.pp-ebook-category-marker) .category-header,
-body:has(.pp-ebook-category-marker) #filters-wrapper {
+body:has(.pp-ebook-category-marker) .category-content-wrapper > hr {
     display: none !important;
 }
